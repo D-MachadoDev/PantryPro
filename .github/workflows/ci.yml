@@ -1,0 +1,13 @@
+name: Basic CI Test
+
+on:
+  push:
+    branches: [feature/config-enviroment]
+
+jobs:
+  test-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Say hello!
+        run: echo "✅ YAML is working! Branch is feature/config-enviroment"

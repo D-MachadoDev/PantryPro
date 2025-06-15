@@ -1,0 +1,17 @@
+C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Infrastructure\bin\Debug\net9.0\PantryPro.Infrastructure.deps.json
+C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Infrastructure\bin\Debug\net9.0\PantryPro.Infrastructure.runtimeconfig.json
+C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Infrastructure\bin\Debug\net9.0\PantryPro.Infrastructure.dll
+C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Infrastructure\bin\Debug\net9.0\PantryPro.Infrastructure.pdb
+C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Infrastructure\bin\Debug\net9.0\PantryPro.Core.dll
+C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Infrastructure\bin\Debug\net9.0\PantryPro.Core.pdb
+C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Infrastructure\obj\Debug\net9.0\PantryPro.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Infrastructure\obj\Debug\net9.0\PantryPro.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Infrastructure\obj\Debug\net9.0\PantryPro.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Infrastructure\obj\Debug\net9.0\PantryPro.Infrastructure.AssemblyInfo.cs
+C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Infrastructure\obj\Debug\net9.0\PantryPro.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Infrastructure\obj\Debug\net9.0\PantryPr.2DC65C30.Up2Date
+C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Infrastructure\obj\Debug\net9.0\PantryPro.Infrastructure.dll
+C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Infrastructure\obj\Debug\net9.0\refint\PantryPro.Infrastructure.dll
+C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Infrastructure\obj\Debug\net9.0\PantryPro.Infrastructure.pdb
+C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Infrastructure\obj\Debug\net9.0\PantryPro.Infrastructure.genruntimeconfig.cache
+C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Infrastructure\obj\Debug\net9.0\ref\PantryPro.Infrastructure.dll
