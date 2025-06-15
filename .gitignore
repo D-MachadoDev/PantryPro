@@ -1,0 +1,36 @@
+## Compiled source ##
+bin/
+obj/
+
+## NuGet Packages ##
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+project.lock.json
+project.fragment.lock.json
+
+## User-specific files ##
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.swp
+*.tmp
+*.bak
+*.log
+
+## VS Code ##
+.vscode/
+
+## Rider ##
+.idea/
+
+## OS generated files ##
+.DS_Store
+Thumbs.db
+
+## dotenv and secrets ##
+.env
+appsettings.Development.json
+secrets.json

@@ -9,8 +9,11 @@
       "PantryPro.Web/1.0.0": {
         "dependencies": {
           "AutoMapper": "14.0.0",
+          "PantryPro.AI": "1.0.0",
           "PantryPro.Core": "1.0.0",
+          "PantryPro.ExternalAPIs": "1.0.0",
           "PantryPro.Infrastructure": "1.0.0",
+          "PantryPro.Shared": "1.0.0",
           "Serilog.AspNetCore": "9.0.0",
           "Serilog.Sinks.Console": "6.0.0",
           "Serilog.Sinks.File": "7.0.0"
@@ -731,6 +734,18 @@
           }
         }
       },
+      "PantryPro.AI/1.0.0": {
+        "dependencies": {
+          "PantryPro.Core": "1.0.0",
+          "PantryPro.Shared": "1.0.0"
+        },
+        "runtime": {
+          "PantryPro.AI.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "PantryPro.Core/1.0.0": {
         "runtime": {
           "PantryPro.Core.dll": {
@@ -739,13 +754,34 @@
           }
         }
       },
+      "PantryPro.ExternalAPIs/1.0.0": {
+        "dependencies": {
+          "PantryPro.Core": "1.0.0",
+          "PantryPro.Shared": "1.0.0"
+        },
+        "runtime": {
+          "PantryPro.ExternalAPIs.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "PantryPro.Infrastructure/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.6",
-          "PantryPro.Core": "1.0.0"
+          "PantryPro.Core": "1.0.0",
+          "PantryPro.Shared": "1.0.0"
         },
         "runtime": {
           "PantryPro.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "PantryPro.Shared/1.0.0": {
+        "runtime": {
+          "PantryPro.Shared.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1249,12 +1285,27 @@
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
+    "PantryPro.AI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "PantryPro.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
+    "PantryPro.ExternalAPIs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "PantryPro.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PantryPro.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
