@@ -16,5 +16,9 @@ namespace PantryPro.Infrastructure.Data
         // Define DbSets for your entities here
         // public DbSet<YourEntity> YourEntities { get; set; }
 
+
+        // hacer entities mañana 
+        
+
     }
 }
