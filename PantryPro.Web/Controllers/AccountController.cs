@@ -9,11 +9,11 @@ using Microsoft.Extensions.Logging;
 namespace PantryPro.Web.Controllers
 {
     [Route("[controller]")]
-    public class UserController : Controller
+    public class AccountController : Controller
     {
-        private readonly ILogger<UserController> _logger;
+        private readonly ILogger<AccountController> _logger;
 
-        public UserController(ILogger<UserController> logger)
+        public AccountController(ILogger<AccountController> logger)
         {
             _logger = logger;
         }

@@ -18,6 +18,8 @@
     <ProjectReference Include="..\PantryPro.Infrastructure\PantryPro.Infrastructure.csproj" />
     <ProjectReference Include="..\PantryPro.Core\PantryPro.Core.csproj" />
     <ProjectReference Include="..\PantryPro.Web\PantryPro.Web.csproj" />
+    <ProjectReference Include="..\PantryPro.AI\PantryPro.AI.csproj" />
+    <ProjectReference Include="..\PantryPro.ExternalAPIs\PantryPro.ExternalAPIs.csproj" />
   </ItemGroup>
 
   <ItemGroup>

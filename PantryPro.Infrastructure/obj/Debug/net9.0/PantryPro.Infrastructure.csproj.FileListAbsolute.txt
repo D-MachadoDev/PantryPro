@@ -15,3 +15,6 @@ C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Infrastructure\obj\Debug\n
 C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Infrastructure\obj\Debug\net9.0\PantryPro.Infrastructure.pdb
 C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Infrastructure\obj\Debug\net9.0\PantryPro.Infrastructure.genruntimeconfig.cache
 C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Infrastructure\obj\Debug\net9.0\ref\PantryPro.Infrastructure.dll
+C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Infrastructure\bin\Debug\net9.0\PantryPro.Shared.dll
+C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Infrastructure\bin\Debug\net9.0\PantryPro.Shared.pdb
+C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Infrastructure\obj\Debug\net9.0\PantryPro.Infrastructure.sourcelink.json

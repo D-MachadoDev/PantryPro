@@ -1,0 +1,494 @@
+2025-06-15 15:02:06.151 -05:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2025-06-15 15:02:06.218 -05:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2025-06-15 15:02:06.218 -05:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2025-06-15 15:02:06.218 -05:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2025-06-15 15:02:06.219 -05:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2025-06-15 15:02:06.219 -05:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2025-06-15 15:02:06.231 -05:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-06-15 15:02:06.296 -05:00 [DBG] Hosting starting
+2025-06-15 15:02:06.319 -05:00 [INF] User profile is available. Using 'C:\Users\da-V7\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-15 15:02:06.331 -05:00 [DBG] Reading data from file 'C:\Users\da-V7\AppData\Local\ASP.NET\DataProtection-Keys\key-374d903d-d3cd-4772-9427-54c77795838a.xml'.
+2025-06-15 15:02:06.371 -05:00 [DBG] Reading data from file 'C:\Users\da-V7\AppData\Local\ASP.NET\DataProtection-Keys\key-c7cb4e6c-445c-4c9a-a369-7c5e0866dfb3.xml'.
+2025-06-15 15:02:06.401 -05:00 [DBG] Reading data from file 'C:\Users\da-V7\AppData\Local\ASP.NET\DataProtection-Keys\key-e89c06d9-66a4-41f7-bfb7-51503fbf214e.xml'.
+2025-06-15 15:02:06.432 -05:00 [DBG] Reading data from file 'C:\Users\da-V7\AppData\Local\ASP.NET\DataProtection-Keys\key-eb4d2bc1-44de-45c6-b187-03fc9e92da03.xml'.
+2025-06-15 15:02:06.469 -05:00 [DBG] Found key {374d903d-d3cd-4772-9427-54c77795838a}.
+2025-06-15 15:02:06.474 -05:00 [DBG] Found key {c7cb4e6c-445c-4c9a-a369-7c5e0866dfb3}.
+2025-06-15 15:02:06.476 -05:00 [DBG] Found key {e89c06d9-66a4-41f7-bfb7-51503fbf214e}.
+2025-06-15 15:02:06.477 -05:00 [DBG] Found key {eb4d2bc1-44de-45c6-b187-03fc9e92da03}.
+2025-06-15 15:02:06.485 -05:00 [DBG] Considering key {e89c06d9-66a4-41f7-bfb7-51503fbf214e} with expiration date 2025-09-10 16:03:15Z as default key.
+2025-06-15 15:02:06.487 -05:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-06-15 15:02:06.490 -05:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-06-15 15:02:06.492 -05:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-06-15 15:02:06.499 -05:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-06-15 15:02:06.501 -05:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-06-15 15:02:06.502 -05:00 [DBG] Using key {e89c06d9-66a4-41f7-bfb7-51503fbf214e} as the default key.
+2025-06-15 15:02:06.503 -05:00 [DBG] Key ring with default key {e89c06d9-66a4-41f7-bfb7-51503fbf214e} was loaded during application startup.
+2025-06-15 15:02:06.509 -05:00 [DBG] Middleware loaded
+2025-06-15 15:02:06.520 -05:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16481 B).
+2025-06-15 15:02:06.521 -05:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-06-15 15:02:06.621 -05:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-06-15 15:02:06.623 -05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-06-15 15:02:06.624 -05:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-06-15 15:02:06.639 -05:00 [INF] Now listening on: http://localhost:5099
+2025-06-15 15:02:06.640 -05:00 [DBG] Loaded hosting startup assembly PantryPro.Web
+2025-06-15 15:02:06.640 -05:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-06-15 15:02:06.640 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-15 15:02:06.640 -05:00 [INF] Hosting environment: Development
+2025-06-15 15:02:06.640 -05:00 [INF] Content root path: C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Web
+2025-06-15 15:02:06.640 -05:00 [DBG] Hosting started
+2025-06-15 15:02:07.088 -05:00 [DBG] Connection id "0HNDC8U0N47IK" accepted.
+2025-06-15 15:02:07.090 -05:00 [DBG] Connection id "0HNDC8U0N47IL" accepted.
+2025-06-15 15:02:07.090 -05:00 [DBG] Connection id "0HNDC8U0N47IK" started.
+2025-06-15 15:02:07.090 -05:00 [DBG] Connection id "0HNDC8U0N47IL" started.
+2025-06-15 15:02:07.157 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5099/ - null null
+2025-06-15 15:02:07.200 -05:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-06-15 15:02:07.202 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-06-15 15:02:07.317 -05:00 [DBG] 2 candidate(s) found for the request path '/'
+2025-06-15 15:02:07.321 -05:00 [DBG] Endpoint 'PantryPro.Web.Controllers.HomeController.Index (PantryPro.Web)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+2025-06-15 15:02:07.326 -05:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' was rejected by constraint 'path':'Microsoft.AspNetCore.Builder.StaticAssetDevelopmentRuntimeHandler+FileExistsConstraint' with value 'null' for the request path '/'
+2025-06-15 15:02:07.326 -05:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is not valid for the request path '/'
+2025-06-15 15:02:07.327 -05:00 [DBG] Request matched endpoint 'PantryPro.Web.Controllers.HomeController.Index (PantryPro.Web)'
+2025-06-15 15:02:07.332 -05:00 [INF] Executing endpoint 'PantryPro.Web.Controllers.HomeController.Index (PantryPro.Web)'
+2025-06-15 15:02:07.371 -05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PantryPro.Web.Controllers.HomeController (PantryPro.Web).
+2025-06-15 15:02:07.373 -05:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-06-15 15:02:07.375 -05:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-06-15 15:02:07.377 -05:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-06-15 15:02:07.378 -05:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-06-15 15:02:07.378 -05:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-06-15 15:02:07.381 -05:00 [DBG] Executing controller factory for controller PantryPro.Web.Controllers.HomeController (PantryPro.Web)
+2025-06-15 15:02:07.382 -05:00 [DBG] Executed controller factory for controller PantryPro.Web.Controllers.HomeController (PantryPro.Web)
+2025-06-15 15:02:07.384 -05:00 [INF] [🍽️PANTRYPRO]Index action called at "2025-06-15T20:02:07.3837957Z"=======
+2025-06-15 15:02:07.392 -05:00 [DBG] View lookup cache miss for view 'Index' in controller 'Home'.
+2025-06-15 15:02:07.400 -05:00 [INF] Executing ViewResult, running view Index.
+2025-06-15 15:02:07.405 -05:00 [DBG] The view path '/Views/Home/Index.cshtml' was found in 10.951ms.
+2025-06-15 15:02:07.452 -05:00 [DBG] View lookup cache miss for view '_Layout' in controller 'Home'.
+2025-06-15 15:02:07.561 -05:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-06-15 15:02:07.564 -05:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2025-06-15 15:02:07.565 -05:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2025-06-15 15:02:07.567 -05:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-06-15 15:02:07.567 -05:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2025-06-15 15:02:07.568 -05:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2025-06-15 15:02:07.568 -05:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-06-15 15:02:07.569 -05:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2025-06-15 15:02:07.570 -05:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2025-06-15 15:02:07.570 -05:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-06-15 15:02:07.571 -05:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2025-06-15 15:02:07.571 -05:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2025-06-15 15:02:07.579 -05:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-06-15 15:02:07.587 -05:00 [INF] Executed ViewResult - view Index executed in 198.1957ms.
+2025-06-15 15:02:07.588 -05:00 [INF] Executed action PantryPro.Web.Controllers.HomeController.Index (PantryPro.Web) in 209.6471ms
+2025-06-15 15:02:07.588 -05:00 [INF] Executed endpoint 'PantryPro.Web.Controllers.HomeController.Index (PantryPro.Web)'
+2025-06-15 15:02:07.589 -05:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-06-15 15:02:07.589 -05:00 [DBG] Connection id "0HNDC8U0N47IK" completed keep alive response.
+2025-06-15 15:02:07.593 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5099/ - 200 null text/html; charset=utf-8 440.0428ms
+2025-06-15 15:02:07.711 -05:00 [DBG] Connection id "0HNDC8U0N47IM" accepted.
+2025-06-15 15:02:07.714 -05:00 [DBG] Connection id "0HNDC8U0N47IN" accepted.
+2025-06-15 15:02:07.714 -05:00 [DBG] Connection id "0HNDC8U0N47IM" started.
+2025-06-15 15:02:07.715 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5099/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-06-15 15:02:07.715 -05:00 [DBG] Connection id "0HNDC8U0N47IN" started.
+2025-06-15 15:02:07.715 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5099/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - null null
+2025-06-15 15:02:07.716 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5099/lib/jquery/dist/jquery.min.js - null null
+2025-06-15 15:02:07.716 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5099/PantryPro.Web.styles.css?v=JrqVaCokAhXbNUNaaDJLkRlOCWX7GnEwRg8MVqMXlJ4 - null null
+2025-06-15 15:02:07.716 -05:00 [DBG] Connection id "0HNDC8U0N47IO" accepted.
+2025-06-15 15:02:07.716 -05:00 [DBG] Connection id "0HNDC8U0N47IO" started.
+2025-06-15 15:02:07.717 -05:00 [DBG] Connection id "0HNDC8U0N47IP" accepted.
+2025-06-15 15:02:07.717 -05:00 [DBG] Connection id "0HNDC8U0N47IP" started.
+2025-06-15 15:02:07.718 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5099/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-06-15 15:02:07.718 -05:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-06-15 15:02:07.718 -05:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-06-15 15:02:07.718 -05:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-06-15 15:02:07.719 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5099/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-06-15 15:02:07.722 -05:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-06-15 15:02:07.722 -05:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-06-15 15:02:07.722 -05:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-06-15 15:02:07.723 -05:00 [DBG] 3 candidate(s) found for the request path '/css/site.css'
+2025-06-15 15:02:07.723 -05:00 [DBG] 3 candidate(s) found for the request path '/js/site.js'
+2025-06-15 15:02:07.723 -05:00 [DBG] 3 candidate(s) found for the request path '/PantryPro.Web.styles.css'
+2025-06-15 15:02:07.724 -05:00 [DBG] Endpoint 'null' with route pattern 'css/site.css' is valid for the request path '/css/site.css'
+2025-06-15 15:02:07.724 -05:00 [DBG] Endpoint 'null' with route pattern 'js/site.js' is valid for the request path '/js/site.js'
+2025-06-15 15:02:07.724 -05:00 [DBG] Endpoint 'null' with route pattern 'PantryPro.Web.styles.css' is valid for the request path '/PantryPro.Web.styles.css'
+2025-06-15 15:02:07.725 -05:00 [DBG] Endpoint 'null' with route pattern 'js/site.js' is valid for the request path '/js/site.js'
+2025-06-15 15:02:07.725 -05:00 [DBG] Endpoint 'null' with route pattern 'PantryPro.Web.styles.css' is valid for the request path '/PantryPro.Web.styles.css'
+2025-06-15 15:02:07.725 -05:00 [DBG] Endpoint 'null' with route pattern 'css/site.css' is valid for the request path '/css/site.css'
+2025-06-15 15:02:07.725 -05:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/PantryPro.Web.styles.css'
+2025-06-15 15:02:07.725 -05:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/css/site.css'
+2025-06-15 15:02:07.725 -05:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/js/site.js'
+2025-06-15 15:02:07.726 -05:00 [DBG] Request matched endpoint 'null'
+2025-06-15 15:02:07.726 -05:00 [DBG] Request matched endpoint 'null'
+2025-06-15 15:02:07.726 -05:00 [DBG] Request matched endpoint 'null'
+2025-06-15 15:02:07.726 -05:00 [DBG] 3 candidate(s) found for the request path '/lib/jquery/dist/jquery.min.js'
+2025-06-15 15:02:07.727 -05:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-15 15:02:07.727 -05:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-15 15:02:07.727 -05:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-15 15:02:07.727 -05:00 [DBG] 3 candidate(s) found for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2025-06-15 15:02:07.727 -05:00 [DBG] 3 candidate(s) found for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2025-06-15 15:02:07.727 -05:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/css/bootstrap.min.css' is valid for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2025-06-15 15:02:07.727 -05:00 [DBG] Endpoint 'null' with route pattern 'lib/jquery/dist/jquery.min.js' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2025-06-15 15:02:07.727 -05:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/css/bootstrap.min.css' is valid for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2025-06-15 15:02:07.727 -05:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/js/bootstrap.bundle.min.js' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2025-06-15 15:02:07.727 -05:00 [DBG] Endpoint 'null' with route pattern 'lib/jquery/dist/jquery.min.js' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2025-06-15 15:02:07.728 -05:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/js/bootstrap.bundle.min.js' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2025-06-15 15:02:07.728 -05:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2025-06-15 15:02:07.728 -05:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2025-06-15 15:02:07.728 -05:00 [DBG] Request matched endpoint 'null'
+2025-06-15 15:02:07.728 -05:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2025-06-15 15:02:07.728 -05:00 [DBG] Request matched endpoint 'null'
+2025-06-15 15:02:07.728 -05:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-15 15:02:07.728 -05:00 [DBG] Request matched endpoint 'null'
+2025-06-15 15:02:07.728 -05:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-15 15:02:07.728 -05:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-15 15:02:07.771 -05:00 [INF] Sending file. Request path: 'css/site.css'. Physical path: 'C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Web\obj\Debug\net9.0\compressed\ttac0i668f-b9sayid5wm.gz'
+2025-06-15 15:02:07.771 -05:00 [INF] Sending file. Request path: 'PantryPro.Web.styles.css'. Physical path: 'C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Web\obj\Debug\net9.0\compressed\45487h7mr8-26sht4dggd.gz'
+2025-06-15 15:02:07.771 -05:00 [INF] Sending file. Request path: 'js/site.js'. Physical path: 'C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Web\obj\Debug\net9.0\compressed\jabd1xsz5x-xtxxf3hu2r.gz'
+2025-06-15 15:02:07.772 -05:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-15 15:02:07.772 -05:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-15 15:02:07.772 -05:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-15 15:02:07.772 -05:00 [DBG] Connection id "0HNDC8U0N47IM" completed keep alive response.
+2025-06-15 15:02:07.772 -05:00 [DBG] Connection id "0HNDC8U0N47IL" completed keep alive response.
+2025-06-15 15:02:07.772 -05:00 [DBG] Connection id "0HNDC8U0N47IP" completed keep alive response.
+2025-06-15 15:02:07.772 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5099/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - 200 700 text/css 56.9803ms
+2025-06-15 15:02:07.772 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5099/PantryPro.Web.styles.css?v=JrqVaCokAhXbNUNaaDJLkRlOCWX7GnEwRg8MVqMXlJ4 - 200 1164 text/css 56.4631ms
+2025-06-15 15:02:07.773 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5099/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 264 text/javascript 53.0815ms
+2025-06-15 15:02:07.784 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5099/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-15 15:02:07.793 -05:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-06-15 15:02:07.800 -05:00 [DBG] Connection id "0HNDC8U0N47IP" completed keep alive response.
+2025-06-15 15:02:07.804 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5099/_framework/aspnetcore-browser-refresh.js - 200 16481 application/javascript; charset=utf-8 17.9828ms
+2025-06-15 15:02:07.817 -05:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Web\obj\Debug\net9.0\compressed\hnui5fsj27-46ein0sx1k.gz'
+2025-06-15 15:02:07.820 -05:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-15 15:02:07.829 -05:00 [DBG] Connection id "0HNDC8U0N47IK" completed keep alive response.
+2025-06-15 15:02:07.829 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5099/lib/bootstrap/dist/css/bootstrap.min.css - 200 232871 text/css 114.6838ms
+2025-06-15 15:02:07.937 -05:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Web\obj\Debug\net9.0\compressed\fqcmfia8mo-493y06b0oq.gz'
+2025-06-15 15:02:07.937 -05:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-15 15:02:07.938 -05:00 [DBG] Connection id "0HNDC8U0N47IO" completed keep alive response.
+2025-06-15 15:02:07.938 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5099/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 80764 text/javascript 220.0934ms
+2025-06-15 15:02:07.953 -05:00 [INF] Sending file. Request path: 'lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Web\obj\Debug\net9.0\compressed\ziwe9ozu1f-o1o13a6vjx.gz'
+2025-06-15 15:02:07.955 -05:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-15 15:02:07.959 -05:00 [DBG] Connection id "0HNDC8U0N47IN" completed keep alive response.
+2025-06-15 15:02:07.966 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5099/lib/jquery/dist/jquery.min.js - 200 87576 text/javascript 243.7738ms
+2025-06-15 15:02:10.231 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5099/ - null null
+2025-06-15 15:02:10.231 -05:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-06-15 15:02:10.232 -05:00 [DBG] 2 candidate(s) found for the request path '/'
+2025-06-15 15:02:10.232 -05:00 [DBG] Endpoint 'PantryPro.Web.Controllers.HomeController.Index (PantryPro.Web)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+2025-06-15 15:02:10.232 -05:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' was rejected by constraint 'path':'Microsoft.AspNetCore.Builder.StaticAssetDevelopmentRuntimeHandler+FileExistsConstraint' with value 'null' for the request path '/'
+2025-06-15 15:02:10.232 -05:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is not valid for the request path '/'
+2025-06-15 15:02:10.232 -05:00 [DBG] Request matched endpoint 'PantryPro.Web.Controllers.HomeController.Index (PantryPro.Web)'
+2025-06-15 15:02:10.232 -05:00 [INF] Executing endpoint 'PantryPro.Web.Controllers.HomeController.Index (PantryPro.Web)'
+2025-06-15 15:02:10.233 -05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PantryPro.Web.Controllers.HomeController (PantryPro.Web).
+2025-06-15 15:02:10.233 -05:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-06-15 15:02:10.233 -05:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-06-15 15:02:10.233 -05:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-06-15 15:02:10.233 -05:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-06-15 15:02:10.233 -05:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-06-15 15:02:10.233 -05:00 [DBG] Executing controller factory for controller PantryPro.Web.Controllers.HomeController (PantryPro.Web)
+2025-06-15 15:02:10.233 -05:00 [DBG] Executed controller factory for controller PantryPro.Web.Controllers.HomeController (PantryPro.Web)
+2025-06-15 15:02:10.234 -05:00 [INF] [🍽️PANTRYPRO]Index action called at "2025-06-15T20:02:10.2341294Z"=======
+2025-06-15 15:02:10.234 -05:00 [DBG] View lookup cache hit for view 'Index' in controller 'Home'.
+2025-06-15 15:02:10.234 -05:00 [INF] Executing ViewResult, running view Index.
+2025-06-15 15:02:10.234 -05:00 [DBG] The view path '/Views/Home/Index.cshtml' was found in 0.3456ms.
+2025-06-15 15:02:10.235 -05:00 [DBG] View lookup cache hit for view '_Layout' in controller 'Home'.
+2025-06-15 15:02:10.236 -05:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-06-15 15:02:10.237 -05:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2025-06-15 15:02:10.237 -05:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2025-06-15 15:02:10.237 -05:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-06-15 15:02:10.237 -05:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2025-06-15 15:02:10.238 -05:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2025-06-15 15:02:10.238 -05:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-06-15 15:02:10.238 -05:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2025-06-15 15:02:10.238 -05:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2025-06-15 15:02:10.239 -05:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-06-15 15:02:10.239 -05:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2025-06-15 15:02:10.239 -05:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2025-06-15 15:02:10.240 -05:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-06-15 15:02:10.240 -05:00 [INF] Executed ViewResult - view Index executed in 6.2119ms.
+2025-06-15 15:02:10.241 -05:00 [INF] Executed action PantryPro.Web.Controllers.HomeController.Index (PantryPro.Web) in 7.5172ms
+2025-06-15 15:02:10.241 -05:00 [INF] Executed endpoint 'PantryPro.Web.Controllers.HomeController.Index (PantryPro.Web)'
+2025-06-15 15:02:10.241 -05:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-06-15 15:02:10.241 -05:00 [DBG] Connection id "0HNDC8U0N47IN" completed keep alive response.
+2025-06-15 15:02:10.241 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5099/ - 200 null text/html; charset=utf-8 10.5335ms
+2025-06-15 15:02:10.286 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5099/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-06-15 15:02:10.286 -05:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-06-15 15:02:10.291 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5099/PantryPro.Web.styles.css?v=JrqVaCokAhXbNUNaaDJLkRlOCWX7GnEwRg8MVqMXlJ4 - null null
+2025-06-15 15:02:10.291 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5099/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-15 15:02:10.291 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5099/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - null null
+2025-06-15 15:02:10.291 -05:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-06-15 15:02:10.292 -05:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-06-15 15:02:10.293 -05:00 [DBG] Connection id "0HNDC8U0N47IP" completed keep alive response.
+2025-06-15 15:02:10.293 -05:00 [DBG] 3 candidate(s) found for the request path '/PantryPro.Web.styles.css'
+2025-06-15 15:02:10.293 -05:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-06-15 15:02:10.293 -05:00 [DBG] Endpoint 'null' with route pattern 'PantryPro.Web.styles.css' is valid for the request path '/PantryPro.Web.styles.css'
+2025-06-15 15:02:10.293 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5099/lib/jquery/dist/jquery.min.js - null null
+2025-06-15 15:02:10.294 -05:00 [DBG] Endpoint 'null' with route pattern 'PantryPro.Web.styles.css' is valid for the request path '/PantryPro.Web.styles.css'
+2025-06-15 15:02:10.293 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5099/_framework/aspnetcore-browser-refresh.js - 200 16481 application/javascript; charset=utf-8 2.3254ms
+2025-06-15 15:02:10.294 -05:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/PantryPro.Web.styles.css'
+2025-06-15 15:02:10.294 -05:00 [DBG] Request matched endpoint 'null'
+2025-06-15 15:02:10.294 -05:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-15 15:02:10.295 -05:00 [DBG] 3 candidate(s) found for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2025-06-15 15:02:10.295 -05:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/css/bootstrap.min.css' is valid for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2025-06-15 15:02:10.295 -05:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/css/bootstrap.min.css' is valid for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2025-06-15 15:02:10.295 -05:00 [DBG] 3 candidate(s) found for the request path '/css/site.css'
+2025-06-15 15:02:10.295 -05:00 [DBG] Endpoint 'null' with route pattern 'css/site.css' is valid for the request path '/css/site.css'
+2025-06-15 15:02:10.296 -05:00 [DBG] Endpoint 'null' with route pattern 'css/site.css' is valid for the request path '/css/site.css'
+2025-06-15 15:02:10.295 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5099/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-06-15 15:02:10.296 -05:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2025-06-15 15:02:10.295 -05:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-06-15 15:02:10.296 -05:00 [DBG] Request matched endpoint 'null'
+2025-06-15 15:02:10.296 -05:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/css/site.css'
+2025-06-15 15:02:10.297 -05:00 [DBG] Request matched endpoint 'null'
+2025-06-15 15:02:10.297 -05:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-15 15:02:10.297 -05:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-15 15:02:10.301 -05:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-06-15 15:02:10.301 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5099/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-06-15 15:02:10.302 -05:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-06-15 15:02:10.302 -05:00 [INF] Sending file. Request path: 'css/site.css'. Physical path: 'C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Web\obj\Debug\net9.0\compressed\ttac0i668f-b9sayid5wm.gz'
+2025-06-15 15:02:10.302 -05:00 [INF] Sending file. Request path: 'PantryPro.Web.styles.css'. Physical path: 'C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Web\obj\Debug\net9.0\compressed\45487h7mr8-26sht4dggd.gz'
+2025-06-15 15:02:10.302 -05:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-15 15:02:10.302 -05:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-15 15:02:10.302 -05:00 [DBG] Connection id "0HNDC8U0N47IK" completed keep alive response.
+2025-06-15 15:02:10.302 -05:00 [DBG] Connection id "0HNDC8U0N47IQ" accepted.
+2025-06-15 15:02:10.302 -05:00 [DBG] Connection id "0HNDC8U0N47IO" completed keep alive response.
+2025-06-15 15:02:10.303 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5099/PantryPro.Web.styles.css?v=JrqVaCokAhXbNUNaaDJLkRlOCWX7GnEwRg8MVqMXlJ4 - 200 1164 text/css 11.4656ms
+2025-06-15 15:02:10.303 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5099/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - 200 700 text/css 11.5676ms
+2025-06-15 15:02:10.303 -05:00 [DBG] Connection id "0HNDC8U0N47IQ" started.
+2025-06-15 15:02:10.303 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5099/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-15 15:02:10.303 -05:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-06-15 15:02:10.304 -05:00 [DBG] Connection id "0HNDC8U0N47IQ" completed keep alive response.
+2025-06-15 15:02:10.304 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5099/_framework/aspnetcore-browser-refresh.js - 200 16481 application/javascript; charset=utf-8 0.4752ms
+2025-06-15 15:02:10.307 -05:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Web\obj\Debug\net9.0\compressed\hnui5fsj27-46ein0sx1k.gz'
+2025-06-15 15:02:10.307 -05:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-15 15:02:10.308 -05:00 [DBG] Connection id "0HNDC8U0N47IN" completed keep alive response.
+2025-06-15 15:02:10.308 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5099/lib/bootstrap/dist/css/bootstrap.min.css - 200 232871 text/css 21.6057ms
+2025-06-15 15:02:10.309 -05:00 [DBG] 3 candidate(s) found for the request path '/js/site.js'
+2025-06-15 15:02:10.310 -05:00 [DBG] Endpoint 'null' with route pattern 'js/site.js' is valid for the request path '/js/site.js'
+2025-06-15 15:02:10.310 -05:00 [DBG] Endpoint 'null' with route pattern 'js/site.js' is valid for the request path '/js/site.js'
+2025-06-15 15:02:10.311 -05:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/js/site.js'
+2025-06-15 15:02:10.311 -05:00 [DBG] Request matched endpoint 'null'
+2025-06-15 15:02:10.311 -05:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-15 15:02:10.313 -05:00 [DBG] 3 candidate(s) found for the request path '/lib/jquery/dist/jquery.min.js'
+2025-06-15 15:02:10.313 -05:00 [DBG] Endpoint 'null' with route pattern 'lib/jquery/dist/jquery.min.js' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2025-06-15 15:02:10.313 -05:00 [DBG] Endpoint 'null' with route pattern 'lib/jquery/dist/jquery.min.js' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2025-06-15 15:02:10.313 -05:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2025-06-15 15:02:10.313 -05:00 [DBG] Request matched endpoint 'null'
+2025-06-15 15:02:10.313 -05:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-15 15:02:10.314 -05:00 [INF] Sending file. Request path: 'js/site.js'. Physical path: 'C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Web\obj\Debug\net9.0\compressed\jabd1xsz5x-xtxxf3hu2r.gz'
+2025-06-15 15:02:10.314 -05:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-15 15:02:10.314 -05:00 [DBG] Connection id "0HNDC8U0N47IP" completed keep alive response.
+2025-06-15 15:02:10.314 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5099/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 264 text/javascript 12.8072ms
+2025-06-15 15:02:10.317 -05:00 [INF] Sending file. Request path: 'lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Web\obj\Debug\net9.0\compressed\ziwe9ozu1f-o1o13a6vjx.gz'
+2025-06-15 15:02:10.317 -05:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-15 15:02:10.317 -05:00 [DBG] Connection id "0HNDC8U0N47IM" completed keep alive response.
+2025-06-15 15:02:10.317 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5099/lib/jquery/dist/jquery.min.js - 200 87576 text/javascript 23.553ms
+2025-06-15 15:02:10.422 -05:00 [DBG] 3 candidate(s) found for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2025-06-15 15:02:10.422 -05:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/js/bootstrap.bundle.min.js' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2025-06-15 15:02:10.423 -05:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/js/bootstrap.bundle.min.js' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2025-06-15 15:02:10.423 -05:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2025-06-15 15:02:10.424 -05:00 [DBG] Request matched endpoint 'null'
+2025-06-15 15:02:10.424 -05:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-15 15:02:10.428 -05:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Web\obj\Debug\net9.0\compressed\fqcmfia8mo-493y06b0oq.gz'
+2025-06-15 15:02:10.428 -05:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-15 15:02:10.428 -05:00 [DBG] Connection id "0HNDC8U0N47IL" completed keep alive response.
+2025-06-15 15:02:10.428 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5099/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 80764 text/javascript 133.2799ms
+2025-06-15 15:02:10.532 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5099/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-06-15 15:02:10.533 -05:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-06-15 15:02:10.533 -05:00 [DBG] Connection id "0HNDC8U0N47IR" accepted.
+2025-06-15 15:02:10.533 -05:00 [DBG] 3 candidate(s) found for the request path '/js/site.js'
+2025-06-15 15:02:10.533 -05:00 [DBG] Connection id "0HNDC8U0N47IR" started.
+2025-06-15 15:02:10.533 -05:00 [DBG] Endpoint 'null' with route pattern 'js/site.js' is valid for the request path '/js/site.js'
+2025-06-15 15:02:10.533 -05:00 [DBG] Endpoint 'null' with route pattern 'js/site.js' is valid for the request path '/js/site.js'
+2025-06-15 15:02:10.534 -05:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/js/site.js'
+2025-06-15 15:02:10.534 -05:00 [DBG] Request matched endpoint 'null'
+2025-06-15 15:02:10.534 -05:00 [DBG] Connection id "0HNDC8U0N47IS" accepted.
+2025-06-15 15:02:10.534 -05:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-15 15:02:10.534 -05:00 [DBG] Connection id "0HNDC8U0N47IS" started.
+2025-06-15 15:02:10.534 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5099/lib/jquery/dist/jquery.min.js - null null
+2025-06-15 15:02:10.534 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5099/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-06-15 15:02:10.534 -05:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-06-15 15:02:10.535 -05:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-06-15 15:02:10.535 -05:00 [DBG] 3 candidate(s) found for the request path '/lib/jquery/dist/jquery.min.js'
+2025-06-15 15:02:10.535 -05:00 [DBG] Endpoint 'null' with route pattern 'lib/jquery/dist/jquery.min.js' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2025-06-15 15:02:10.535 -05:00 [DBG] 3 candidate(s) found for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2025-06-15 15:02:10.535 -05:00 [DBG] Endpoint 'null' with route pattern 'lib/jquery/dist/jquery.min.js' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2025-06-15 15:02:10.535 -05:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/js/bootstrap.bundle.min.js' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2025-06-15 15:02:10.535 -05:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/js/bootstrap.bundle.min.js' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2025-06-15 15:02:10.535 -05:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2025-06-15 15:02:10.535 -05:00 [DBG] Request matched endpoint 'null'
+2025-06-15 15:02:10.535 -05:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2025-06-15 15:02:10.535 -05:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-15 15:02:10.535 -05:00 [INF] Sending file. Request path: 'js/site.js'. Physical path: 'C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Web\obj\Debug\net9.0\compressed\jabd1xsz5x-xtxxf3hu2r.gz'
+2025-06-15 15:02:10.535 -05:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-15 15:02:10.535 -05:00 [DBG] Connection id "0HNDC8U0N47IQ" completed keep alive response.
+2025-06-15 15:02:10.535 -05:00 [DBG] Request matched endpoint 'null'
+2025-06-15 15:02:10.536 -05:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-15 15:02:10.536 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5099/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 264 text/javascript 3.1799ms
+2025-06-15 15:02:10.538 -05:00 [INF] Sending file. Request path: 'lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Web\obj\Debug\net9.0\compressed\ziwe9ozu1f-o1o13a6vjx.gz'
+2025-06-15 15:02:10.539 -05:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-15 15:02:10.539 -05:00 [DBG] Connection id "0HNDC8U0N47IR" completed keep alive response.
+2025-06-15 15:02:10.539 -05:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Web\obj\Debug\net9.0\compressed\fqcmfia8mo-493y06b0oq.gz'
+2025-06-15 15:02:10.539 -05:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-15 15:02:10.539 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5099/lib/jquery/dist/jquery.min.js - 200 87576 text/javascript 4.5662ms
+2025-06-15 15:02:10.539 -05:00 [DBG] Connection id "0HNDC8U0N47IS" completed keep alive response.
+2025-06-15 15:02:10.540 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5099/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 80764 text/javascript 5.2071ms
+2025-06-15 15:02:10.739 -05:00 [DBG] Connection id "0HNDC8U0N47IR" received FIN.
+2025-06-15 15:02:10.739 -05:00 [DBG] Connection id "0HNDC8U0N47IN" received FIN.
+2025-06-15 15:02:10.739 -05:00 [DBG] Connection id "0HNDC8U0N47IK" received FIN.
+2025-06-15 15:02:10.739 -05:00 [DBG] Connection id "0HNDC8U0N47IO" received FIN.
+2025-06-15 15:02:10.739 -05:00 [DBG] Connection id "0HNDC8U0N47IP" received FIN.
+2025-06-15 15:02:10.739 -05:00 [DBG] Connection id "0HNDC8U0N47IS" received FIN.
+2025-06-15 15:02:10.739 -05:00 [DBG] Connection id "0HNDC8U0N47IQ" received FIN.
+2025-06-15 15:02:10.739 -05:00 [DBG] Connection id "0HNDC8U0N47IL" received FIN.
+2025-06-15 15:02:10.740 -05:00 [DBG] Connection id "0HNDC8U0N47IM" received FIN.
+2025-06-15 15:02:10.740 -05:00 [DBG] Connection id "0HNDC8U0N47IR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-15 15:02:10.740 -05:00 [DBG] Connection id "0HNDC8U0N47IS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-15 15:02:10.740 -05:00 [DBG] Connection id "0HNDC8U0N47IO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-15 15:02:10.740 -05:00 [DBG] Connection id "0HNDC8U0N47IK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-15 15:02:10.741 -05:00 [DBG] Connection id "0HNDC8U0N47IO" disconnecting.
+2025-06-15 15:02:10.740 -05:00 [DBG] Connection id "0HNDC8U0N47IN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-15 15:02:10.741 -05:00 [DBG] Connection id "0HNDC8U0N47IS" disconnecting.
+2025-06-15 15:02:10.741 -05:00 [DBG] Connection id "0HNDC8U0N47IR" disconnecting.
+2025-06-15 15:02:10.740 -05:00 [DBG] Connection id "0HNDC8U0N47IP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-15 15:02:10.741 -05:00 [DBG] Connection id "0HNDC8U0N47IN" disconnecting.
+2025-06-15 15:02:10.741 -05:00 [DBG] Connection id "0HNDC8U0N47IP" disconnecting.
+2025-06-15 15:02:10.741 -05:00 [DBG] Connection id "0HNDC8U0N47IK" disconnecting.
+2025-06-15 15:02:10.741 -05:00 [DBG] Connection id "0HNDC8U0N47IQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-15 15:02:10.741 -05:00 [DBG] Connection id "0HNDC8U0N47IL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-15 15:02:10.741 -05:00 [DBG] Connection id "0HNDC8U0N47IM" disconnecting.
+2025-06-15 15:02:10.741 -05:00 [DBG] Connection id "0HNDC8U0N47IM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-15 15:02:10.741 -05:00 [DBG] Connection id "0HNDC8U0N47IQ" disconnecting.
+2025-06-15 15:02:10.741 -05:00 [DBG] Connection id "0HNDC8U0N47IL" disconnecting.
+2025-06-15 15:02:10.743 -05:00 [DBG] Connection id "0HNDC8U0N47IK" stopped.
+2025-06-15 15:02:10.743 -05:00 [DBG] Connection id "0HNDC8U0N47IL" stopped.
+2025-06-15 15:02:10.743 -05:00 [DBG] Connection id "0HNDC8U0N47IP" stopped.
+2025-06-15 15:02:10.743 -05:00 [DBG] Connection id "0HNDC8U0N47IS" stopped.
+2025-06-15 15:02:10.743 -05:00 [DBG] Connection id "0HNDC8U0N47IM" stopped.
+2025-06-15 15:02:10.743 -05:00 [DBG] Connection id "0HNDC8U0N47IQ" stopped.
+2025-06-15 15:02:10.743 -05:00 [DBG] Connection id "0HNDC8U0N47IR" stopped.
+2025-06-15 15:02:10.743 -05:00 [DBG] Connection id "0HNDC8U0N47IO" stopped.
+2025-06-15 15:02:10.743 -05:00 [DBG] Connection id "0HNDC8U0N47IN" stopped.
+2025-06-15 15:02:11.065 -05:00 [DBG] Connection id "0HNDC8U0N47IT" accepted.
+2025-06-15 15:02:11.065 -05:00 [DBG] Connection id "0HNDC8U0N47IT" started.
+2025-06-15 15:02:11.194 -05:00 [DBG] Connection id "0HNDC8U0N47IU" accepted.
+2025-06-15 15:02:11.195 -05:00 [DBG] Connection id "0HNDC8U0N47IU" started.
+2025-06-15 15:02:11.195 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5099/Home/Privacy - null null
+2025-06-15 15:02:11.195 -05:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-06-15 15:02:11.195 -05:00 [DBG] 2 candidate(s) found for the request path '/Home/Privacy'
+2025-06-15 15:02:11.196 -05:00 [DBG] Endpoint 'PantryPro.Web.Controllers.HomeController.Privacy (PantryPro.Web)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Home/Privacy'
+2025-06-15 15:02:11.197 -05:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' was rejected by constraint 'path':'Microsoft.AspNetCore.Builder.StaticAssetDevelopmentRuntimeHandler+FileExistsConstraint' with value 'Home/Privacy' for the request path '/Home/Privacy'
+2025-06-15 15:02:11.197 -05:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is not valid for the request path '/Home/Privacy'
+2025-06-15 15:02:11.197 -05:00 [DBG] Request matched endpoint 'PantryPro.Web.Controllers.HomeController.Privacy (PantryPro.Web)'
+2025-06-15 15:02:11.197 -05:00 [INF] Executing endpoint 'PantryPro.Web.Controllers.HomeController.Privacy (PantryPro.Web)'
+2025-06-15 15:02:11.200 -05:00 [INF] Route matched with {action = "Privacy", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Privacy() on controller PantryPro.Web.Controllers.HomeController (PantryPro.Web).
+2025-06-15 15:02:11.200 -05:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-06-15 15:02:11.200 -05:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-06-15 15:02:11.200 -05:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-06-15 15:02:11.200 -05:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-06-15 15:02:11.200 -05:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-06-15 15:02:11.200 -05:00 [DBG] Executing controller factory for controller PantryPro.Web.Controllers.HomeController (PantryPro.Web)
+2025-06-15 15:02:11.200 -05:00 [DBG] Executed controller factory for controller PantryPro.Web.Controllers.HomeController (PantryPro.Web)
+2025-06-15 15:02:11.201 -05:00 [DBG] View lookup cache miss for view 'Privacy' in controller 'Home'.
+2025-06-15 15:02:11.201 -05:00 [INF] Executing ViewResult, running view Privacy.
+2025-06-15 15:02:11.202 -05:00 [ERR] The view 'Privacy' was not found. Searched locations: ["/Views/Home/Privacy.cshtml","/Views/Shared/Privacy.cshtml"]
+2025-06-15 15:02:11.207 -05:00 [INF] Executed action PantryPro.Web.Controllers.HomeController.Privacy (PantryPro.Web) in 7.4139ms
+2025-06-15 15:02:11.208 -05:00 [INF] Executed endpoint 'PantryPro.Web.Controllers.HomeController.Privacy (PantryPro.Web)'
+2025-06-15 15:02:11.209 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Privacy' was not found. The following locations were searched:
+/Views/Home/Privacy.cshtml
+/Views/Shared/Privacy.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-15 15:02:11.247 -05:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-06-15 15:02:11.247 -05:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-06-15 15:02:11.247 -05:00 [DBG] Connection id "0HNDC8U0N47IT" completed keep alive response.
+2025-06-15 15:02:11.247 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5099/Home/Privacy - 500 null text/html; charset=utf-8 52.504ms
+2025-06-15 15:02:11.299 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5099/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-15 15:02:11.299 -05:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-06-15 15:02:11.299 -05:00 [DBG] Connection id "0HNDC8U0N47IT" completed keep alive response.
+2025-06-15 15:02:11.299 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5099/_framework/aspnetcore-browser-refresh.js - 200 16481 application/javascript; charset=utf-8 0.4549ms
+2025-06-15 15:02:12.131 -05:00 [DBG] Connection id "0HNDC8U0N47IV" accepted.
+2025-06-15 15:02:12.131 -05:00 [DBG] Connection id "0HNDC8U0N47IV" started.
+2025-06-15 15:02:12.132 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5099/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-15 15:02:12.132 -05:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-06-15 15:02:12.132 -05:00 [DBG] Connection id "0HNDC8U0N47IV" completed keep alive response.
+2025-06-15 15:02:12.132 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5099/_framework/aspnetcore-browser-refresh.js - 200 16481 application/javascript; charset=utf-8 0.5172ms
+2025-06-15 15:02:14.235 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5099/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-15 15:02:14.235 -05:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-06-15 15:02:14.235 -05:00 [DBG] Connection id "0HNDC8U0N47IT" completed keep alive response.
+2025-06-15 15:02:14.235 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5099/_framework/aspnetcore-browser-refresh.js - 200 16481 application/javascript; charset=utf-8 0.6126ms
+2025-06-15 15:02:14.353 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5099/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-15 15:02:14.353 -05:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-06-15 15:02:14.353 -05:00 [DBG] Connection id "0HNDC8U0N47IV" completed keep alive response.
+2025-06-15 15:02:14.353 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5099/_framework/aspnetcore-browser-refresh.js - 200 16481 application/javascript; charset=utf-8 0.4164ms
+2025-06-15 15:02:20.751 -05:00 [DBG] Connection id "0HNDC8U0N47IV" received FIN.
+2025-06-15 15:02:20.751 -05:00 [DBG] Connection id "0HNDC8U0N47IU" received FIN.
+2025-06-15 15:02:20.751 -05:00 [DBG] Connection id "0HNDC8U0N47IT" received FIN.
+2025-06-15 15:02:20.751 -05:00 [DBG] Connection id "0HNDC8U0N47IV" disconnecting.
+2025-06-15 15:02:20.751 -05:00 [DBG] Connection id "0HNDC8U0N47IU" disconnecting.
+2025-06-15 15:02:20.751 -05:00 [DBG] Connection id "0HNDC8U0N47IV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-15 15:02:20.752 -05:00 [DBG] Connection id "0HNDC8U0N47IT" disconnecting.
+2025-06-15 15:02:20.752 -05:00 [DBG] Connection id "0HNDC8U0N47IU" stopped.
+2025-06-15 15:02:20.752 -05:00 [DBG] Connection id "0HNDC8U0N47IT" stopped.
+2025-06-15 15:02:20.752 -05:00 [DBG] Connection id "0HNDC8U0N47IV" stopped.
+2025-06-15 15:02:20.752 -05:00 [DBG] Connection id "0HNDC8U0N47IU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-15 15:02:20.752 -05:00 [DBG] Connection id "0HNDC8U0N47IT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-15 15:09:42.685 -05:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2025-06-15 15:09:42.758 -05:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2025-06-15 15:09:42.759 -05:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2025-06-15 15:09:42.759 -05:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2025-06-15 15:09:42.759 -05:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2025-06-15 15:09:42.759 -05:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2025-06-15 15:09:42.772 -05:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-06-15 15:09:42.883 -05:00 [DBG] Hosting starting
+2025-06-15 15:09:42.908 -05:00 [INF] User profile is available. Using 'C:\Users\da-V7\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-15 15:09:42.919 -05:00 [DBG] Reading data from file 'C:\Users\da-V7\AppData\Local\ASP.NET\DataProtection-Keys\key-374d903d-d3cd-4772-9427-54c77795838a.xml'.
+2025-06-15 15:09:42.924 -05:00 [DBG] Reading data from file 'C:\Users\da-V7\AppData\Local\ASP.NET\DataProtection-Keys\key-c7cb4e6c-445c-4c9a-a369-7c5e0866dfb3.xml'.
+2025-06-15 15:09:42.925 -05:00 [DBG] Reading data from file 'C:\Users\da-V7\AppData\Local\ASP.NET\DataProtection-Keys\key-e89c06d9-66a4-41f7-bfb7-51503fbf214e.xml'.
+2025-06-15 15:09:42.925 -05:00 [DBG] Reading data from file 'C:\Users\da-V7\AppData\Local\ASP.NET\DataProtection-Keys\key-eb4d2bc1-44de-45c6-b187-03fc9e92da03.xml'.
+2025-06-15 15:09:42.930 -05:00 [DBG] Found key {374d903d-d3cd-4772-9427-54c77795838a}.
+2025-06-15 15:09:42.936 -05:00 [DBG] Found key {c7cb4e6c-445c-4c9a-a369-7c5e0866dfb3}.
+2025-06-15 15:09:42.937 -05:00 [DBG] Found key {e89c06d9-66a4-41f7-bfb7-51503fbf214e}.
+2025-06-15 15:09:42.937 -05:00 [DBG] Found key {eb4d2bc1-44de-45c6-b187-03fc9e92da03}.
+2025-06-15 15:09:42.945 -05:00 [DBG] Considering key {e89c06d9-66a4-41f7-bfb7-51503fbf214e} with expiration date 2025-09-10 16:03:15Z as default key.
+2025-06-15 15:09:42.947 -05:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-06-15 15:09:42.950 -05:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-06-15 15:09:42.951 -05:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-06-15 15:09:42.956 -05:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-06-15 15:09:42.957 -05:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-06-15 15:09:42.959 -05:00 [DBG] Using key {e89c06d9-66a4-41f7-bfb7-51503fbf214e} as the default key.
+2025-06-15 15:09:42.959 -05:00 [DBG] Key ring with default key {e89c06d9-66a4-41f7-bfb7-51503fbf214e} was loaded during application startup.
+2025-06-15 15:09:42.964 -05:00 [DBG] Middleware loaded
+2025-06-15 15:09:42.976 -05:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16481 B).
+2025-06-15 15:09:42.978 -05:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-06-15 15:09:43.059 -05:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-06-15 15:09:43.061 -05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-06-15 15:09:43.062 -05:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-06-15 15:09:43.084 -05:00 [INF] Now listening on: http://localhost:5099
+2025-06-15 15:09:43.084 -05:00 [DBG] Loaded hosting startup assembly PantryPro.Web
+2025-06-15 15:09:43.084 -05:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-06-15 15:09:43.085 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-15 15:09:43.085 -05:00 [INF] Hosting environment: Development
+2025-06-15 15:09:43.085 -05:00 [INF] Content root path: C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Web
+2025-06-15 15:09:43.085 -05:00 [DBG] Hosting started
+2025-06-15 15:30:15.406 -05:00 [DBG] Config reload token fired. Checking for changes...
+2025-06-15 15:30:15.413 -05:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-06-15 15:30:15.417 -05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-06-15 15:30:15.683 -05:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-06-15 15:30:15.685 -05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-06-15 15:30:15.685 -05:00 [DBG] Config reload token fired. Checking for changes...
+2025-06-15 15:30:32.011 -05:00 [INF] Application is shutting down...
+2025-06-15 15:30:32.015 -05:00 [DBG] Hosting stopping
+2025-06-15 15:30:32.051 -05:00 [DBG] Hosting stopped

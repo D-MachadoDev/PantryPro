@@ -9,3 +9,4 @@ C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Core\obj\Debug\net9.0\Pant
 C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Core\obj\Debug\net9.0\refint\PantryPro.Core.dll
 C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Core\obj\Debug\net9.0\PantryPro.Core.pdb
 C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Core\obj\Debug\net9.0\ref\PantryPro.Core.dll
+C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Core\obj\Debug\net9.0\PantryPro.Core.sourcelink.json

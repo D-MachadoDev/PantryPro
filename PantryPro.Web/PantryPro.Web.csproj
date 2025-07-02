@@ -3,10 +3,14 @@
   <ItemGroup>
     <ProjectReference Include="..\PantryPro.Infrastructure\PantryPro.Infrastructure.csproj" />
     <ProjectReference Include="..\PantryPro.Core\PantryPro.Core.csproj" />
+    <ProjectReference Include="..\PantryPro.AI\PantryPro.AI.csproj" />
+    <ProjectReference Include="..\PantryPro.ExternalAPIs\PantryPro.ExternalAPIs.csproj" />
+    <ProjectReference Include="..\PantryPro.Shared\PantryPro.Shared.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="14.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="9.0.6" />
     <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
     <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
     <PackageReference Include="Serilog.Sinks.File" Version="7.0.0" />

@@ -159,3 +159,10 @@ C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Web\obj\Debug\net9.0\refin
 C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Web\obj\Debug\net9.0\PantryPro.Web.pdb
 C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Web\obj\Debug\net9.0\PantryPro.Web.genruntimeconfig.cache
 C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Web\obj\Debug\net9.0\ref\PantryPro.Web.dll
+C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Web\bin\Debug\net9.0\PantryPro.AI.dll
+C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Web\bin\Debug\net9.0\PantryPro.ExternalAPIs.dll
+C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Web\bin\Debug\net9.0\PantryPro.Shared.dll
+C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Web\bin\Debug\net9.0\PantryPro.AI.pdb
+C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Web\bin\Debug\net9.0\PantryPro.ExternalAPIs.pdb
+C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Web\bin\Debug\net9.0\PantryPro.Shared.pdb
+C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Web\obj\Debug\net9.0\PantryPro.Web.sourcelink.json
