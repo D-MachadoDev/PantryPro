@@ -1,0 +1,1822 @@
+2025-07-02 02:54:50.833 -05:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-07-02 02:54:51.347 -05:00 [DBG] The index {'UserId'} was not created on entity type 'UserAchievement' as the properties are already covered by the index {'UserId', 'AchievementId'}.
+2025-07-02 02:54:51.351 -05:00 [DBG] The index {'UserId'} was not created on entity type 'UserIngredient' as the properties are already covered by the index {'UserId', 'IngredientId', 'ExpirationDate'}.
+2025-07-02 02:54:51.354 -05:00 [DBG] The index {'MealPlanId'} was not created on entity type 'MealPlanRecipe' as the properties are already covered by the index {'MealPlanId', 'ScheduledDate', 'MealType'}.
+2025-07-02 02:54:51.356 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeIngredient' as the properties are already covered by the index {'RecipeId', 'IngredientId'}.
+2025-07-02 02:54:51.358 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeRating' as the properties are already covered by the index {'RecipeId', 'UserId'}.
+2025-07-02 02:54:51.359 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeStep' as the properties are already covered by the index {'RecipeId', 'StepNumber'}.
+2025-07-02 02:54:51.362 -05:00 [DBG] The index {'ShoppingListId'} was not created on entity type 'ShoppingListItem' as the properties are already covered by the index {'ShoppingListId', 'IngredientId'}.
+2025-07-02 02:54:51.949 -05:00 [WRN] The 'RecipeDifficulty' property 'Difficulty' on entity type 'Recipe' is configured with a database-generated default, but has no configured sentinel value. The database-generated default will always be used for inserts when the property has the value '0', since this is the CLR default for the 'RecipeDifficulty' type. Consider using a nullable type, using a nullable backing field, or setting the sentinel value for the property to ensure the database default is used when, and only when, appropriate. See https://aka.ms/efcore-docs-default-values for more information.
+2025-07-02 02:54:52.095 -05:00 [DBG] Entity Framework Core 8.0.13 initialized 'PantryProDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.3' with options: ServerVersion=8.0.22-mysql 
+2025-07-02 02:54:52.221 -05:00 [DBG] The index {'UserId'} was not created on entity type 'UserAchievement' as the properties are already covered by the index {'UserId', 'AchievementId'}.
+2025-07-02 02:54:52.223 -05:00 [DBG] The index {'UserId'} was not created on entity type 'UserIngredient' as the properties are already covered by the index {'UserId', 'IngredientId', 'ExpirationDate'}.
+2025-07-02 02:54:52.225 -05:00 [DBG] The index {'MealPlanId'} was not created on entity type 'MealPlanRecipe' as the properties are already covered by the index {'MealPlanId', 'ScheduledDate', 'MealType'}.
+2025-07-02 02:54:52.227 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeIngredient' as the properties are already covered by the index {'RecipeId', 'IngredientId'}.
+2025-07-02 02:54:52.230 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeRating' as the properties are already covered by the index {'RecipeId', 'UserId'}.
+2025-07-02 02:54:52.232 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeStep' as the properties are already covered by the index {'RecipeId', 'StepNumber'}.
+2025-07-02 02:54:52.235 -05:00 [DBG] The index {'ShoppingListId'} was not created on entity type 'ShoppingListItem' as the properties are already covered by the index {'ShoppingListId', 'IngredientId'}.
+2025-07-02 02:54:52.286 -05:00 [WRN] The 'RecipeDifficulty' property 'Difficulty' on entity type 'Recipe' is configured with a database-generated default, but has no configured sentinel value. The database-generated default will always be used for inserts when the property has the value '0', since this is the CLR default for the 'RecipeDifficulty' type. Consider using a nullable type, using a nullable backing field, or setting the sentinel value for the property to ensure the database default is used when, and only when, appropriate. See https://aka.ms/efcore-docs-default-values for more information.
+2025-07-02 02:54:53.202 -05:00 [DBG] 'PantryProDbContext' disposed.
+2025-07-02 02:55:10.671 -05:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-07-02 02:55:11.145 -05:00 [DBG] The index {'UserId'} was not created on entity type 'UserAchievement' as the properties are already covered by the index {'UserId', 'AchievementId'}.
+2025-07-02 02:55:11.150 -05:00 [DBG] The index {'UserId'} was not created on entity type 'UserIngredient' as the properties are already covered by the index {'UserId', 'IngredientId', 'ExpirationDate'}.
+2025-07-02 02:55:11.153 -05:00 [DBG] The index {'MealPlanId'} was not created on entity type 'MealPlanRecipe' as the properties are already covered by the index {'MealPlanId', 'ScheduledDate', 'MealType'}.
+2025-07-02 02:55:11.155 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeIngredient' as the properties are already covered by the index {'RecipeId', 'IngredientId'}.
+2025-07-02 02:55:11.157 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeRating' as the properties are already covered by the index {'RecipeId', 'UserId'}.
+2025-07-02 02:55:11.159 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeStep' as the properties are already covered by the index {'RecipeId', 'StepNumber'}.
+2025-07-02 02:55:11.164 -05:00 [DBG] The index {'ShoppingListId'} was not created on entity type 'ShoppingListItem' as the properties are already covered by the index {'ShoppingListId', 'IngredientId'}.
+2025-07-02 02:55:11.291 -05:00 [WRN] The 'RecipeDifficulty' property 'Difficulty' on entity type 'Recipe' is configured with a database-generated default, but has no configured sentinel value. The database-generated default will always be used for inserts when the property has the value '0', since this is the CLR default for the 'RecipeDifficulty' type. Consider using a nullable type, using a nullable backing field, or setting the sentinel value for the property to ensure the database default is used when, and only when, appropriate. See https://aka.ms/efcore-docs-default-values for more information.
+2025-07-02 02:55:11.496 -05:00 [DBG] Entity Framework Core 8.0.13 initialized 'PantryProDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.3' with options: ServerVersion=8.0.22-mysql 
+2025-07-02 02:55:11.535 -05:00 [DBG] Creating DbConnection.
+2025-07-02 02:55:11.544 -05:00 [DBG] Created DbConnection. (5ms).
+2025-07-02 02:55:11.556 -05:00 [DBG] Migrating using database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:55:11.576 -05:00 [DBG] Creating DbConnection.
+2025-07-02 02:55:11.582 -05:00 [DBG] Created DbConnection. (5ms).
+2025-07-02 02:55:11.590 -05:00 [DBG] Opening connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:55:12.926 -05:00 [DBG] Opened connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:55:13.157 -05:00 [DBG] Disposing connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:55:13.170 -05:00 [DBG] Disposed connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (6ms).
+2025-07-02 02:55:13.190 -05:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-07-02 02:55:13.202 -05:00 [DBG] Created DbCommand for 'ExecuteScalar' (9ms).
+2025-07-02 02:55:13.205 -05:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (19ms).
+2025-07-02 02:55:13.207 -05:00 [DBG] Opening connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:55:14.051 -05:00 [DBG] Opened connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:55:14.059 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='b8ca9ilqc17bnz5732mu' AND TABLE_NAME='__EFMigrationsHistory';
+2025-07-02 02:55:14.275 -05:00 [INF] Executed DbCommand (209ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='b8ca9ilqc17bnz5732mu' AND TABLE_NAME='__EFMigrationsHistory';
+2025-07-02 02:55:14.281 -05:00 [DBG] Closing connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:55:14.285 -05:00 [DBG] Closed connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (4ms).
+2025-07-02 02:55:14.289 -05:00 [DBG] Creating DbConnection.
+2025-07-02 02:55:14.290 -05:00 [DBG] Created DbConnection. (1ms).
+2025-07-02 02:55:14.292 -05:00 [DBG] Opening connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:55:16.105 -05:00 [DBG] Opened connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:55:16.439 -05:00 [DBG] Disposing connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:55:16.445 -05:00 [DBG] Disposed connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (6ms).
+2025-07-02 02:55:16.453 -05:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-07-02 02:55:16.457 -05:00 [DBG] Created DbCommand for 'ExecuteScalar' (3ms).
+2025-07-02 02:55:16.462 -05:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (8ms).
+2025-07-02 02:55:16.465 -05:00 [DBG] Opening connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:55:16.635 -05:00 [DBG] Opened connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:55:16.641 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='b8ca9ilqc17bnz5732mu' AND TABLE_NAME='__EFMigrationsHistory';
+2025-07-02 02:55:16.820 -05:00 [INF] Executed DbCommand (179ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='b8ca9ilqc17bnz5732mu' AND TABLE_NAME='__EFMigrationsHistory';
+2025-07-02 02:55:16.827 -05:00 [DBG] Closing connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:55:16.831 -05:00 [DBG] Closed connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (3ms).
+2025-07-02 02:55:16.873 -05:00 [DBG] Opening connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:55:17.106 -05:00 [DBG] Opened connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:55:17.110 -05:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-07-02 02:55:17.111 -05:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2025-07-02 02:55:17.115 -05:00 [DBG] Initialized DbCommand for 'ExecuteReader' (5ms).
+2025-07-02 02:55:17.120 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2025-07-02 02:55:17.311 -05:00 [INF] Executed DbCommand (191ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2025-07-02 02:55:17.321 -05:00 [DBG] Closing data reader to 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:55:17.326 -05:00 [DBG] A data reader for 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' is being disposed after spending 7ms reading results.
+2025-07-02 02:55:17.330 -05:00 [DBG] Closing connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:55:17.331 -05:00 [DBG] Closed connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (1ms).
+2025-07-02 02:55:17.343 -05:00 [INF] Applying migration '20250702075453_SecondMigration'.
+2025-07-02 02:55:17.465 -05:00 [DBG] Opening connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:55:17.693 -05:00 [DBG] Opened connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:55:17.706 -05:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2025-07-02 02:55:18.140 -05:00 [DBG] Began transaction with isolation level 'Unspecified'.
+2025-07-02 02:55:18.144 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 02:55:18.145 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2025-07-02 02:55:18.148 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (3ms).
+2025-07-02 02:55:18.151 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP PROCEDURE IF EXISTS `POMELO_BEFORE_DROP_PRIMARY_KEY`;
+CREATE PROCEDURE `POMELO_BEFORE_DROP_PRIMARY_KEY`(IN `SCHEMA_NAME_ARGUMENT` VARCHAR(255), IN `TABLE_NAME_ARGUMENT` VARCHAR(255))
+BEGIN
+	DECLARE HAS_AUTO_INCREMENT_ID TINYINT(1);
+	DECLARE PRIMARY_KEY_COLUMN_NAME VARCHAR(255);
+	DECLARE PRIMARY_KEY_TYPE VARCHAR(255);
+	DECLARE SQL_EXP VARCHAR(1000);
+	SELECT COUNT(*)
+		INTO HAS_AUTO_INCREMENT_ID
+		FROM `information_schema`.`COLUMNS`
+		WHERE `TABLE_SCHEMA` = (SELECT IFNULL(SCHEMA_NAME_ARGUMENT, SCHEMA()))
+			AND `TABLE_NAME` = TABLE_NAME_ARGUMENT
+			AND `Extra` = 'auto_increment'
+			AND `COLUMN_KEY` = 'PRI'
+			LIMIT 1;
+	IF HAS_AUTO_INCREMENT_ID THEN
+		SELECT `COLUMN_TYPE`
+			INTO PRIMARY_KEY_TYPE
+			FROM `information_schema`.`COLUMNS`
+			WHERE `TABLE_SCHEMA` = (SELECT IFNULL(SCHEMA_NAME_ARGUMENT, SCHEMA()))
+				AND `TABLE_NAME` = TABLE_NAME_ARGUMENT
+				AND `COLUMN_KEY` = 'PRI'
+			LIMIT 1;
+		SELECT `COLUMN_NAME`
+			INTO PRIMARY_KEY_COLUMN_NAME
+			FROM `information_schema`.`COLUMNS`
+			WHERE `TABLE_SCHEMA` = (SELECT IFNULL(SCHEMA_NAME_ARGUMENT, SCHEMA()))
+				AND `TABLE_NAME` = TABLE_NAME_ARGUMENT
+				AND `COLUMN_KEY` = 'PRI'
+			LIMIT 1;
+		SET SQL_EXP = CONCAT('ALTER TABLE `', (SELECT IFNULL(SCHEMA_NAME_ARGUMENT, SCHEMA())), '`.`', TABLE_NAME_ARGUMENT, '` MODIFY COLUMN `', PRIMARY_KEY_COLUMN_NAME, '` ', PRIMARY_KEY_TYPE, ' NOT NULL;');
+		SET @SQL_EXP = SQL_EXP;
+		PREPARE SQL_EXP_EXECUTE FROM @SQL_EXP;
+		EXECUTE SQL_EXP_EXECUTE;
+		DEALLOCATE PREPARE SQL_EXP_EXECUTE;
+	END IF;
+END;
+2025-07-02 02:55:18.420 -05:00 [INF] Executed DbCommand (269ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP PROCEDURE IF EXISTS `POMELO_BEFORE_DROP_PRIMARY_KEY`;
+CREATE PROCEDURE `POMELO_BEFORE_DROP_PRIMARY_KEY`(IN `SCHEMA_NAME_ARGUMENT` VARCHAR(255), IN `TABLE_NAME_ARGUMENT` VARCHAR(255))
+BEGIN
+	DECLARE HAS_AUTO_INCREMENT_ID TINYINT(1);
+	DECLARE PRIMARY_KEY_COLUMN_NAME VARCHAR(255);
+	DECLARE PRIMARY_KEY_TYPE VARCHAR(255);
+	DECLARE SQL_EXP VARCHAR(1000);
+	SELECT COUNT(*)
+		INTO HAS_AUTO_INCREMENT_ID
+		FROM `information_schema`.`COLUMNS`
+		WHERE `TABLE_SCHEMA` = (SELECT IFNULL(SCHEMA_NAME_ARGUMENT, SCHEMA()))
+			AND `TABLE_NAME` = TABLE_NAME_ARGUMENT
+			AND `Extra` = 'auto_increment'
+			AND `COLUMN_KEY` = 'PRI'
+			LIMIT 1;
+	IF HAS_AUTO_INCREMENT_ID THEN
+		SELECT `COLUMN_TYPE`
+			INTO PRIMARY_KEY_TYPE
+			FROM `information_schema`.`COLUMNS`
+			WHERE `TABLE_SCHEMA` = (SELECT IFNULL(SCHEMA_NAME_ARGUMENT, SCHEMA()))
+				AND `TABLE_NAME` = TABLE_NAME_ARGUMENT
+				AND `COLUMN_KEY` = 'PRI'
+			LIMIT 1;
+		SELECT `COLUMN_NAME`
+			INTO PRIMARY_KEY_COLUMN_NAME
+			FROM `information_schema`.`COLUMNS`
+			WHERE `TABLE_SCHEMA` = (SELECT IFNULL(SCHEMA_NAME_ARGUMENT, SCHEMA()))
+				AND `TABLE_NAME` = TABLE_NAME_ARGUMENT
+				AND `COLUMN_KEY` = 'PRI'
+			LIMIT 1;
+		SET SQL_EXP = CONCAT('ALTER TABLE `', (SELECT IFNULL(SCHEMA_NAME_ARGUMENT, SCHEMA())), '`.`', TABLE_NAME_ARGUMENT, '` MODIFY COLUMN `', PRIMARY_KEY_COLUMN_NAME, '` ', PRIMARY_KEY_TYPE, ' NOT NULL;');
+		SET @SQL_EXP = SQL_EXP;
+		PREPARE SQL_EXP_EXECUTE FROM @SQL_EXP;
+		EXECUTE SQL_EXP_EXECUTE;
+		DEALLOCATE PREPARE SQL_EXP_EXECUTE;
+	END IF;
+END;
+2025-07-02 02:55:18.426 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 02:55:18.427 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2025-07-02 02:55:18.429 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (3ms).
+2025-07-02 02:55:18.431 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP PROCEDURE IF EXISTS `POMELO_AFTER_ADD_PRIMARY_KEY`;
+CREATE PROCEDURE `POMELO_AFTER_ADD_PRIMARY_KEY`(IN `SCHEMA_NAME_ARGUMENT` VARCHAR(255), IN `TABLE_NAME_ARGUMENT` VARCHAR(255), IN `COLUMN_NAME_ARGUMENT` VARCHAR(255))
+BEGIN
+	DECLARE HAS_AUTO_INCREMENT_ID INT(11);
+	DECLARE PRIMARY_KEY_COLUMN_NAME VARCHAR(255);
+	DECLARE PRIMARY_KEY_TYPE VARCHAR(255);
+	DECLARE SQL_EXP VARCHAR(1000);
+	SELECT COUNT(*)
+		INTO HAS_AUTO_INCREMENT_ID
+		FROM `information_schema`.`COLUMNS`
+		WHERE `TABLE_SCHEMA` = (SELECT IFNULL(SCHEMA_NAME_ARGUMENT, SCHEMA()))
+			AND `TABLE_NAME` = TABLE_NAME_ARGUMENT
+			AND `COLUMN_NAME` = COLUMN_NAME_ARGUMENT
+			AND `COLUMN_TYPE` LIKE '%int%'
+			AND `COLUMN_KEY` = 'PRI';
+	IF HAS_AUTO_INCREMENT_ID THEN
+		SELECT `COLUMN_TYPE`
+			INTO PRIMARY_KEY_TYPE
+			FROM `information_schema`.`COLUMNS`
+			WHERE `TABLE_SCHEMA` = (SELECT IFNULL(SCHEMA_NAME_ARGUMENT, SCHEMA()))
+				AND `TABLE_NAME` = TABLE_NAME_ARGUMENT
+				AND `COLUMN_NAME` = COLUMN_NAME_ARGUMENT
+				AND `COLUMN_TYPE` LIKE '%int%'
+				AND `COLUMN_KEY` = 'PRI';
+		SELECT `COLUMN_NAME`
+			INTO PRIMARY_KEY_COLUMN_NAME
+			FROM `information_schema`.`COLUMNS`
+			WHERE `TABLE_SCHEMA` = (SELECT IFNULL(SCHEMA_NAME_ARGUMENT, SCHEMA()))
+				AND `TABLE_NAME` = TABLE_NAME_ARGUMENT
+				AND `COLUMN_NAME` = COLUMN_NAME_ARGUMENT
+				AND `COLUMN_TYPE` LIKE '%int%'
+				AND `COLUMN_KEY` = 'PRI';
+		SET SQL_EXP = CONCAT('ALTER TABLE `', (SELECT IFNULL(SCHEMA_NAME_ARGUMENT, SCHEMA())), '`.`', TABLE_NAME_ARGUMENT, '` MODIFY COLUMN `', PRIMARY_KEY_COLUMN_NAME, '` ', PRIMARY_KEY_TYPE, ' NOT NULL AUTO_INCREMENT;');
+		SET @SQL_EXP = SQL_EXP;
+		PREPARE SQL_EXP_EXECUTE FROM @SQL_EXP;
+		EXECUTE SQL_EXP_EXECUTE;
+		DEALLOCATE PREPARE SQL_EXP_EXECUTE;
+	END IF;
+END;
+2025-07-02 02:55:18.626 -05:00 [INF] Executed DbCommand (195ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP PROCEDURE IF EXISTS `POMELO_AFTER_ADD_PRIMARY_KEY`;
+CREATE PROCEDURE `POMELO_AFTER_ADD_PRIMARY_KEY`(IN `SCHEMA_NAME_ARGUMENT` VARCHAR(255), IN `TABLE_NAME_ARGUMENT` VARCHAR(255), IN `COLUMN_NAME_ARGUMENT` VARCHAR(255))
+BEGIN
+	DECLARE HAS_AUTO_INCREMENT_ID INT(11);
+	DECLARE PRIMARY_KEY_COLUMN_NAME VARCHAR(255);
+	DECLARE PRIMARY_KEY_TYPE VARCHAR(255);
+	DECLARE SQL_EXP VARCHAR(1000);
+	SELECT COUNT(*)
+		INTO HAS_AUTO_INCREMENT_ID
+		FROM `information_schema`.`COLUMNS`
+		WHERE `TABLE_SCHEMA` = (SELECT IFNULL(SCHEMA_NAME_ARGUMENT, SCHEMA()))
+			AND `TABLE_NAME` = TABLE_NAME_ARGUMENT
+			AND `COLUMN_NAME` = COLUMN_NAME_ARGUMENT
+			AND `COLUMN_TYPE` LIKE '%int%'
+			AND `COLUMN_KEY` = 'PRI';
+	IF HAS_AUTO_INCREMENT_ID THEN
+		SELECT `COLUMN_TYPE`
+			INTO PRIMARY_KEY_TYPE
+			FROM `information_schema`.`COLUMNS`
+			WHERE `TABLE_SCHEMA` = (SELECT IFNULL(SCHEMA_NAME_ARGUMENT, SCHEMA()))
+				AND `TABLE_NAME` = TABLE_NAME_ARGUMENT
+				AND `COLUMN_NAME` = COLUMN_NAME_ARGUMENT
+				AND `COLUMN_TYPE` LIKE '%int%'
+				AND `COLUMN_KEY` = 'PRI';
+		SELECT `COLUMN_NAME`
+			INTO PRIMARY_KEY_COLUMN_NAME
+			FROM `information_schema`.`COLUMNS`
+			WHERE `TABLE_SCHEMA` = (SELECT IFNULL(SCHEMA_NAME_ARGUMENT, SCHEMA()))
+				AND `TABLE_NAME` = TABLE_NAME_ARGUMENT
+				AND `COLUMN_NAME` = COLUMN_NAME_ARGUMENT
+				AND `COLUMN_TYPE` LIKE '%int%'
+				AND `COLUMN_KEY` = 'PRI';
+		SET SQL_EXP = CONCAT('ALTER TABLE `', (SELECT IFNULL(SCHEMA_NAME_ARGUMENT, SCHEMA())), '`.`', TABLE_NAME_ARGUMENT, '` MODIFY COLUMN `', PRIMARY_KEY_COLUMN_NAME, '` ', PRIMARY_KEY_TYPE, ' NOT NULL AUTO_INCREMENT;');
+		SET @SQL_EXP = SQL_EXP;
+		PREPARE SQL_EXP_EXECUTE FROM @SQL_EXP;
+		EXECUTE SQL_EXP_EXECUTE;
+		DEALLOCATE PREPARE SQL_EXP_EXECUTE;
+	END IF;
+END;
+2025-07-02 02:55:18.629 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 02:55:18.630 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-07-02 02:55:18.631 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (1ms).
+2025-07-02 02:55:18.632 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE `Ingredients` DROP FOREIGN KEY `FK_Ingredients_Users_UserId`;
+2025-07-02 02:55:18.885 -05:00 [INF] Executed DbCommand (252ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE `Ingredients` DROP FOREIGN KEY `FK_Ingredients_Users_UserId`;
+2025-07-02 02:55:18.888 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 02:55:18.889 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2025-07-02 02:55:18.891 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (3ms).
+2025-07-02 02:55:18.893 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE `MealPlanRecipes` DROP FOREIGN KEY `FK_MealPlanRecipes_Recipes_RecipeId`;
+2025-07-02 02:55:19.071 -05:00 [INF] Executed DbCommand (179ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE `MealPlanRecipes` DROP FOREIGN KEY `FK_MealPlanRecipes_Recipes_RecipeId`;
+2025-07-02 02:55:19.081 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 02:55:19.085 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (4ms).
+2025-07-02 02:55:19.091 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (10ms).
+2025-07-02 02:55:19.096 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE `RecipeIngredients` DROP FOREIGN KEY `FK_RecipeIngredients_Ingredients_IngredientId`;
+2025-07-02 02:55:19.397 -05:00 [INF] Executed DbCommand (300ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE `RecipeIngredients` DROP FOREIGN KEY `FK_RecipeIngredients_Ingredients_IngredientId`;
+2025-07-02 02:55:19.404 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 02:55:19.406 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2025-07-02 02:55:19.409 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (4ms).
+2025-07-02 02:55:19.412 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP TABLE `AIRecommendations`;
+2025-07-02 02:55:19.923 -05:00 [INF] Executed DbCommand (511ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP TABLE `AIRecommendations`;
+2025-07-02 02:55:19.929 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 02:55:19.931 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2025-07-02 02:55:19.933 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (4ms).
+2025-07-02 02:55:19.936 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CALL POMELO_BEFORE_DROP_PRIMARY_KEY(NULL, 'RecipeIngredients');
+ALTER TABLE `RecipeIngredients` DROP PRIMARY KEY;
+2025-07-02 02:55:20.116 -05:00 [ERR] Failed executing DbCommand (179ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CALL POMELO_BEFORE_DROP_PRIMARY_KEY(NULL, 'RecipeIngredients');
+ALTER TABLE `RecipeIngredients` DROP PRIMARY KEY;
+2025-07-02 02:55:20.275 -05:00 [DBG] Disposing transaction.
+2025-07-02 02:55:20.281 -05:00 [DBG] Closing connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:55:20.281 -05:00 [DBG] Closed connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (0ms).
+2025-07-02 02:55:20.285 -05:00 [DBG] 'PantryProDbContext' disposed.
+2025-07-02 02:55:20.290 -05:00 [DBG] Disposing connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:55:20.291 -05:00 [DBG] Disposed connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (1ms).
+2025-07-02 02:56:22.072 -05:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-07-02 02:56:22.608 -05:00 [DBG] The index {'UserId'} was not created on entity type 'UserAchievement' as the properties are already covered by the index {'UserId', 'AchievementId'}.
+2025-07-02 02:56:22.616 -05:00 [DBG] The index {'UserId'} was not created on entity type 'UserIngredient' as the properties are already covered by the index {'UserId', 'IngredientId', 'ExpirationDate'}.
+2025-07-02 02:56:22.621 -05:00 [DBG] The index {'MealPlanId'} was not created on entity type 'MealPlanRecipe' as the properties are already covered by the index {'MealPlanId', 'ScheduledDate', 'MealType'}.
+2025-07-02 02:56:22.626 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeIngredient' as the properties are already covered by the index {'RecipeId', 'IngredientId'}.
+2025-07-02 02:56:22.638 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeRating' as the properties are already covered by the index {'RecipeId', 'UserId'}.
+2025-07-02 02:56:22.648 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeStep' as the properties are already covered by the index {'RecipeId', 'StepNumber'}.
+2025-07-02 02:56:22.656 -05:00 [DBG] The index {'ShoppingListId'} was not created on entity type 'ShoppingListItem' as the properties are already covered by the index {'ShoppingListId', 'IngredientId'}.
+2025-07-02 02:56:22.796 -05:00 [WRN] The 'RecipeDifficulty' property 'Difficulty' on entity type 'Recipe' is configured with a database-generated default, but has no configured sentinel value. The database-generated default will always be used for inserts when the property has the value '0', since this is the CLR default for the 'RecipeDifficulty' type. Consider using a nullable type, using a nullable backing field, or setting the sentinel value for the property to ensure the database default is used when, and only when, appropriate. See https://aka.ms/efcore-docs-default-values for more information.
+2025-07-02 02:56:22.927 -05:00 [DBG] Entity Framework Core 8.0.13 initialized 'PantryProDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.3' with options: ServerVersion=8.0.22-mysql 
+2025-07-02 02:56:23.019 -05:00 [DBG] The index {'UserId'} was not created on entity type 'UserAchievement' as the properties are already covered by the index {'UserId', 'AchievementId'}.
+2025-07-02 02:56:23.022 -05:00 [DBG] The index {'UserId'} was not created on entity type 'UserIngredient' as the properties are already covered by the index {'UserId', 'IngredientId', 'ExpirationDate'}.
+2025-07-02 02:56:23.024 -05:00 [DBG] The index {'MealPlanId'} was not created on entity type 'MealPlanRecipe' as the properties are already covered by the index {'MealPlanId', 'ScheduledDate', 'MealType'}.
+2025-07-02 02:56:23.026 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeIngredient' as the properties are already covered by the index {'RecipeId', 'IngredientId'}.
+2025-07-02 02:56:23.029 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeRating' as the properties are already covered by the index {'RecipeId', 'UserId'}.
+2025-07-02 02:56:23.032 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeStep' as the properties are already covered by the index {'RecipeId', 'StepNumber'}.
+2025-07-02 02:56:23.034 -05:00 [DBG] The index {'ShoppingListId'} was not created on entity type 'ShoppingListItem' as the properties are already covered by the index {'ShoppingListId', 'IngredientId'}.
+2025-07-02 02:56:23.070 -05:00 [WRN] The 'RecipeDifficulty' property 'Difficulty' on entity type 'Recipe' is configured with a database-generated default, but has no configured sentinel value. The database-generated default will always be used for inserts when the property has the value '0', since this is the CLR default for the 'RecipeDifficulty' type. Consider using a nullable type, using a nullable backing field, or setting the sentinel value for the property to ensure the database default is used when, and only when, appropriate. See https://aka.ms/efcore-docs-default-values for more information.
+2025-07-02 02:56:23.486 -05:00 [DBG] 'PantryProDbContext' disposed.
+2025-07-02 02:58:00.457 -05:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-07-02 02:58:00.982 -05:00 [DBG] The index {'UserId'} was not created on entity type 'UserAchievement' as the properties are already covered by the index {'UserId', 'AchievementId'}.
+2025-07-02 02:58:00.986 -05:00 [DBG] The index {'UserId'} was not created on entity type 'UserIngredient' as the properties are already covered by the index {'UserId', 'IngredientId', 'ExpirationDate'}.
+2025-07-02 02:58:00.988 -05:00 [DBG] The index {'MealPlanId'} was not created on entity type 'MealPlanRecipe' as the properties are already covered by the index {'MealPlanId', 'ScheduledDate', 'MealType'}.
+2025-07-02 02:58:00.989 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeIngredient' as the properties are already covered by the index {'RecipeId', 'IngredientId'}.
+2025-07-02 02:58:00.990 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeRating' as the properties are already covered by the index {'RecipeId', 'UserId'}.
+2025-07-02 02:58:00.991 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeStep' as the properties are already covered by the index {'RecipeId', 'StepNumber'}.
+2025-07-02 02:58:00.992 -05:00 [DBG] The index {'ShoppingListId'} was not created on entity type 'ShoppingListItem' as the properties are already covered by the index {'ShoppingListId', 'IngredientId'}.
+2025-07-02 02:58:01.140 -05:00 [WRN] The 'RecipeDifficulty' property 'Difficulty' on entity type 'Recipe' is configured with a database-generated default, but has no configured sentinel value. The database-generated default will always be used for inserts when the property has the value '0', since this is the CLR default for the 'RecipeDifficulty' type. Consider using a nullable type, using a nullable backing field, or setting the sentinel value for the property to ensure the database default is used when, and only when, appropriate. See https://aka.ms/efcore-docs-default-values for more information.
+2025-07-02 02:58:01.302 -05:00 [DBG] Entity Framework Core 8.0.13 initialized 'PantryProDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.3' with options: ServerVersion=8.0.22-mysql 
+2025-07-02 02:58:01.408 -05:00 [DBG] The index {'UserId'} was not created on entity type 'UserAchievement' as the properties are already covered by the index {'UserId', 'AchievementId'}.
+2025-07-02 02:58:01.410 -05:00 [DBG] The index {'UserId'} was not created on entity type 'UserIngredient' as the properties are already covered by the index {'UserId', 'IngredientId', 'ExpirationDate'}.
+2025-07-02 02:58:01.412 -05:00 [DBG] The index {'MealPlanId'} was not created on entity type 'MealPlanRecipe' as the properties are already covered by the index {'MealPlanId', 'ScheduledDate', 'MealType'}.
+2025-07-02 02:58:01.413 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeIngredient' as the properties are already covered by the index {'RecipeId', 'IngredientId'}.
+2025-07-02 02:58:01.415 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeRating' as the properties are already covered by the index {'RecipeId', 'UserId'}.
+2025-07-02 02:58:01.416 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeStep' as the properties are already covered by the index {'RecipeId', 'StepNumber'}.
+2025-07-02 02:58:01.417 -05:00 [DBG] The index {'ShoppingListId'} was not created on entity type 'ShoppingListItem' as the properties are already covered by the index {'ShoppingListId', 'IngredientId'}.
+2025-07-02 02:58:01.446 -05:00 [WRN] The 'RecipeDifficulty' property 'Difficulty' on entity type 'Recipe' is configured with a database-generated default, but has no configured sentinel value. The database-generated default will always be used for inserts when the property has the value '0', since this is the CLR default for the 'RecipeDifficulty' type. Consider using a nullable type, using a nullable backing field, or setting the sentinel value for the property to ensure the database default is used when, and only when, appropriate. See https://aka.ms/efcore-docs-default-values for more information.
+2025-07-02 02:58:02.234 -05:00 [DBG] 'PantryProDbContext' disposed.
+2025-07-02 02:58:23.285 -05:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-07-02 02:58:23.768 -05:00 [DBG] The index {'UserId'} was not created on entity type 'UserAchievement' as the properties are already covered by the index {'UserId', 'AchievementId'}.
+2025-07-02 02:58:23.772 -05:00 [DBG] The index {'UserId'} was not created on entity type 'UserIngredient' as the properties are already covered by the index {'UserId', 'IngredientId', 'ExpirationDate'}.
+2025-07-02 02:58:23.774 -05:00 [DBG] The index {'MealPlanId'} was not created on entity type 'MealPlanRecipe' as the properties are already covered by the index {'MealPlanId', 'ScheduledDate', 'MealType'}.
+2025-07-02 02:58:23.775 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeIngredient' as the properties are already covered by the index {'RecipeId', 'IngredientId'}.
+2025-07-02 02:58:23.776 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeRating' as the properties are already covered by the index {'RecipeId', 'UserId'}.
+2025-07-02 02:58:23.778 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeStep' as the properties are already covered by the index {'RecipeId', 'StepNumber'}.
+2025-07-02 02:58:23.779 -05:00 [DBG] The index {'ShoppingListId'} was not created on entity type 'ShoppingListItem' as the properties are already covered by the index {'ShoppingListId', 'IngredientId'}.
+2025-07-02 02:58:23.899 -05:00 [WRN] The 'RecipeDifficulty' property 'Difficulty' on entity type 'Recipe' is configured with a database-generated default, but has no configured sentinel value. The database-generated default will always be used for inserts when the property has the value '0', since this is the CLR default for the 'RecipeDifficulty' type. Consider using a nullable type, using a nullable backing field, or setting the sentinel value for the property to ensure the database default is used when, and only when, appropriate. See https://aka.ms/efcore-docs-default-values for more information.
+2025-07-02 02:58:24.053 -05:00 [DBG] Entity Framework Core 8.0.13 initialized 'PantryProDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.3' with options: ServerVersion=8.0.22-mysql 
+2025-07-02 02:58:24.069 -05:00 [DBG] Creating DbConnection.
+2025-07-02 02:58:24.075 -05:00 [DBG] Created DbConnection. (3ms).
+2025-07-02 02:58:24.080 -05:00 [DBG] Migrating using database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:58:24.084 -05:00 [DBG] Creating DbConnection.
+2025-07-02 02:58:24.085 -05:00 [DBG] Created DbConnection. (0ms).
+2025-07-02 02:58:24.088 -05:00 [DBG] Opening connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:58:25.132 -05:00 [DBG] Opened connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:58:25.322 -05:00 [DBG] Disposing connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:58:25.328 -05:00 [DBG] Disposed connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (2ms).
+2025-07-02 02:58:25.335 -05:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-07-02 02:58:25.341 -05:00 [DBG] Created DbCommand for 'ExecuteScalar' (4ms).
+2025-07-02 02:58:25.344 -05:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (10ms).
+2025-07-02 02:58:25.347 -05:00 [DBG] Opening connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:58:26.273 -05:00 [DBG] Opened connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:58:26.281 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='b8ca9ilqc17bnz5732mu' AND TABLE_NAME='__EFMigrationsHistory';
+2025-07-02 02:58:26.483 -05:00 [INF] Executed DbCommand (185ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='b8ca9ilqc17bnz5732mu' AND TABLE_NAME='__EFMigrationsHistory';
+2025-07-02 02:58:26.489 -05:00 [DBG] Closing connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:58:26.494 -05:00 [DBG] Closed connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (4ms).
+2025-07-02 02:58:26.504 -05:00 [DBG] Creating DbConnection.
+2025-07-02 02:58:26.505 -05:00 [DBG] Created DbConnection. (1ms).
+2025-07-02 02:58:26.506 -05:00 [DBG] Opening connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:58:27.437 -05:00 [DBG] Opened connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:58:27.608 -05:00 [DBG] Disposing connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:58:27.609 -05:00 [DBG] Disposed connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (1ms).
+2025-07-02 02:58:27.612 -05:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-07-02 02:58:27.613 -05:00 [DBG] Created DbCommand for 'ExecuteScalar' (1ms).
+2025-07-02 02:58:27.614 -05:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (2ms).
+2025-07-02 02:58:27.615 -05:00 [DBG] Opening connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:58:27.812 -05:00 [DBG] Opened connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:58:27.814 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='b8ca9ilqc17bnz5732mu' AND TABLE_NAME='__EFMigrationsHistory';
+2025-07-02 02:58:27.987 -05:00 [INF] Executed DbCommand (173ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='b8ca9ilqc17bnz5732mu' AND TABLE_NAME='__EFMigrationsHistory';
+2025-07-02 02:58:27.993 -05:00 [DBG] Closing connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:58:27.997 -05:00 [DBG] Closed connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (3ms).
+2025-07-02 02:58:28.021 -05:00 [DBG] Opening connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:58:28.190 -05:00 [DBG] Opened connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:58:28.192 -05:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-07-02 02:58:28.193 -05:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2025-07-02 02:58:28.195 -05:00 [DBG] Initialized DbCommand for 'ExecuteReader' (2ms).
+2025-07-02 02:58:28.197 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2025-07-02 02:58:28.369 -05:00 [INF] Executed DbCommand (173ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2025-07-02 02:58:28.374 -05:00 [DBG] Closing data reader to 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:58:28.377 -05:00 [DBG] A data reader for 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' is being disposed after spending 3ms reading results.
+2025-07-02 02:58:28.380 -05:00 [DBG] Closing connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:58:28.381 -05:00 [DBG] Closed connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (0ms).
+2025-07-02 02:58:28.393 -05:00 [INF] Applying migration '20250702075453_SecondMigration'.
+2025-07-02 02:58:28.532 -05:00 [DBG] Opening connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:58:28.720 -05:00 [DBG] Opened connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:58:28.724 -05:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2025-07-02 02:58:29.062 -05:00 [DBG] Began transaction with isolation level 'Unspecified'.
+2025-07-02 02:58:29.065 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 02:58:29.066 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2025-07-02 02:58:29.068 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (3ms).
+2025-07-02 02:58:29.070 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP PROCEDURE IF EXISTS `POMELO_BEFORE_DROP_PRIMARY_KEY`;
+CREATE PROCEDURE `POMELO_BEFORE_DROP_PRIMARY_KEY`(IN `SCHEMA_NAME_ARGUMENT` VARCHAR(255), IN `TABLE_NAME_ARGUMENT` VARCHAR(255))
+BEGIN
+	DECLARE HAS_AUTO_INCREMENT_ID TINYINT(1);
+	DECLARE PRIMARY_KEY_COLUMN_NAME VARCHAR(255);
+	DECLARE PRIMARY_KEY_TYPE VARCHAR(255);
+	DECLARE SQL_EXP VARCHAR(1000);
+	SELECT COUNT(*)
+		INTO HAS_AUTO_INCREMENT_ID
+		FROM `information_schema`.`COLUMNS`
+		WHERE `TABLE_SCHEMA` = (SELECT IFNULL(SCHEMA_NAME_ARGUMENT, SCHEMA()))
+			AND `TABLE_NAME` = TABLE_NAME_ARGUMENT
+			AND `Extra` = 'auto_increment'
+			AND `COLUMN_KEY` = 'PRI'
+			LIMIT 1;
+	IF HAS_AUTO_INCREMENT_ID THEN
+		SELECT `COLUMN_TYPE`
+			INTO PRIMARY_KEY_TYPE
+			FROM `information_schema`.`COLUMNS`
+			WHERE `TABLE_SCHEMA` = (SELECT IFNULL(SCHEMA_NAME_ARGUMENT, SCHEMA()))
+				AND `TABLE_NAME` = TABLE_NAME_ARGUMENT
+				AND `COLUMN_KEY` = 'PRI'
+			LIMIT 1;
+		SELECT `COLUMN_NAME`
+			INTO PRIMARY_KEY_COLUMN_NAME
+			FROM `information_schema`.`COLUMNS`
+			WHERE `TABLE_SCHEMA` = (SELECT IFNULL(SCHEMA_NAME_ARGUMENT, SCHEMA()))
+				AND `TABLE_NAME` = TABLE_NAME_ARGUMENT
+				AND `COLUMN_KEY` = 'PRI'
+			LIMIT 1;
+		SET SQL_EXP = CONCAT('ALTER TABLE `', (SELECT IFNULL(SCHEMA_NAME_ARGUMENT, SCHEMA())), '`.`', TABLE_NAME_ARGUMENT, '` MODIFY COLUMN `', PRIMARY_KEY_COLUMN_NAME, '` ', PRIMARY_KEY_TYPE, ' NOT NULL;');
+		SET @SQL_EXP = SQL_EXP;
+		PREPARE SQL_EXP_EXECUTE FROM @SQL_EXP;
+		EXECUTE SQL_EXP_EXECUTE;
+		DEALLOCATE PREPARE SQL_EXP_EXECUTE;
+	END IF;
+END;
+2025-07-02 02:58:29.257 -05:00 [INF] Executed DbCommand (187ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP PROCEDURE IF EXISTS `POMELO_BEFORE_DROP_PRIMARY_KEY`;
+CREATE PROCEDURE `POMELO_BEFORE_DROP_PRIMARY_KEY`(IN `SCHEMA_NAME_ARGUMENT` VARCHAR(255), IN `TABLE_NAME_ARGUMENT` VARCHAR(255))
+BEGIN
+	DECLARE HAS_AUTO_INCREMENT_ID TINYINT(1);
+	DECLARE PRIMARY_KEY_COLUMN_NAME VARCHAR(255);
+	DECLARE PRIMARY_KEY_TYPE VARCHAR(255);
+	DECLARE SQL_EXP VARCHAR(1000);
+	SELECT COUNT(*)
+		INTO HAS_AUTO_INCREMENT_ID
+		FROM `information_schema`.`COLUMNS`
+		WHERE `TABLE_SCHEMA` = (SELECT IFNULL(SCHEMA_NAME_ARGUMENT, SCHEMA()))
+			AND `TABLE_NAME` = TABLE_NAME_ARGUMENT
+			AND `Extra` = 'auto_increment'
+			AND `COLUMN_KEY` = 'PRI'
+			LIMIT 1;
+	IF HAS_AUTO_INCREMENT_ID THEN
+		SELECT `COLUMN_TYPE`
+			INTO PRIMARY_KEY_TYPE
+			FROM `information_schema`.`COLUMNS`
+			WHERE `TABLE_SCHEMA` = (SELECT IFNULL(SCHEMA_NAME_ARGUMENT, SCHEMA()))
+				AND `TABLE_NAME` = TABLE_NAME_ARGUMENT
+				AND `COLUMN_KEY` = 'PRI'
+			LIMIT 1;
+		SELECT `COLUMN_NAME`
+			INTO PRIMARY_KEY_COLUMN_NAME
+			FROM `information_schema`.`COLUMNS`
+			WHERE `TABLE_SCHEMA` = (SELECT IFNULL(SCHEMA_NAME_ARGUMENT, SCHEMA()))
+				AND `TABLE_NAME` = TABLE_NAME_ARGUMENT
+				AND `COLUMN_KEY` = 'PRI'
+			LIMIT 1;
+		SET SQL_EXP = CONCAT('ALTER TABLE `', (SELECT IFNULL(SCHEMA_NAME_ARGUMENT, SCHEMA())), '`.`', TABLE_NAME_ARGUMENT, '` MODIFY COLUMN `', PRIMARY_KEY_COLUMN_NAME, '` ', PRIMARY_KEY_TYPE, ' NOT NULL;');
+		SET @SQL_EXP = SQL_EXP;
+		PREPARE SQL_EXP_EXECUTE FROM @SQL_EXP;
+		EXECUTE SQL_EXP_EXECUTE;
+		DEALLOCATE PREPARE SQL_EXP_EXECUTE;
+	END IF;
+END;
+2025-07-02 02:58:29.262 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 02:58:29.263 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2025-07-02 02:58:29.264 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2025-07-02 02:58:29.267 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP PROCEDURE IF EXISTS `POMELO_AFTER_ADD_PRIMARY_KEY`;
+CREATE PROCEDURE `POMELO_AFTER_ADD_PRIMARY_KEY`(IN `SCHEMA_NAME_ARGUMENT` VARCHAR(255), IN `TABLE_NAME_ARGUMENT` VARCHAR(255), IN `COLUMN_NAME_ARGUMENT` VARCHAR(255))
+BEGIN
+	DECLARE HAS_AUTO_INCREMENT_ID INT(11);
+	DECLARE PRIMARY_KEY_COLUMN_NAME VARCHAR(255);
+	DECLARE PRIMARY_KEY_TYPE VARCHAR(255);
+	DECLARE SQL_EXP VARCHAR(1000);
+	SELECT COUNT(*)
+		INTO HAS_AUTO_INCREMENT_ID
+		FROM `information_schema`.`COLUMNS`
+		WHERE `TABLE_SCHEMA` = (SELECT IFNULL(SCHEMA_NAME_ARGUMENT, SCHEMA()))
+			AND `TABLE_NAME` = TABLE_NAME_ARGUMENT
+			AND `COLUMN_NAME` = COLUMN_NAME_ARGUMENT
+			AND `COLUMN_TYPE` LIKE '%int%'
+			AND `COLUMN_KEY` = 'PRI';
+	IF HAS_AUTO_INCREMENT_ID THEN
+		SELECT `COLUMN_TYPE`
+			INTO PRIMARY_KEY_TYPE
+			FROM `information_schema`.`COLUMNS`
+			WHERE `TABLE_SCHEMA` = (SELECT IFNULL(SCHEMA_NAME_ARGUMENT, SCHEMA()))
+				AND `TABLE_NAME` = TABLE_NAME_ARGUMENT
+				AND `COLUMN_NAME` = COLUMN_NAME_ARGUMENT
+				AND `COLUMN_TYPE` LIKE '%int%'
+				AND `COLUMN_KEY` = 'PRI';
+		SELECT `COLUMN_NAME`
+			INTO PRIMARY_KEY_COLUMN_NAME
+			FROM `information_schema`.`COLUMNS`
+			WHERE `TABLE_SCHEMA` = (SELECT IFNULL(SCHEMA_NAME_ARGUMENT, SCHEMA()))
+				AND `TABLE_NAME` = TABLE_NAME_ARGUMENT
+				AND `COLUMN_NAME` = COLUMN_NAME_ARGUMENT
+				AND `COLUMN_TYPE` LIKE '%int%'
+				AND `COLUMN_KEY` = 'PRI';
+		SET SQL_EXP = CONCAT('ALTER TABLE `', (SELECT IFNULL(SCHEMA_NAME_ARGUMENT, SCHEMA())), '`.`', TABLE_NAME_ARGUMENT, '` MODIFY COLUMN `', PRIMARY_KEY_COLUMN_NAME, '` ', PRIMARY_KEY_TYPE, ' NOT NULL AUTO_INCREMENT;');
+		SET @SQL_EXP = SQL_EXP;
+		PREPARE SQL_EXP_EXECUTE FROM @SQL_EXP;
+		EXECUTE SQL_EXP_EXECUTE;
+		DEALLOCATE PREPARE SQL_EXP_EXECUTE;
+	END IF;
+END;
+2025-07-02 02:58:29.448 -05:00 [INF] Executed DbCommand (181ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP PROCEDURE IF EXISTS `POMELO_AFTER_ADD_PRIMARY_KEY`;
+CREATE PROCEDURE `POMELO_AFTER_ADD_PRIMARY_KEY`(IN `SCHEMA_NAME_ARGUMENT` VARCHAR(255), IN `TABLE_NAME_ARGUMENT` VARCHAR(255), IN `COLUMN_NAME_ARGUMENT` VARCHAR(255))
+BEGIN
+	DECLARE HAS_AUTO_INCREMENT_ID INT(11);
+	DECLARE PRIMARY_KEY_COLUMN_NAME VARCHAR(255);
+	DECLARE PRIMARY_KEY_TYPE VARCHAR(255);
+	DECLARE SQL_EXP VARCHAR(1000);
+	SELECT COUNT(*)
+		INTO HAS_AUTO_INCREMENT_ID
+		FROM `information_schema`.`COLUMNS`
+		WHERE `TABLE_SCHEMA` = (SELECT IFNULL(SCHEMA_NAME_ARGUMENT, SCHEMA()))
+			AND `TABLE_NAME` = TABLE_NAME_ARGUMENT
+			AND `COLUMN_NAME` = COLUMN_NAME_ARGUMENT
+			AND `COLUMN_TYPE` LIKE '%int%'
+			AND `COLUMN_KEY` = 'PRI';
+	IF HAS_AUTO_INCREMENT_ID THEN
+		SELECT `COLUMN_TYPE`
+			INTO PRIMARY_KEY_TYPE
+			FROM `information_schema`.`COLUMNS`
+			WHERE `TABLE_SCHEMA` = (SELECT IFNULL(SCHEMA_NAME_ARGUMENT, SCHEMA()))
+				AND `TABLE_NAME` = TABLE_NAME_ARGUMENT
+				AND `COLUMN_NAME` = COLUMN_NAME_ARGUMENT
+				AND `COLUMN_TYPE` LIKE '%int%'
+				AND `COLUMN_KEY` = 'PRI';
+		SELECT `COLUMN_NAME`
+			INTO PRIMARY_KEY_COLUMN_NAME
+			FROM `information_schema`.`COLUMNS`
+			WHERE `TABLE_SCHEMA` = (SELECT IFNULL(SCHEMA_NAME_ARGUMENT, SCHEMA()))
+				AND `TABLE_NAME` = TABLE_NAME_ARGUMENT
+				AND `COLUMN_NAME` = COLUMN_NAME_ARGUMENT
+				AND `COLUMN_TYPE` LIKE '%int%'
+				AND `COLUMN_KEY` = 'PRI';
+		SET SQL_EXP = CONCAT('ALTER TABLE `', (SELECT IFNULL(SCHEMA_NAME_ARGUMENT, SCHEMA())), '`.`', TABLE_NAME_ARGUMENT, '` MODIFY COLUMN `', PRIMARY_KEY_COLUMN_NAME, '` ', PRIMARY_KEY_TYPE, ' NOT NULL AUTO_INCREMENT;');
+		SET @SQL_EXP = SQL_EXP;
+		PREPARE SQL_EXP_EXECUTE FROM @SQL_EXP;
+		EXECUTE SQL_EXP_EXECUTE;
+		DEALLOCATE PREPARE SQL_EXP_EXECUTE;
+	END IF;
+END;
+2025-07-02 02:58:29.452 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 02:58:29.453 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2025-07-02 02:58:29.454 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2025-07-02 02:58:29.456 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE `Ingredients` DROP FOREIGN KEY `FK_Ingredients_Users_UserId`;
+2025-07-02 02:58:29.635 -05:00 [ERR] Failed executing DbCommand (178ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE `Ingredients` DROP FOREIGN KEY `FK_Ingredients_Users_UserId`;
+2025-07-02 02:58:29.809 -05:00 [DBG] Disposing transaction.
+2025-07-02 02:58:29.812 -05:00 [DBG] Closing connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:58:29.813 -05:00 [DBG] Closed connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (1ms).
+2025-07-02 02:58:29.816 -05:00 [DBG] 'PantryProDbContext' disposed.
+2025-07-02 02:58:29.820 -05:00 [DBG] Disposing connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 02:58:29.821 -05:00 [DBG] Disposed connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (0ms).
+2025-07-02 03:03:55.747 -05:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-07-02 03:03:56.240 -05:00 [DBG] The index {'UserId'} was not created on entity type 'UserAchievement' as the properties are already covered by the index {'UserId', 'AchievementId'}.
+2025-07-02 03:03:56.243 -05:00 [DBG] The index {'UserId'} was not created on entity type 'UserIngredient' as the properties are already covered by the index {'UserId', 'IngredientId', 'ExpirationDate'}.
+2025-07-02 03:03:56.245 -05:00 [DBG] The index {'MealPlanId'} was not created on entity type 'MealPlanRecipe' as the properties are already covered by the index {'MealPlanId', 'ScheduledDate', 'MealType'}.
+2025-07-02 03:03:56.247 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeIngredient' as the properties are already covered by the index {'RecipeId', 'IngredientId'}.
+2025-07-02 03:03:56.249 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeRating' as the properties are already covered by the index {'RecipeId', 'UserId'}.
+2025-07-02 03:03:56.251 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeStep' as the properties are already covered by the index {'RecipeId', 'StepNumber'}.
+2025-07-02 03:03:56.254 -05:00 [DBG] The index {'ShoppingListId'} was not created on entity type 'ShoppingListItem' as the properties are already covered by the index {'ShoppingListId', 'IngredientId'}.
+2025-07-02 03:03:56.421 -05:00 [WRN] The 'RecipeDifficulty' property 'Difficulty' on entity type 'Recipe' is configured with a database-generated default, but has no configured sentinel value. The database-generated default will always be used for inserts when the property has the value '0', since this is the CLR default for the 'RecipeDifficulty' type. Consider using a nullable type, using a nullable backing field, or setting the sentinel value for the property to ensure the database default is used when, and only when, appropriate. See https://aka.ms/efcore-docs-default-values for more information.
+2025-07-02 03:03:56.566 -05:00 [DBG] Entity Framework Core 8.0.13 initialized 'PantryProDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.3' with options: ServerVersion=8.0.22-mysql 
+2025-07-02 03:03:56.650 -05:00 [DBG] The index {'UserId'} was not created on entity type 'UserAchievement' as the properties are already covered by the index {'UserId', 'AchievementId'}.
+2025-07-02 03:03:56.652 -05:00 [DBG] The index {'UserId'} was not created on entity type 'UserIngredient' as the properties are already covered by the index {'UserId', 'IngredientId', 'ExpirationDate'}.
+2025-07-02 03:03:56.653 -05:00 [DBG] The index {'MealPlanId'} was not created on entity type 'MealPlanRecipe' as the properties are already covered by the index {'MealPlanId', 'ScheduledDate', 'MealType'}.
+2025-07-02 03:03:56.657 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeIngredient' as the properties are already covered by the index {'RecipeId', 'IngredientId'}.
+2025-07-02 03:03:56.659 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeRating' as the properties are already covered by the index {'RecipeId', 'UserId'}.
+2025-07-02 03:03:56.660 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeStep' as the properties are already covered by the index {'RecipeId', 'StepNumber'}.
+2025-07-02 03:03:56.661 -05:00 [DBG] The index {'ShoppingListId'} was not created on entity type 'ShoppingListItem' as the properties are already covered by the index {'ShoppingListId', 'IngredientId'}.
+2025-07-02 03:03:56.699 -05:00 [WRN] The 'RecipeDifficulty' property 'Difficulty' on entity type 'Recipe' is configured with a database-generated default, but has no configured sentinel value. The database-generated default will always be used for inserts when the property has the value '0', since this is the CLR default for the 'RecipeDifficulty' type. Consider using a nullable type, using a nullable backing field, or setting the sentinel value for the property to ensure the database default is used when, and only when, appropriate. See https://aka.ms/efcore-docs-default-values for more information.
+2025-07-02 03:03:57.252 -05:00 [DBG] 'PantryProDbContext' disposed.
+2025-07-02 03:04:12.364 -05:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-07-02 03:04:12.849 -05:00 [DBG] The index {'UserId'} was not created on entity type 'UserAchievement' as the properties are already covered by the index {'UserId', 'AchievementId'}.
+2025-07-02 03:04:12.853 -05:00 [DBG] The index {'UserId'} was not created on entity type 'UserIngredient' as the properties are already covered by the index {'UserId', 'IngredientId', 'ExpirationDate'}.
+2025-07-02 03:04:12.854 -05:00 [DBG] The index {'MealPlanId'} was not created on entity type 'MealPlanRecipe' as the properties are already covered by the index {'MealPlanId', 'ScheduledDate', 'MealType'}.
+2025-07-02 03:04:12.856 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeIngredient' as the properties are already covered by the index {'RecipeId', 'IngredientId'}.
+2025-07-02 03:04:12.858 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeRating' as the properties are already covered by the index {'RecipeId', 'UserId'}.
+2025-07-02 03:04:12.859 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeStep' as the properties are already covered by the index {'RecipeId', 'StepNumber'}.
+2025-07-02 03:04:12.861 -05:00 [DBG] The index {'ShoppingListId'} was not created on entity type 'ShoppingListItem' as the properties are already covered by the index {'ShoppingListId', 'IngredientId'}.
+2025-07-02 03:04:12.988 -05:00 [WRN] The 'RecipeDifficulty' property 'Difficulty' on entity type 'Recipe' is configured with a database-generated default, but has no configured sentinel value. The database-generated default will always be used for inserts when the property has the value '0', since this is the CLR default for the 'RecipeDifficulty' type. Consider using a nullable type, using a nullable backing field, or setting the sentinel value for the property to ensure the database default is used when, and only when, appropriate. See https://aka.ms/efcore-docs-default-values for more information.
+2025-07-02 03:04:13.134 -05:00 [DBG] Entity Framework Core 8.0.13 initialized 'PantryProDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.3' with options: ServerVersion=8.0.22-mysql 
+2025-07-02 03:04:13.153 -05:00 [DBG] Creating DbConnection.
+2025-07-02 03:04:13.160 -05:00 [DBG] Created DbConnection. (3ms).
+2025-07-02 03:04:13.164 -05:00 [DBG] Migrating using database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:04:13.169 -05:00 [DBG] Creating DbConnection.
+2025-07-02 03:04:13.170 -05:00 [DBG] Created DbConnection. (0ms).
+2025-07-02 03:04:13.173 -05:00 [DBG] Opening connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:04:14.680 -05:00 [DBG] Opened connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:04:14.940 -05:00 [DBG] Disposing connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:04:14.958 -05:00 [DBG] Disposed connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (8ms).
+2025-07-02 03:04:14.966 -05:00 [DBG] Creating DbConnection.
+2025-07-02 03:04:14.967 -05:00 [DBG] Created DbConnection. (1ms).
+2025-07-02 03:04:14.969 -05:00 [DBG] Opening connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:04:15.853 -05:00 [DBG] Opened connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:04:16.044 -05:00 [DBG] Disposing connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:04:16.055 -05:00 [DBG] Disposed connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (10ms).
+2025-07-02 03:04:16.233 -05:00 [DBG] The index {'UserId'} was not created on entity type 'UserAchievement' as the properties are already covered by the index {'UserId', 'AchievementId'}.
+2025-07-02 03:04:16.240 -05:00 [DBG] The index {'UserId'} was not created on entity type 'UserIngredient' as the properties are already covered by the index {'UserId', 'IngredientId', 'ExpirationDate'}.
+2025-07-02 03:04:16.249 -05:00 [DBG] The index {'MealPlanId'} was not created on entity type 'MealPlanRecipe' as the properties are already covered by the index {'MealPlanId', 'ScheduledDate', 'MealType'}.
+2025-07-02 03:04:16.252 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeIngredient' as the properties are already covered by the index {'RecipeId', 'IngredientId'}.
+2025-07-02 03:04:16.256 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeRating' as the properties are already covered by the index {'RecipeId', 'UserId'}.
+2025-07-02 03:04:16.261 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeStep' as the properties are already covered by the index {'RecipeId', 'StepNumber'}.
+2025-07-02 03:04:16.264 -05:00 [DBG] The index {'ShoppingListId'} was not created on entity type 'ShoppingListItem' as the properties are already covered by the index {'ShoppingListId', 'IngredientId'}.
+2025-07-02 03:04:16.304 -05:00 [WRN] The 'RecipeDifficulty' property 'Difficulty' on entity type 'Recipe' is configured with a database-generated default, but has no configured sentinel value. The database-generated default will always be used for inserts when the property has the value '0', since this is the CLR default for the 'RecipeDifficulty' type. Consider using a nullable type, using a nullable backing field, or setting the sentinel value for the property to ensure the database default is used when, and only when, appropriate. See https://aka.ms/efcore-docs-default-values for more information.
+2025-07-02 03:04:16.368 -05:00 [DBG] Creating DbConnection.
+2025-07-02 03:04:16.375 -05:00 [DBG] Created DbConnection. (6ms).
+2025-07-02 03:04:16.379 -05:00 [DBG] Opening connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:04:17.296 -05:00 [DBG] Opened connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:04:17.306 -05:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2025-07-02 03:04:17.623 -05:00 [DBG] Began transaction with isolation level 'Unspecified'.
+2025-07-02 03:04:17.627 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:04:17.634 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (3ms).
+2025-07-02 03:04:17.663 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (35ms).
+2025-07-02 03:04:17.670 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE DATABASE `b8ca9ilqc17bnz5732mu`;
+2025-07-02 03:04:17.926 -05:00 [INF] Executed DbCommand (246ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE DATABASE `b8ca9ilqc17bnz5732mu`;
+2025-07-02 03:04:17.932 -05:00 [DBG] Committing transaction.
+2025-07-02 03:04:18.205 -05:00 [DBG] Committed transaction.
+2025-07-02 03:04:18.211 -05:00 [DBG] Disposing transaction.
+2025-07-02 03:04:18.213 -05:00 [DBG] Closing connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:04:18.217 -05:00 [DBG] Closed connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (4ms).
+2025-07-02 03:04:18.227 -05:00 [DBG] Disposing connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:04:18.228 -05:00 [DBG] Disposed connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (1ms).
+2025-07-02 03:04:18.231 -05:00 [DBG] Creating DbConnection.
+2025-07-02 03:04:18.236 -05:00 [DBG] Created DbConnection. (4ms).
+2025-07-02 03:04:18.241 -05:00 [DBG] Opening connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:04:19.461 -05:00 [DBG] Opened connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:04:19.641 -05:00 [DBG] Disposing connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:04:19.643 -05:00 [DBG] Disposed connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (2ms).
+2025-07-02 03:04:19.717 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:04:19.721 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (3ms).
+2025-07-02 03:04:19.724 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (6ms).
+2025-07-02 03:04:19.726 -05:00 [DBG] Opening connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:04:21.061 -05:00 [DBG] Opened connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:04:21.064 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `__EFMigrationsHistory` (
+    `MigrationId` varchar(150) CHARACTER SET utf8mb4 NOT NULL,
+    `ProductVersion` varchar(32) CHARACTER SET utf8mb4 NOT NULL,
+    CONSTRAINT `PK___EFMigrationsHistory` PRIMARY KEY (`MigrationId`)
+) CHARACTER SET=utf8mb4;
+2025-07-02 03:04:21.368 -05:00 [INF] Executed DbCommand (304ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `__EFMigrationsHistory` (
+    `MigrationId` varchar(150) CHARACTER SET utf8mb4 NOT NULL,
+    `ProductVersion` varchar(32) CHARACTER SET utf8mb4 NOT NULL,
+    CONSTRAINT `PK___EFMigrationsHistory` PRIMARY KEY (`MigrationId`)
+) CHARACTER SET=utf8mb4;
+2025-07-02 03:04:21.375 -05:00 [DBG] Closing connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:04:21.383 -05:00 [DBG] Closed connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (8ms).
+2025-07-02 03:04:21.391 -05:00 [DBG] Creating DbConnection.
+2025-07-02 03:04:21.393 -05:00 [DBG] Created DbConnection. (2ms).
+2025-07-02 03:04:21.395 -05:00 [DBG] Opening connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:04:22.493 -05:00 [DBG] Opened connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:04:22.693 -05:00 [DBG] Disposing connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:04:22.695 -05:00 [DBG] Disposed connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (2ms).
+2025-07-02 03:04:22.700 -05:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-07-02 03:04:22.701 -05:00 [DBG] Created DbCommand for 'ExecuteScalar' (1ms).
+2025-07-02 03:04:22.705 -05:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (4ms).
+2025-07-02 03:04:22.708 -05:00 [DBG] Opening connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:04:22.926 -05:00 [DBG] Opened connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:04:22.929 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='b8ca9ilqc17bnz5732mu' AND TABLE_NAME='__EFMigrationsHistory';
+2025-07-02 03:04:23.134 -05:00 [INF] Executed DbCommand (206ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='b8ca9ilqc17bnz5732mu' AND TABLE_NAME='__EFMigrationsHistory';
+2025-07-02 03:04:23.139 -05:00 [DBG] Closing connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:04:23.142 -05:00 [DBG] Closed connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (2ms).
+2025-07-02 03:04:23.150 -05:00 [DBG] Opening connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:04:23.312 -05:00 [DBG] Opened connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:04:23.315 -05:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-07-02 03:04:23.317 -05:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2025-07-02 03:04:23.320 -05:00 [DBG] Initialized DbCommand for 'ExecuteReader' (4ms).
+2025-07-02 03:04:23.324 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2025-07-02 03:04:23.501 -05:00 [INF] Executed DbCommand (177ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2025-07-02 03:04:23.514 -05:00 [DBG] Closing data reader to 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:04:23.520 -05:00 [DBG] A data reader for 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' is being disposed after spending 8ms reading results.
+2025-07-02 03:04:23.522 -05:00 [DBG] Closing connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:04:23.524 -05:00 [DBG] Closed connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (1ms).
+2025-07-02 03:04:23.536 -05:00 [INF] Applying migration '20250702080357_NombreDeTuMigracion'.
+2025-07-02 03:04:23.620 -05:00 [DBG] Opening connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:04:23.785 -05:00 [DBG] Opened connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:04:23.789 -05:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2025-07-02 03:04:24.112 -05:00 [DBG] Began transaction with isolation level 'Unspecified'.
+2025-07-02 03:04:24.115 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:04:24.118 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2025-07-02 03:04:24.121 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (6ms).
+2025-07-02 03:04:24.124 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER DATABASE CHARACTER SET utf8mb4;
+2025-07-02 03:04:24.295 -05:00 [INF] Executed DbCommand (171ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER DATABASE CHARACTER SET utf8mb4;
+2025-07-02 03:04:24.298 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:04:24.300 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2025-07-02 03:04:24.303 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (4ms).
+2025-07-02 03:04:24.304 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Achievements` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Name` varchar(200) CHARACTER SET utf8mb4 NOT NULL,
+    `Description` varchar(1000) CHARACTER SET utf8mb4 NOT NULL,
+    `ImageUrl` varchar(255) CHARACTER SET utf8mb4 NULL,
+    `BadgeColor` varchar(50) CHARACTER SET utf8mb4 NULL,
+    `Points` int NOT NULL,
+    `Type` int NOT NULL,
+    `Requirements` varchar(500) CHARACTER SET utf8mb4 NULL,
+    `IsActive` tinyint(1) NOT NULL DEFAULT TRUE,
+    `CreatedAt` datetime(6) NOT NULL DEFAULT GETUTCDATE(),
+    `UpdatedAt` datetime(6) NULL,
+    CONSTRAINT `PK_Achievements` PRIMARY KEY (`Id`)
+) CHARACTER SET=utf8mb4;
+2025-07-02 03:04:24.464 -05:00 [ERR] Failed executing DbCommand (159ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Achievements` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Name` varchar(200) CHARACTER SET utf8mb4 NOT NULL,
+    `Description` varchar(1000) CHARACTER SET utf8mb4 NOT NULL,
+    `ImageUrl` varchar(255) CHARACTER SET utf8mb4 NULL,
+    `BadgeColor` varchar(50) CHARACTER SET utf8mb4 NULL,
+    `Points` int NOT NULL,
+    `Type` int NOT NULL,
+    `Requirements` varchar(500) CHARACTER SET utf8mb4 NULL,
+    `IsActive` tinyint(1) NOT NULL DEFAULT TRUE,
+    `CreatedAt` datetime(6) NOT NULL DEFAULT GETUTCDATE(),
+    `UpdatedAt` datetime(6) NULL,
+    CONSTRAINT `PK_Achievements` PRIMARY KEY (`Id`)
+) CHARACTER SET=utf8mb4;
+2025-07-02 03:04:24.627 -05:00 [DBG] Disposing transaction.
+2025-07-02 03:04:24.629 -05:00 [DBG] Closing connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:04:24.630 -05:00 [DBG] Closed connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (1ms).
+2025-07-02 03:04:24.634 -05:00 [DBG] 'PantryProDbContext' disposed.
+2025-07-02 03:04:24.636 -05:00 [DBG] Disposing connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:04:24.637 -05:00 [DBG] Disposed connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (0ms).
+2025-07-02 03:06:06.342 -05:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-07-02 03:06:06.978 -05:00 [DBG] The index {'UserId'} was not created on entity type 'UserAchievement' as the properties are already covered by the index {'UserId', 'AchievementId'}.
+2025-07-02 03:06:06.982 -05:00 [DBG] The index {'UserId'} was not created on entity type 'UserIngredient' as the properties are already covered by the index {'UserId', 'IngredientId', 'ExpirationDate'}.
+2025-07-02 03:06:06.984 -05:00 [DBG] The index {'MealPlanId'} was not created on entity type 'MealPlanRecipe' as the properties are already covered by the index {'MealPlanId', 'ScheduledDate', 'MealType'}.
+2025-07-02 03:06:06.988 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeIngredient' as the properties are already covered by the index {'RecipeId', 'IngredientId'}.
+2025-07-02 03:06:06.991 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeRating' as the properties are already covered by the index {'RecipeId', 'UserId'}.
+2025-07-02 03:06:06.994 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeStep' as the properties are already covered by the index {'RecipeId', 'StepNumber'}.
+2025-07-02 03:06:06.996 -05:00 [DBG] The index {'ShoppingListId'} was not created on entity type 'ShoppingListItem' as the properties are already covered by the index {'ShoppingListId', 'IngredientId'}.
+2025-07-02 03:06:07.155 -05:00 [WRN] The 'RecipeDifficulty' property 'Difficulty' on entity type 'Recipe' is configured with a database-generated default, but has no configured sentinel value. The database-generated default will always be used for inserts when the property has the value '0', since this is the CLR default for the 'RecipeDifficulty' type. Consider using a nullable type, using a nullable backing field, or setting the sentinel value for the property to ensure the database default is used when, and only when, appropriate. See https://aka.ms/efcore-docs-default-values for more information.
+2025-07-02 03:06:07.300 -05:00 [DBG] Entity Framework Core 8.0.13 initialized 'PantryProDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.3' with options: ServerVersion=8.0.22-mysql 
+2025-07-02 03:06:07.393 -05:00 [DBG] The index {'UserId'} was not created on entity type 'UserAchievement' as the properties are already covered by the index {'UserId', 'AchievementId'}.
+2025-07-02 03:06:07.395 -05:00 [DBG] The index {'UserId'} was not created on entity type 'UserIngredient' as the properties are already covered by the index {'UserId', 'IngredientId', 'ExpirationDate'}.
+2025-07-02 03:06:07.396 -05:00 [DBG] The index {'MealPlanId'} was not created on entity type 'MealPlanRecipe' as the properties are already covered by the index {'MealPlanId', 'ScheduledDate', 'MealType'}.
+2025-07-02 03:06:07.398 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeIngredient' as the properties are already covered by the index {'RecipeId', 'IngredientId'}.
+2025-07-02 03:06:07.400 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeRating' as the properties are already covered by the index {'RecipeId', 'UserId'}.
+2025-07-02 03:06:07.403 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeStep' as the properties are already covered by the index {'RecipeId', 'StepNumber'}.
+2025-07-02 03:06:07.404 -05:00 [DBG] The index {'ShoppingListId'} was not created on entity type 'ShoppingListItem' as the properties are already covered by the index {'ShoppingListId', 'IngredientId'}.
+2025-07-02 03:06:07.436 -05:00 [WRN] The 'RecipeDifficulty' property 'Difficulty' on entity type 'Recipe' is configured with a database-generated default, but has no configured sentinel value. The database-generated default will always be used for inserts when the property has the value '0', since this is the CLR default for the 'RecipeDifficulty' type. Consider using a nullable type, using a nullable backing field, or setting the sentinel value for the property to ensure the database default is used when, and only when, appropriate. See https://aka.ms/efcore-docs-default-values for more information.
+2025-07-02 03:06:07.975 -05:00 [DBG] Creating DbConnection.
+2025-07-02 03:06:07.981 -05:00 [DBG] Created DbConnection. (3ms).
+2025-07-02 03:06:07.990 -05:00 [DBG] Opening connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:06:09.091 -05:00 [DBG] Opened connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:06:09.095 -05:00 [DBG] Creating DbConnection.
+2025-07-02 03:06:09.096 -05:00 [DBG] Created DbConnection. (1ms).
+2025-07-02 03:06:09.312 -05:00 [DBG] Disposing connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:06:09.328 -05:00 [DBG] Disposed connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (9ms).
+2025-07-02 03:06:09.345 -05:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-07-02 03:06:09.356 -05:00 [DBG] Created DbCommand for 'ExecuteScalar' (9ms).
+2025-07-02 03:06:09.360 -05:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (16ms).
+2025-07-02 03:06:09.361 -05:00 [DBG] Opening connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:06:10.526 -05:00 [DBG] Opened connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:06:10.537 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='b8ca9ilqc17bnz5732mu' AND TABLE_NAME='__EFMigrationsHistory';
+2025-07-02 03:06:10.817 -05:00 [INF] Executed DbCommand (276ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='b8ca9ilqc17bnz5732mu' AND TABLE_NAME='__EFMigrationsHistory';
+2025-07-02 03:06:10.823 -05:00 [DBG] Closing connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:06:10.828 -05:00 [DBG] Closed connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (4ms).
+2025-07-02 03:06:10.842 -05:00 [DBG] Opening connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:06:11.139 -05:00 [DBG] Opened connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:06:11.141 -05:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-07-02 03:06:11.142 -05:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2025-07-02 03:06:11.144 -05:00 [DBG] Initialized DbCommand for 'ExecuteReader' (2ms).
+2025-07-02 03:06:11.146 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2025-07-02 03:06:11.343 -05:00 [INF] Executed DbCommand (197ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2025-07-02 03:06:11.354 -05:00 [DBG] Closing data reader to 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:06:11.361 -05:00 [DBG] A data reader for 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' is being disposed after spending 8ms reading results.
+2025-07-02 03:06:11.367 -05:00 [DBG] Closing connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:06:11.372 -05:00 [DBG] Closed connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (4ms).
+2025-07-02 03:06:11.394 -05:00 [DBG] 'PantryProDbContext' disposed.
+2025-07-02 03:06:11.400 -05:00 [DBG] Disposing connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:06:11.406 -05:00 [DBG] Disposed connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (5ms).
+2025-07-02 03:06:26.078 -05:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-07-02 03:06:26.576 -05:00 [DBG] The index {'UserId'} was not created on entity type 'UserAchievement' as the properties are already covered by the index {'UserId', 'AchievementId'}.
+2025-07-02 03:06:26.579 -05:00 [DBG] The index {'UserId'} was not created on entity type 'UserIngredient' as the properties are already covered by the index {'UserId', 'IngredientId', 'ExpirationDate'}.
+2025-07-02 03:06:26.582 -05:00 [DBG] The index {'MealPlanId'} was not created on entity type 'MealPlanRecipe' as the properties are already covered by the index {'MealPlanId', 'ScheduledDate', 'MealType'}.
+2025-07-02 03:06:26.584 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeIngredient' as the properties are already covered by the index {'RecipeId', 'IngredientId'}.
+2025-07-02 03:06:26.586 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeRating' as the properties are already covered by the index {'RecipeId', 'UserId'}.
+2025-07-02 03:06:26.588 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeStep' as the properties are already covered by the index {'RecipeId', 'StepNumber'}.
+2025-07-02 03:06:26.590 -05:00 [DBG] The index {'ShoppingListId'} was not created on entity type 'ShoppingListItem' as the properties are already covered by the index {'ShoppingListId', 'IngredientId'}.
+2025-07-02 03:06:26.752 -05:00 [WRN] The 'RecipeDifficulty' property 'Difficulty' on entity type 'Recipe' is configured with a database-generated default, but has no configured sentinel value. The database-generated default will always be used for inserts when the property has the value '0', since this is the CLR default for the 'RecipeDifficulty' type. Consider using a nullable type, using a nullable backing field, or setting the sentinel value for the property to ensure the database default is used when, and only when, appropriate. See https://aka.ms/efcore-docs-default-values for more information.
+2025-07-02 03:06:26.996 -05:00 [DBG] Entity Framework Core 8.0.13 initialized 'PantryProDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.3' with options: ServerVersion=8.0.22-mysql 
+2025-07-02 03:06:27.093 -05:00 [DBG] The index {'UserId'} was not created on entity type 'UserAchievement' as the properties are already covered by the index {'UserId', 'AchievementId'}.
+2025-07-02 03:06:27.096 -05:00 [DBG] The index {'UserId'} was not created on entity type 'UserIngredient' as the properties are already covered by the index {'UserId', 'IngredientId', 'ExpirationDate'}.
+2025-07-02 03:06:27.100 -05:00 [DBG] The index {'MealPlanId'} was not created on entity type 'MealPlanRecipe' as the properties are already covered by the index {'MealPlanId', 'ScheduledDate', 'MealType'}.
+2025-07-02 03:06:27.102 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeIngredient' as the properties are already covered by the index {'RecipeId', 'IngredientId'}.
+2025-07-02 03:06:27.103 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeRating' as the properties are already covered by the index {'RecipeId', 'UserId'}.
+2025-07-02 03:06:27.105 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeStep' as the properties are already covered by the index {'RecipeId', 'StepNumber'}.
+2025-07-02 03:06:27.107 -05:00 [DBG] The index {'ShoppingListId'} was not created on entity type 'ShoppingListItem' as the properties are already covered by the index {'ShoppingListId', 'IngredientId'}.
+2025-07-02 03:06:27.147 -05:00 [WRN] The 'RecipeDifficulty' property 'Difficulty' on entity type 'Recipe' is configured with a database-generated default, but has no configured sentinel value. The database-generated default will always be used for inserts when the property has the value '0', since this is the CLR default for the 'RecipeDifficulty' type. Consider using a nullable type, using a nullable backing field, or setting the sentinel value for the property to ensure the database default is used when, and only when, appropriate. See https://aka.ms/efcore-docs-default-values for more information.
+2025-07-02 03:06:27.749 -05:00 [DBG] 'PantryProDbContext' disposed.
+2025-07-02 03:06:40.429 -05:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-07-02 03:06:40.926 -05:00 [DBG] The index {'UserId'} was not created on entity type 'UserAchievement' as the properties are already covered by the index {'UserId', 'AchievementId'}.
+2025-07-02 03:06:40.929 -05:00 [DBG] The index {'UserId'} was not created on entity type 'UserIngredient' as the properties are already covered by the index {'UserId', 'IngredientId', 'ExpirationDate'}.
+2025-07-02 03:06:40.931 -05:00 [DBG] The index {'MealPlanId'} was not created on entity type 'MealPlanRecipe' as the properties are already covered by the index {'MealPlanId', 'ScheduledDate', 'MealType'}.
+2025-07-02 03:06:40.933 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeIngredient' as the properties are already covered by the index {'RecipeId', 'IngredientId'}.
+2025-07-02 03:06:40.936 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeRating' as the properties are already covered by the index {'RecipeId', 'UserId'}.
+2025-07-02 03:06:40.937 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeStep' as the properties are already covered by the index {'RecipeId', 'StepNumber'}.
+2025-07-02 03:06:40.940 -05:00 [DBG] The index {'ShoppingListId'} was not created on entity type 'ShoppingListItem' as the properties are already covered by the index {'ShoppingListId', 'IngredientId'}.
+2025-07-02 03:06:41.062 -05:00 [WRN] The 'RecipeDifficulty' property 'Difficulty' on entity type 'Recipe' is configured with a database-generated default, but has no configured sentinel value. The database-generated default will always be used for inserts when the property has the value '0', since this is the CLR default for the 'RecipeDifficulty' type. Consider using a nullable type, using a nullable backing field, or setting the sentinel value for the property to ensure the database default is used when, and only when, appropriate. See https://aka.ms/efcore-docs-default-values for more information.
+2025-07-02 03:06:41.207 -05:00 [DBG] Entity Framework Core 8.0.13 initialized 'PantryProDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.3' with options: ServerVersion=8.0.22-mysql 
+2025-07-02 03:06:41.223 -05:00 [DBG] Creating DbConnection.
+2025-07-02 03:06:41.229 -05:00 [DBG] Created DbConnection. (3ms).
+2025-07-02 03:06:41.236 -05:00 [DBG] Migrating using database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:06:41.242 -05:00 [DBG] Creating DbConnection.
+2025-07-02 03:06:41.243 -05:00 [DBG] Created DbConnection. (1ms).
+2025-07-02 03:06:41.247 -05:00 [DBG] Opening connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:06:43.087 -05:00 [DBG] Opened connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:06:43.416 -05:00 [DBG] Disposing connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:06:43.427 -05:00 [DBG] Disposed connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (5ms).
+2025-07-02 03:06:43.444 -05:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-07-02 03:06:43.456 -05:00 [DBG] Created DbCommand for 'ExecuteScalar' (11ms).
+2025-07-02 03:06:43.459 -05:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (19ms).
+2025-07-02 03:06:43.461 -05:00 [DBG] Opening connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:06:44.624 -05:00 [DBG] Opened connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:06:44.641 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='b8ca9ilqc17bnz5732mu' AND TABLE_NAME='__EFMigrationsHistory';
+2025-07-02 03:06:45.051 -05:00 [INF] Executed DbCommand (410ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='b8ca9ilqc17bnz5732mu' AND TABLE_NAME='__EFMigrationsHistory';
+2025-07-02 03:06:45.056 -05:00 [DBG] Closing connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:06:45.061 -05:00 [DBG] Closed connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (4ms).
+2025-07-02 03:06:45.067 -05:00 [DBG] Creating DbConnection.
+2025-07-02 03:06:45.070 -05:00 [DBG] Created DbConnection. (2ms).
+2025-07-02 03:06:45.073 -05:00 [DBG] Opening connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:06:46.055 -05:00 [DBG] Opened connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:06:46.264 -05:00 [DBG] Disposing connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:06:46.272 -05:00 [DBG] Disposed connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (7ms).
+2025-07-02 03:06:46.282 -05:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-07-02 03:06:46.288 -05:00 [DBG] Created DbCommand for 'ExecuteScalar' (6ms).
+2025-07-02 03:06:46.296 -05:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (14ms).
+2025-07-02 03:06:46.304 -05:00 [DBG] Opening connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:06:46.509 -05:00 [DBG] Opened connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:06:46.516 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='b8ca9ilqc17bnz5732mu' AND TABLE_NAME='__EFMigrationsHistory';
+2025-07-02 03:06:46.698 -05:00 [INF] Executed DbCommand (182ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='b8ca9ilqc17bnz5732mu' AND TABLE_NAME='__EFMigrationsHistory';
+2025-07-02 03:06:46.705 -05:00 [DBG] Closing connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:06:46.710 -05:00 [DBG] Closed connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (4ms).
+2025-07-02 03:06:46.750 -05:00 [DBG] Opening connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:06:46.979 -05:00 [DBG] Opened connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:06:46.982 -05:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-07-02 03:06:46.983 -05:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2025-07-02 03:06:46.985 -05:00 [DBG] Initialized DbCommand for 'ExecuteReader' (3ms).
+2025-07-02 03:06:47.031 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2025-07-02 03:06:47.211 -05:00 [INF] Executed DbCommand (181ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2025-07-02 03:06:47.215 -05:00 [DBG] Closing data reader to 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:06:47.218 -05:00 [DBG] A data reader for 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' is being disposed after spending 3ms reading results.
+2025-07-02 03:06:47.221 -05:00 [DBG] Closing connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:06:47.223 -05:00 [DBG] Closed connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (1ms).
+2025-07-02 03:06:47.234 -05:00 [INF] Applying migration '20250702080627_InitialCreate'.
+2025-07-02 03:06:47.333 -05:00 [DBG] Opening connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:06:47.527 -05:00 [DBG] Opened connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:06:47.532 -05:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2025-07-02 03:06:48.027 -05:00 [DBG] Began transaction with isolation level 'Unspecified'.
+2025-07-02 03:06:48.030 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:48.031 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2025-07-02 03:06:48.033 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2025-07-02 03:06:48.035 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER DATABASE CHARACTER SET utf8mb4;
+2025-07-02 03:06:48.245 -05:00 [INF] Executed DbCommand (211ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER DATABASE CHARACTER SET utf8mb4;
+2025-07-02 03:06:48.249 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:48.250 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2025-07-02 03:06:48.251 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2025-07-02 03:06:48.253 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Achievements` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Name` varchar(200) CHARACTER SET utf8mb4 NOT NULL,
+    `Description` varchar(1000) CHARACTER SET utf8mb4 NOT NULL,
+    `ImageUrl` varchar(255) CHARACTER SET utf8mb4 NULL,
+    `BadgeColor` varchar(50) CHARACTER SET utf8mb4 NULL,
+    `Points` int NOT NULL,
+    `Type` int NOT NULL,
+    `Requirements` varchar(500) CHARACTER SET utf8mb4 NULL,
+    `IsActive` tinyint(1) NOT NULL DEFAULT TRUE,
+    `CreatedAt` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    `UpdatedAt` datetime(6) NULL,
+    CONSTRAINT `PK_Achievements` PRIMARY KEY (`Id`)
+) CHARACTER SET=utf8mb4;
+2025-07-02 03:06:48.510 -05:00 [INF] Executed DbCommand (257ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Achievements` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Name` varchar(200) CHARACTER SET utf8mb4 NOT NULL,
+    `Description` varchar(1000) CHARACTER SET utf8mb4 NOT NULL,
+    `ImageUrl` varchar(255) CHARACTER SET utf8mb4 NULL,
+    `BadgeColor` varchar(50) CHARACTER SET utf8mb4 NULL,
+    `Points` int NOT NULL,
+    `Type` int NOT NULL,
+    `Requirements` varchar(500) CHARACTER SET utf8mb4 NULL,
+    `IsActive` tinyint(1) NOT NULL DEFAULT TRUE,
+    `CreatedAt` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    `UpdatedAt` datetime(6) NULL,
+    CONSTRAINT `PK_Achievements` PRIMARY KEY (`Id`)
+) CHARACTER SET=utf8mb4;
+2025-07-02 03:06:48.519 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:48.520 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-07-02 03:06:48.521 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2025-07-02 03:06:48.525 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Categories` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Name` varchar(100) CHARACTER SET utf8mb4 NOT NULL,
+    `Description` varchar(500) CHARACTER SET utf8mb4 NULL,
+    `Color` varchar(50) CHARACTER SET utf8mb4 NULL,
+    `Icon` varchar(50) CHARACTER SET utf8mb4 NULL,
+    `SortOrder` int NOT NULL DEFAULT 0,
+    `CreatedAt` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    `UpdatedAt` datetime(6) NULL,
+    `IsActive` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_Categories` PRIMARY KEY (`Id`)
+) CHARACTER SET=utf8mb4;
+2025-07-02 03:06:48.796 -05:00 [INF] Executed DbCommand (272ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Categories` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Name` varchar(100) CHARACTER SET utf8mb4 NOT NULL,
+    `Description` varchar(500) CHARACTER SET utf8mb4 NULL,
+    `Color` varchar(50) CHARACTER SET utf8mb4 NULL,
+    `Icon` varchar(50) CHARACTER SET utf8mb4 NULL,
+    `SortOrder` int NOT NULL DEFAULT 0,
+    `CreatedAt` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    `UpdatedAt` datetime(6) NULL,
+    `IsActive` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_Categories` PRIMARY KEY (`Id`)
+) CHARACTER SET=utf8mb4;
+2025-07-02 03:06:48.799 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:48.799 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-07-02 03:06:48.801 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2025-07-02 03:06:48.802 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `SubscriptionPlans` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Name` varchar(100) CHARACTER SET utf8mb4 NOT NULL,
+    `Description` varchar(1000) CHARACTER SET utf8mb4 NOT NULL,
+    `Price` decimal(10,2) NOT NULL,
+    `BillingPeriod` varchar(20) CHARACTER SET utf8mb4 NOT NULL DEFAULT 'monthly',
+    `Features` varchar(1000) CHARACTER SET utf8mb4 NULL,
+    `MaxRecipes` int NOT NULL DEFAULT 100,
+    `MaxMealPlans` int NOT NULL DEFAULT 10,
+    `HasAIRecommendations` tinyint(1) NOT NULL DEFAULT FALSE,
+    `HasAdvancedAnalytics` tinyint(1) NOT NULL DEFAULT FALSE,
+    `HasExportFeatures` tinyint(1) NOT NULL DEFAULT FALSE,
+    `IsActive` tinyint(1) NOT NULL DEFAULT TRUE,
+    `CreatedAt` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    `UpdatedAt` datetime(6) NULL,
+    CONSTRAINT `PK_SubscriptionPlans` PRIMARY KEY (`Id`)
+) CHARACTER SET=utf8mb4;
+2025-07-02 03:06:49.050 -05:00 [INF] Executed DbCommand (248ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `SubscriptionPlans` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Name` varchar(100) CHARACTER SET utf8mb4 NOT NULL,
+    `Description` varchar(1000) CHARACTER SET utf8mb4 NOT NULL,
+    `Price` decimal(10,2) NOT NULL,
+    `BillingPeriod` varchar(20) CHARACTER SET utf8mb4 NOT NULL DEFAULT 'monthly',
+    `Features` varchar(1000) CHARACTER SET utf8mb4 NULL,
+    `MaxRecipes` int NOT NULL DEFAULT 100,
+    `MaxMealPlans` int NOT NULL DEFAULT 10,
+    `HasAIRecommendations` tinyint(1) NOT NULL DEFAULT FALSE,
+    `HasAdvancedAnalytics` tinyint(1) NOT NULL DEFAULT FALSE,
+    `HasExportFeatures` tinyint(1) NOT NULL DEFAULT FALSE,
+    `IsActive` tinyint(1) NOT NULL DEFAULT TRUE,
+    `CreatedAt` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    `UpdatedAt` datetime(6) NULL,
+    CONSTRAINT `PK_SubscriptionPlans` PRIMARY KEY (`Id`)
+) CHARACTER SET=utf8mb4;
+2025-07-02 03:06:49.061 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:49.065 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (3ms).
+2025-07-02 03:06:49.069 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (7ms).
+2025-07-02 03:06:49.073 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Users` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `FirstName` varchar(100) CHARACTER SET utf8mb4 NOT NULL,
+    `LastName` varchar(100) CHARACTER SET utf8mb4 NOT NULL,
+    `Email` varchar(255) CHARACTER SET utf8mb4 NOT NULL,
+    `PasswordHash` longtext CHARACTER SET utf8mb4 NOT NULL,
+    `PhoneNumber` varchar(20) CHARACTER SET utf8mb4 NULL,
+    `DateOfBirth` datetime(6) NULL,
+    `Bio` varchar(500) CHARACTER SET utf8mb4 NULL,
+    `ProfileImageUrl` varchar(255) CHARACTER SET utf8mb4 NULL,
+    `EmailVerified` tinyint(1) NOT NULL DEFAULT FALSE,
+    `LastLoginAt` datetime(6) NULL,
+    `NotificationsEnabled` tinyint(1) NOT NULL DEFAULT TRUE,
+    `ExpirationAlertsEnabled` tinyint(1) NOT NULL DEFAULT TRUE,
+    `ExpirationAlertDays` int NOT NULL DEFAULT 3,
+    `CreatedAt` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    `UpdatedAt` datetime(6) NULL,
+    `IsActive` tinyint(1) NOT NULL DEFAULT TRUE,
+    CONSTRAINT `PK_Users` PRIMARY KEY (`Id`)
+) CHARACTER SET=utf8mb4;
+2025-07-02 03:06:49.523 -05:00 [INF] Executed DbCommand (450ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Users` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `FirstName` varchar(100) CHARACTER SET utf8mb4 NOT NULL,
+    `LastName` varchar(100) CHARACTER SET utf8mb4 NOT NULL,
+    `Email` varchar(255) CHARACTER SET utf8mb4 NOT NULL,
+    `PasswordHash` longtext CHARACTER SET utf8mb4 NOT NULL,
+    `PhoneNumber` varchar(20) CHARACTER SET utf8mb4 NULL,
+    `DateOfBirth` datetime(6) NULL,
+    `Bio` varchar(500) CHARACTER SET utf8mb4 NULL,
+    `ProfileImageUrl` varchar(255) CHARACTER SET utf8mb4 NULL,
+    `EmailVerified` tinyint(1) NOT NULL DEFAULT FALSE,
+    `LastLoginAt` datetime(6) NULL,
+    `NotificationsEnabled` tinyint(1) NOT NULL DEFAULT TRUE,
+    `ExpirationAlertsEnabled` tinyint(1) NOT NULL DEFAULT TRUE,
+    `ExpirationAlertDays` int NOT NULL DEFAULT 3,
+    `CreatedAt` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    `UpdatedAt` datetime(6) NULL,
+    `IsActive` tinyint(1) NOT NULL DEFAULT TRUE,
+    CONSTRAINT `PK_Users` PRIMARY KEY (`Id`)
+) CHARACTER SET=utf8mb4;
+2025-07-02 03:06:49.530 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:49.533 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2025-07-02 03:06:49.537 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (7ms).
+2025-07-02 03:06:49.540 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Ingredients` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Name` varchar(200) CHARACTER SET utf8mb4 NOT NULL,
+    `Description` varchar(500) CHARACTER SET utf8mb4 NULL,
+    `CategoryId` int NOT NULL,
+    `DefaultUnit` varchar(50) CHARACTER SET utf8mb4 NOT NULL DEFAULT 'unidad',
+    `ImageUrl` varchar(255) CHARACTER SET utf8mb4 NULL,
+    `CaloriesPer100g` decimal(8,2) NULL,
+    `ProteinPer100g` decimal(8,2) NULL,
+    `CarbsPer100g` decimal(8,2) NULL,
+    `FatPer100g` decimal(8,2) NULL,
+    `FiberPer100g` decimal(8,2) NULL,
+    `SugarPer100g` decimal(8,2) NULL,
+    `SodiumPer100g` decimal(8,2) NULL,
+    `AverageShelfLifeDays` int NULL,
+    `CreatedAt` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    `UpdatedAt` datetime(6) NULL,
+    `IsActive` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_Ingredients` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_Ingredients_Categories_CategoryId` FOREIGN KEY (`CategoryId`) REFERENCES `Categories` (`Id`) ON DELETE RESTRICT
+) CHARACTER SET=utf8mb4;
+2025-07-02 03:06:49.775 -05:00 [INF] Executed DbCommand (234ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Ingredients` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Name` varchar(200) CHARACTER SET utf8mb4 NOT NULL,
+    `Description` varchar(500) CHARACTER SET utf8mb4 NULL,
+    `CategoryId` int NOT NULL,
+    `DefaultUnit` varchar(50) CHARACTER SET utf8mb4 NOT NULL DEFAULT 'unidad',
+    `ImageUrl` varchar(255) CHARACTER SET utf8mb4 NULL,
+    `CaloriesPer100g` decimal(8,2) NULL,
+    `ProteinPer100g` decimal(8,2) NULL,
+    `CarbsPer100g` decimal(8,2) NULL,
+    `FatPer100g` decimal(8,2) NULL,
+    `FiberPer100g` decimal(8,2) NULL,
+    `SugarPer100g` decimal(8,2) NULL,
+    `SodiumPer100g` decimal(8,2) NULL,
+    `AverageShelfLifeDays` int NULL,
+    `CreatedAt` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    `UpdatedAt` datetime(6) NULL,
+    `IsActive` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_Ingredients` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_Ingredients_Categories_CategoryId` FOREIGN KEY (`CategoryId`) REFERENCES `Categories` (`Id`) ON DELETE RESTRICT
+) CHARACTER SET=utf8mb4;
+2025-07-02 03:06:49.779 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:49.780 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-07-02 03:06:49.781 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (1ms).
+2025-07-02 03:06:49.782 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `MealPlans` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `UserId` int NOT NULL,
+    `Name` varchar(200) CHARACTER SET utf8mb4 NOT NULL,
+    `Description` varchar(500) CHARACTER SET utf8mb4 NULL,
+    `StartDate` datetime(6) NOT NULL,
+    `EndDate` datetime(6) NOT NULL,
+    `IsActive` tinyint(1) NOT NULL DEFAULT TRUE,
+    `EstimatedCost` decimal(10,2) NULL,
+    `TotalCalories` decimal(8,2) NULL,
+    `CreatedAt` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    `UpdatedAt` datetime(6) NULL,
+    CONSTRAINT `PK_MealPlans` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_MealPlans_Users_UserId` FOREIGN KEY (`UserId`) REFERENCES `Users` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2025-07-02 03:06:50.009 -05:00 [INF] Executed DbCommand (227ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `MealPlans` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `UserId` int NOT NULL,
+    `Name` varchar(200) CHARACTER SET utf8mb4 NOT NULL,
+    `Description` varchar(500) CHARACTER SET utf8mb4 NULL,
+    `StartDate` datetime(6) NOT NULL,
+    `EndDate` datetime(6) NOT NULL,
+    `IsActive` tinyint(1) NOT NULL DEFAULT TRUE,
+    `EstimatedCost` decimal(10,2) NULL,
+    `TotalCalories` decimal(8,2) NULL,
+    `CreatedAt` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    `UpdatedAt` datetime(6) NULL,
+    CONSTRAINT `PK_MealPlans` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_MealPlans_Users_UserId` FOREIGN KEY (`UserId`) REFERENCES `Users` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2025-07-02 03:06:50.013 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:50.014 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-07-02 03:06:50.015 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2025-07-02 03:06:50.017 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Recipes` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Title` varchar(200) CHARACTER SET utf8mb4 NOT NULL,
+    `Description` varchar(1000) CHARACTER SET utf8mb4 NULL,
+    `UserId` int NOT NULL,
+    `ServingSize` int NOT NULL DEFAULT 4,
+    `PreparationTimeMinutes` int NOT NULL,
+    `CookingTimeMinutes` int NOT NULL,
+    `Difficulty` int NOT NULL DEFAULT 2,
+    `ImageUrl` varchar(255) CHARACTER SET utf8mb4 NULL,
+    `CaloriesPerServing` decimal(8,2) NULL,
+    `ProteinPerServing` decimal(8,2) NULL,
+    `CarbsPerServing` decimal(8,2) NULL,
+    `FatPerServing` decimal(8,2) NULL,
+    `IsVegetarian` tinyint(1) NOT NULL,
+    `IsVegan` tinyint(1) NOT NULL,
+    `IsGlutenFree` tinyint(1) NOT NULL,
+    `IsDairyFree` tinyint(1) NOT NULL,
+    `IsKeto` tinyint(1) NOT NULL,
+    `IsPaleo` tinyint(1) NOT NULL,
+    `Tags` varchar(500) CHARACTER SET utf8mb4 NULL,
+    `CuisineType` varchar(100) CHARACTER SET utf8mb4 NULL,
+    `MealType` varchar(100) CHARACTER SET utf8mb4 NULL,
+    `ViewCount` int NOT NULL DEFAULT 0,
+    `LikeCount` int NOT NULL DEFAULT 0,
+    `CookCount` int NOT NULL DEFAULT 0,
+    `IsPublic` tinyint(1) NOT NULL DEFAULT FALSE,
+    `IsFeatured` tinyint(1) NOT NULL DEFAULT FALSE,
+    `CreatedAt` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    `UpdatedAt` datetime(6) NULL,
+    `IsActive` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_Recipes` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_Recipes_Users_UserId` FOREIGN KEY (`UserId`) REFERENCES `Users` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2025-07-02 03:06:50.238 -05:00 [INF] Executed DbCommand (221ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Recipes` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Title` varchar(200) CHARACTER SET utf8mb4 NOT NULL,
+    `Description` varchar(1000) CHARACTER SET utf8mb4 NULL,
+    `UserId` int NOT NULL,
+    `ServingSize` int NOT NULL DEFAULT 4,
+    `PreparationTimeMinutes` int NOT NULL,
+    `CookingTimeMinutes` int NOT NULL,
+    `Difficulty` int NOT NULL DEFAULT 2,
+    `ImageUrl` varchar(255) CHARACTER SET utf8mb4 NULL,
+    `CaloriesPerServing` decimal(8,2) NULL,
+    `ProteinPerServing` decimal(8,2) NULL,
+    `CarbsPerServing` decimal(8,2) NULL,
+    `FatPerServing` decimal(8,2) NULL,
+    `IsVegetarian` tinyint(1) NOT NULL,
+    `IsVegan` tinyint(1) NOT NULL,
+    `IsGlutenFree` tinyint(1) NOT NULL,
+    `IsDairyFree` tinyint(1) NOT NULL,
+    `IsKeto` tinyint(1) NOT NULL,
+    `IsPaleo` tinyint(1) NOT NULL,
+    `Tags` varchar(500) CHARACTER SET utf8mb4 NULL,
+    `CuisineType` varchar(100) CHARACTER SET utf8mb4 NULL,
+    `MealType` varchar(100) CHARACTER SET utf8mb4 NULL,
+    `ViewCount` int NOT NULL DEFAULT 0,
+    `LikeCount` int NOT NULL DEFAULT 0,
+    `CookCount` int NOT NULL DEFAULT 0,
+    `IsPublic` tinyint(1) NOT NULL DEFAULT FALSE,
+    `IsFeatured` tinyint(1) NOT NULL DEFAULT FALSE,
+    `CreatedAt` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    `UpdatedAt` datetime(6) NULL,
+    `IsActive` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_Recipes` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_Recipes_Users_UserId` FOREIGN KEY (`UserId`) REFERENCES `Users` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2025-07-02 03:06:50.242 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:50.243 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2025-07-02 03:06:50.245 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2025-07-02 03:06:50.246 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `UserAchievements` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `UserId` int NOT NULL,
+    `AchievementId` int NOT NULL,
+    `EarnedAt` datetime(6) NOT NULL,
+    `CreatedAt` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    `UpdatedAt` datetime(6) NULL,
+    `IsActive` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_UserAchievements` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_UserAchievements_Achievements_AchievementId` FOREIGN KEY (`AchievementId`) REFERENCES `Achievements` (`Id`) ON DELETE RESTRICT,
+    CONSTRAINT `FK_UserAchievements_Users_UserId` FOREIGN KEY (`UserId`) REFERENCES `Users` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2025-07-02 03:06:50.498 -05:00 [INF] Executed DbCommand (252ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `UserAchievements` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `UserId` int NOT NULL,
+    `AchievementId` int NOT NULL,
+    `EarnedAt` datetime(6) NOT NULL,
+    `CreatedAt` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    `UpdatedAt` datetime(6) NULL,
+    `IsActive` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_UserAchievements` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_UserAchievements_Achievements_AchievementId` FOREIGN KEY (`AchievementId`) REFERENCES `Achievements` (`Id`) ON DELETE RESTRICT,
+    CONSTRAINT `FK_UserAchievements_Users_UserId` FOREIGN KEY (`UserId`) REFERENCES `Users` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2025-07-02 03:06:50.501 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:50.502 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-07-02 03:06:50.502 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (1ms).
+2025-07-02 03:06:50.503 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `UserPreferences` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `UserId` int NOT NULL,
+    `IsVegetarian` tinyint(1) NOT NULL,
+    `IsVegan` tinyint(1) NOT NULL,
+    `IsGlutenFree` tinyint(1) NOT NULL,
+    `IsDairyFree` tinyint(1) NOT NULL,
+    `IsKeto` tinyint(1) NOT NULL,
+    `IsPaleo` tinyint(1) NOT NULL,
+    `Allergies` varchar(1000) CHARACTER SET utf8mb4 NULL,
+    `DislikedIngredients` varchar(1000) CHARACTER SET utf8mb4 NULL,
+    `MaxCookingTimeMinutes` int NOT NULL DEFAULT 60,
+    `PreferredCuisineTypes` longtext CHARACTER SET utf8mb4 NOT NULL,
+    `PreferredServingSize` int NOT NULL DEFAULT 4,
+    `DailyCalorieGoal` int NULL,
+    `DailyProteinGoal` int NULL,
+    `DailyCarbGoal` int NULL,
+    `DailyFatGoal` int NULL,
+    `CreatedAt` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    `UpdatedAt` datetime(6) NULL,
+    `IsActive` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_UserPreferences` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_UserPreferences_Users_UserId` FOREIGN KEY (`UserId`) REFERENCES `Users` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2025-07-02 03:06:50.729 -05:00 [INF] Executed DbCommand (226ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `UserPreferences` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `UserId` int NOT NULL,
+    `IsVegetarian` tinyint(1) NOT NULL,
+    `IsVegan` tinyint(1) NOT NULL,
+    `IsGlutenFree` tinyint(1) NOT NULL,
+    `IsDairyFree` tinyint(1) NOT NULL,
+    `IsKeto` tinyint(1) NOT NULL,
+    `IsPaleo` tinyint(1) NOT NULL,
+    `Allergies` varchar(1000) CHARACTER SET utf8mb4 NULL,
+    `DislikedIngredients` varchar(1000) CHARACTER SET utf8mb4 NULL,
+    `MaxCookingTimeMinutes` int NOT NULL DEFAULT 60,
+    `PreferredCuisineTypes` longtext CHARACTER SET utf8mb4 NOT NULL,
+    `PreferredServingSize` int NOT NULL DEFAULT 4,
+    `DailyCalorieGoal` int NULL,
+    `DailyProteinGoal` int NULL,
+    `DailyCarbGoal` int NULL,
+    `DailyFatGoal` int NULL,
+    `CreatedAt` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    `UpdatedAt` datetime(6) NULL,
+    `IsActive` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_UserPreferences` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_UserPreferences_Users_UserId` FOREIGN KEY (`UserId`) REFERENCES `Users` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2025-07-02 03:06:50.733 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:50.734 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2025-07-02 03:06:50.735 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2025-07-02 03:06:50.737 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `UserSubscriptions` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `UserId` int NOT NULL,
+    `SubscriptionPlanId` int NOT NULL,
+    `StartDate` datetime(6) NOT NULL,
+    `EndDate` datetime(6) NULL,
+    `Status` int NOT NULL DEFAULT 0,
+    `StripeSubscriptionId` varchar(100) CHARACTER SET utf8mb4 NULL,
+    `StripeCustomerId` varchar(100) CHARACTER SET utf8mb4 NULL,
+    `CancelledAt` datetime(6) NULL,
+    `TrialEndsAt` datetime(6) NULL,
+    `CreatedAt` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    `UpdatedAt` datetime(6) NULL,
+    `IsActive` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_UserSubscriptions` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_UserSubscriptions_SubscriptionPlans_SubscriptionPlanId` FOREIGN KEY (`SubscriptionPlanId`) REFERENCES `SubscriptionPlans` (`Id`) ON DELETE RESTRICT,
+    CONSTRAINT `FK_UserSubscriptions_Users_UserId` FOREIGN KEY (`UserId`) REFERENCES `Users` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2025-07-02 03:06:50.959 -05:00 [INF] Executed DbCommand (222ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `UserSubscriptions` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `UserId` int NOT NULL,
+    `SubscriptionPlanId` int NOT NULL,
+    `StartDate` datetime(6) NOT NULL,
+    `EndDate` datetime(6) NULL,
+    `Status` int NOT NULL DEFAULT 0,
+    `StripeSubscriptionId` varchar(100) CHARACTER SET utf8mb4 NULL,
+    `StripeCustomerId` varchar(100) CHARACTER SET utf8mb4 NULL,
+    `CancelledAt` datetime(6) NULL,
+    `TrialEndsAt` datetime(6) NULL,
+    `CreatedAt` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    `UpdatedAt` datetime(6) NULL,
+    `IsActive` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_UserSubscriptions` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_UserSubscriptions_SubscriptionPlans_SubscriptionPlanId` FOREIGN KEY (`SubscriptionPlanId`) REFERENCES `SubscriptionPlans` (`Id`) ON DELETE RESTRICT,
+    CONSTRAINT `FK_UserSubscriptions_Users_UserId` FOREIGN KEY (`UserId`) REFERENCES `Users` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2025-07-02 03:06:50.965 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:50.968 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2025-07-02 03:06:50.969 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (3ms).
+2025-07-02 03:06:50.970 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `UserIngredients` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `UserId` int NOT NULL,
+    `IngredientId` int NOT NULL,
+    `Quantity` decimal(10,2) NOT NULL,
+    `Unit` varchar(50) CHARACTER SET utf8mb4 NOT NULL,
+    `ExpirationDate` datetime(6) NULL,
+    `PurchaseDate` datetime(6) NULL,
+    `PurchasePrice` decimal(10,2) NULL,
+    `Location` varchar(100) CHARACTER SET utf8mb4 NULL,
+    `Notes` varchar(500) CHARACTER SET utf8mb4 NULL,
+    `IsConsumed` tinyint(1) NOT NULL DEFAULT FALSE,
+    `ConsumedAt` datetime(6) NULL,
+    `CreatedAt` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    `UpdatedAt` datetime(6) NULL,
+    `IsActive` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_UserIngredients` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_UserIngredients_Ingredients_IngredientId` FOREIGN KEY (`IngredientId`) REFERENCES `Ingredients` (`Id`) ON DELETE RESTRICT,
+    CONSTRAINT `FK_UserIngredients_Users_UserId` FOREIGN KEY (`UserId`) REFERENCES `Users` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2025-07-02 03:06:51.221 -05:00 [INF] Executed DbCommand (251ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `UserIngredients` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `UserId` int NOT NULL,
+    `IngredientId` int NOT NULL,
+    `Quantity` decimal(10,2) NOT NULL,
+    `Unit` varchar(50) CHARACTER SET utf8mb4 NOT NULL,
+    `ExpirationDate` datetime(6) NULL,
+    `PurchaseDate` datetime(6) NULL,
+    `PurchasePrice` decimal(10,2) NULL,
+    `Location` varchar(100) CHARACTER SET utf8mb4 NULL,
+    `Notes` varchar(500) CHARACTER SET utf8mb4 NULL,
+    `IsConsumed` tinyint(1) NOT NULL DEFAULT FALSE,
+    `ConsumedAt` datetime(6) NULL,
+    `CreatedAt` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    `UpdatedAt` datetime(6) NULL,
+    `IsActive` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_UserIngredients` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_UserIngredients_Ingredients_IngredientId` FOREIGN KEY (`IngredientId`) REFERENCES `Ingredients` (`Id`) ON DELETE RESTRICT,
+    CONSTRAINT `FK_UserIngredients_Users_UserId` FOREIGN KEY (`UserId`) REFERENCES `Users` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2025-07-02 03:06:51.226 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:51.228 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2025-07-02 03:06:51.231 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (5ms).
+2025-07-02 03:06:51.235 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `ShoppingLists` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `UserId` int NOT NULL,
+    `MealPlanId` int NULL,
+    `Name` varchar(200) CHARACTER SET utf8mb4 NOT NULL,
+    `Description` varchar(500) CHARACTER SET utf8mb4 NULL,
+    `ShoppingDate` datetime(6) NULL,
+    `IsCompleted` tinyint(1) NOT NULL DEFAULT FALSE,
+    `CompletedAt` datetime(6) NULL,
+    `TotalBudget` decimal(10,2) NULL,
+    `ActualCost` decimal(10,2) NULL,
+    `CreatedAt` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    `UpdatedAt` datetime(6) NULL,
+    `IsActive` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_ShoppingLists` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_ShoppingLists_MealPlans_MealPlanId` FOREIGN KEY (`MealPlanId`) REFERENCES `MealPlans` (`Id`) ON DELETE SET NULL,
+    CONSTRAINT `FK_ShoppingLists_Users_UserId` FOREIGN KEY (`UserId`) REFERENCES `Users` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2025-07-02 03:06:51.607 -05:00 [INF] Executed DbCommand (372ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `ShoppingLists` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `UserId` int NOT NULL,
+    `MealPlanId` int NULL,
+    `Name` varchar(200) CHARACTER SET utf8mb4 NOT NULL,
+    `Description` varchar(500) CHARACTER SET utf8mb4 NULL,
+    `ShoppingDate` datetime(6) NULL,
+    `IsCompleted` tinyint(1) NOT NULL DEFAULT FALSE,
+    `CompletedAt` datetime(6) NULL,
+    `TotalBudget` decimal(10,2) NULL,
+    `ActualCost` decimal(10,2) NULL,
+    `CreatedAt` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    `UpdatedAt` datetime(6) NULL,
+    `IsActive` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_ShoppingLists` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_ShoppingLists_MealPlans_MealPlanId` FOREIGN KEY (`MealPlanId`) REFERENCES `MealPlans` (`Id`) ON DELETE SET NULL,
+    CONSTRAINT `FK_ShoppingLists_Users_UserId` FOREIGN KEY (`UserId`) REFERENCES `Users` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2025-07-02 03:06:51.612 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:51.613 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-07-02 03:06:51.615 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2025-07-02 03:06:51.616 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `MealPlanRecipes` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `MealPlanId` int NOT NULL,
+    `RecipeId` int NOT NULL,
+    `ScheduledDate` datetime(6) NOT NULL,
+    `MealType` varchar(50) CHARACTER SET utf8mb4 NOT NULL,
+    `ServingSize` int NOT NULL DEFAULT 4,
+    `IsCompleted` tinyint(1) NOT NULL DEFAULT FALSE,
+    `CompletedAt` datetime(6) NULL,
+    `Notes` varchar(500) CHARACTER SET utf8mb4 NULL,
+    `CreatedAt` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    `UpdatedAt` datetime(6) NULL,
+    `IsActive` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_MealPlanRecipes` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_MealPlanRecipes_MealPlans_MealPlanId` FOREIGN KEY (`MealPlanId`) REFERENCES `MealPlans` (`Id`) ON DELETE CASCADE,
+    CONSTRAINT `FK_MealPlanRecipes_Recipes_RecipeId` FOREIGN KEY (`RecipeId`) REFERENCES `Recipes` (`Id`) ON DELETE RESTRICT
+) CHARACTER SET=utf8mb4;
+2025-07-02 03:06:51.844 -05:00 [INF] Executed DbCommand (228ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `MealPlanRecipes` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `MealPlanId` int NOT NULL,
+    `RecipeId` int NOT NULL,
+    `ScheduledDate` datetime(6) NOT NULL,
+    `MealType` varchar(50) CHARACTER SET utf8mb4 NOT NULL,
+    `ServingSize` int NOT NULL DEFAULT 4,
+    `IsCompleted` tinyint(1) NOT NULL DEFAULT FALSE,
+    `CompletedAt` datetime(6) NULL,
+    `Notes` varchar(500) CHARACTER SET utf8mb4 NULL,
+    `CreatedAt` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    `UpdatedAt` datetime(6) NULL,
+    `IsActive` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_MealPlanRecipes` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_MealPlanRecipes_MealPlans_MealPlanId` FOREIGN KEY (`MealPlanId`) REFERENCES `MealPlans` (`Id`) ON DELETE CASCADE,
+    CONSTRAINT `FK_MealPlanRecipes_Recipes_RecipeId` FOREIGN KEY (`RecipeId`) REFERENCES `Recipes` (`Id`) ON DELETE RESTRICT
+) CHARACTER SET=utf8mb4;
+2025-07-02 03:06:51.846 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:51.847 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-07-02 03:06:51.848 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (1ms).
+2025-07-02 03:06:51.848 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `RecipeIngredients` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `RecipeId` int NOT NULL,
+    `IngredientId` int NOT NULL,
+    `Quantity` decimal(10,2) NOT NULL,
+    `Unit` varchar(50) CHARACTER SET utf8mb4 NOT NULL,
+    `Notes` varchar(200) CHARACTER SET utf8mb4 NULL,
+    `IsOptional` tinyint(1) NOT NULL DEFAULT FALSE,
+    `SortOrder` int NOT NULL DEFAULT 0,
+    `CreatedAt` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    `UpdatedAt` datetime(6) NULL,
+    `IsActive` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_RecipeIngredients` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_RecipeIngredients_Ingredients_IngredientId` FOREIGN KEY (`IngredientId`) REFERENCES `Ingredients` (`Id`) ON DELETE RESTRICT,
+    CONSTRAINT `FK_RecipeIngredients_Recipes_RecipeId` FOREIGN KEY (`RecipeId`) REFERENCES `Recipes` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2025-07-02 03:06:52.090 -05:00 [INF] Executed DbCommand (241ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `RecipeIngredients` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `RecipeId` int NOT NULL,
+    `IngredientId` int NOT NULL,
+    `Quantity` decimal(10,2) NOT NULL,
+    `Unit` varchar(50) CHARACTER SET utf8mb4 NOT NULL,
+    `Notes` varchar(200) CHARACTER SET utf8mb4 NULL,
+    `IsOptional` tinyint(1) NOT NULL DEFAULT FALSE,
+    `SortOrder` int NOT NULL DEFAULT 0,
+    `CreatedAt` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    `UpdatedAt` datetime(6) NULL,
+    `IsActive` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_RecipeIngredients` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_RecipeIngredients_Ingredients_IngredientId` FOREIGN KEY (`IngredientId`) REFERENCES `Ingredients` (`Id`) ON DELETE RESTRICT,
+    CONSTRAINT `FK_RecipeIngredients_Recipes_RecipeId` FOREIGN KEY (`RecipeId`) REFERENCES `Recipes` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2025-07-02 03:06:52.099 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:52.103 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (3ms).
+2025-07-02 03:06:52.106 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (7ms).
+2025-07-02 03:06:52.111 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `RecipeRatings` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `RecipeId` int NOT NULL,
+    `UserId` int NOT NULL,
+    `Rating` int NOT NULL,
+    `Comment` varchar(1000) CHARACTER SET utf8mb4 NULL,
+    `CreatedAt` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    `UpdatedAt` datetime(6) NULL,
+    `IsActive` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_RecipeRatings` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_RecipeRatings_Recipes_RecipeId` FOREIGN KEY (`RecipeId`) REFERENCES `Recipes` (`Id`) ON DELETE CASCADE,
+    CONSTRAINT `FK_RecipeRatings_Users_UserId` FOREIGN KEY (`UserId`) REFERENCES `Users` (`Id`) ON DELETE RESTRICT
+) CHARACTER SET=utf8mb4;
+2025-07-02 03:06:52.328 -05:00 [INF] Executed DbCommand (217ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `RecipeRatings` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `RecipeId` int NOT NULL,
+    `UserId` int NOT NULL,
+    `Rating` int NOT NULL,
+    `Comment` varchar(1000) CHARACTER SET utf8mb4 NULL,
+    `CreatedAt` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    `UpdatedAt` datetime(6) NULL,
+    `IsActive` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_RecipeRatings` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_RecipeRatings_Recipes_RecipeId` FOREIGN KEY (`RecipeId`) REFERENCES `Recipes` (`Id`) ON DELETE CASCADE,
+    CONSTRAINT `FK_RecipeRatings_Users_UserId` FOREIGN KEY (`UserId`) REFERENCES `Users` (`Id`) ON DELETE RESTRICT
+) CHARACTER SET=utf8mb4;
+2025-07-02 03:06:52.333 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:52.336 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2025-07-02 03:06:52.338 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (5ms).
+2025-07-02 03:06:52.340 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `RecipeSteps` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `RecipeId` int NOT NULL,
+    `StepNumber` int NOT NULL,
+    `Instructions` varchar(2000) CHARACTER SET utf8mb4 NOT NULL,
+    `TimeMinutes` int NULL,
+    `Tips` varchar(500) CHARACTER SET utf8mb4 NULL,
+    `ImageUrl` varchar(255) CHARACTER SET utf8mb4 NULL,
+    `CreatedAt` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    `UpdatedAt` datetime(6) NULL,
+    `IsActive` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_RecipeSteps` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_RecipeSteps_Recipes_RecipeId` FOREIGN KEY (`RecipeId`) REFERENCES `Recipes` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2025-07-02 03:06:52.608 -05:00 [INF] Executed DbCommand (269ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `RecipeSteps` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `RecipeId` int NOT NULL,
+    `StepNumber` int NOT NULL,
+    `Instructions` varchar(2000) CHARACTER SET utf8mb4 NOT NULL,
+    `TimeMinutes` int NULL,
+    `Tips` varchar(500) CHARACTER SET utf8mb4 NULL,
+    `ImageUrl` varchar(255) CHARACTER SET utf8mb4 NULL,
+    `CreatedAt` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    `UpdatedAt` datetime(6) NULL,
+    `IsActive` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_RecipeSteps` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_RecipeSteps_Recipes_RecipeId` FOREIGN KEY (`RecipeId`) REFERENCES `Recipes` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2025-07-02 03:06:52.611 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:52.612 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-07-02 03:06:52.613 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (1ms).
+2025-07-02 03:06:52.614 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `ShoppingListItems` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `ShoppingListId` int NOT NULL,
+    `IngredientId` int NOT NULL,
+    `Quantity` decimal(10,2) NOT NULL,
+    `Unit` varchar(50) CHARACTER SET utf8mb4 NOT NULL,
+    `EstimatedPrice` decimal(10,2) NULL,
+    `ActualPrice` decimal(10,2) NULL,
+    `IsPurchased` tinyint(1) NOT NULL DEFAULT FALSE,
+    `PurchasedAt` datetime(6) NULL,
+    `Notes` varchar(500) CHARACTER SET utf8mb4 NULL,
+    `SortOrder` int NOT NULL DEFAULT 0,
+    `CreatedAt` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    `UpdatedAt` datetime(6) NULL,
+    `IsActive` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_ShoppingListItems` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_ShoppingListItems_Ingredients_IngredientId` FOREIGN KEY (`IngredientId`) REFERENCES `Ingredients` (`Id`) ON DELETE RESTRICT,
+    CONSTRAINT `FK_ShoppingListItems_ShoppingLists_ShoppingListId` FOREIGN KEY (`ShoppingListId`) REFERENCES `ShoppingLists` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2025-07-02 03:06:52.816 -05:00 [INF] Executed DbCommand (202ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `ShoppingListItems` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `ShoppingListId` int NOT NULL,
+    `IngredientId` int NOT NULL,
+    `Quantity` decimal(10,2) NOT NULL,
+    `Unit` varchar(50) CHARACTER SET utf8mb4 NOT NULL,
+    `EstimatedPrice` decimal(10,2) NULL,
+    `ActualPrice` decimal(10,2) NULL,
+    `IsPurchased` tinyint(1) NOT NULL DEFAULT FALSE,
+    `PurchasedAt` datetime(6) NULL,
+    `Notes` varchar(500) CHARACTER SET utf8mb4 NULL,
+    `SortOrder` int NOT NULL DEFAULT 0,
+    `CreatedAt` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    `UpdatedAt` datetime(6) NULL,
+    `IsActive` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_ShoppingListItems` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_ShoppingListItems_Ingredients_IngredientId` FOREIGN KEY (`IngredientId`) REFERENCES `Ingredients` (`Id`) ON DELETE RESTRICT,
+    CONSTRAINT `FK_ShoppingListItems_ShoppingLists_ShoppingListId` FOREIGN KEY (`ShoppingListId`) REFERENCES `ShoppingLists` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2025-07-02 03:06:52.819 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:52.819 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-07-02 03:06:52.820 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (1ms).
+2025-07-02 03:06:52.821 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_Achievements_Name` ON `Achievements` (`Name`);
+2025-07-02 03:06:53.043 -05:00 [INF] Executed DbCommand (222ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_Achievements_Name` ON `Achievements` (`Name`);
+2025-07-02 03:06:53.047 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:53.048 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2025-07-02 03:06:53.049 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2025-07-02 03:06:53.051 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_Categories_Name` ON `Categories` (`Name`);
+2025-07-02 03:06:53.325 -05:00 [INF] Executed DbCommand (275ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_Categories_Name` ON `Categories` (`Name`);
+2025-07-02 03:06:53.334 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:53.337 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2025-07-02 03:06:53.339 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (4ms).
+2025-07-02 03:06:53.343 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_Ingredients_CategoryId` ON `Ingredients` (`CategoryId`);
+2025-07-02 03:06:53.694 -05:00 [INF] Executed DbCommand (352ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_Ingredients_CategoryId` ON `Ingredients` (`CategoryId`);
+2025-07-02 03:06:53.697 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:53.698 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-07-02 03:06:53.699 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (1ms).
+2025-07-02 03:06:53.700 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_Ingredients_Name_CategoryId` ON `Ingredients` (`Name`, `CategoryId`);
+2025-07-02 03:06:53.943 -05:00 [INF] Executed DbCommand (243ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_Ingredients_Name_CategoryId` ON `Ingredients` (`Name`, `CategoryId`);
+2025-07-02 03:06:53.951 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:53.955 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (3ms).
+2025-07-02 03:06:53.959 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (8ms).
+2025-07-02 03:06:53.965 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_MealPlanRecipes_MealPlanId_ScheduledDate_MealType` ON `MealPlanRecipes` (`MealPlanId`, `ScheduledDate`, `MealType`);
+2025-07-02 03:06:54.352 -05:00 [INF] Executed DbCommand (388ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_MealPlanRecipes_MealPlanId_ScheduledDate_MealType` ON `MealPlanRecipes` (`MealPlanId`, `ScheduledDate`, `MealType`);
+2025-07-02 03:06:54.356 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:54.358 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2025-07-02 03:06:54.360 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (4ms).
+2025-07-02 03:06:54.364 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_MealPlanRecipes_RecipeId` ON `MealPlanRecipes` (`RecipeId`);
+2025-07-02 03:06:54.831 -05:00 [INF] Executed DbCommand (467ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_MealPlanRecipes_RecipeId` ON `MealPlanRecipes` (`RecipeId`);
+2025-07-02 03:06:54.837 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:54.840 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2025-07-02 03:06:54.844 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (6ms).
+2025-07-02 03:06:54.848 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_MealPlans_UserId` ON `MealPlans` (`UserId`);
+2025-07-02 03:06:55.093 -05:00 [INF] Executed DbCommand (246ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_MealPlans_UserId` ON `MealPlans` (`UserId`);
+2025-07-02 03:06:55.101 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:55.108 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (6ms).
+2025-07-02 03:06:55.117 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (15ms).
+2025-07-02 03:06:55.125 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_RecipeIngredients_IngredientId` ON `RecipeIngredients` (`IngredientId`);
+2025-07-02 03:06:55.361 -05:00 [INF] Executed DbCommand (235ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_RecipeIngredients_IngredientId` ON `RecipeIngredients` (`IngredientId`);
+2025-07-02 03:06:55.369 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:55.374 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (4ms).
+2025-07-02 03:06:55.377 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (7ms).
+2025-07-02 03:06:55.380 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_RecipeIngredients_RecipeId_IngredientId` ON `RecipeIngredients` (`RecipeId`, `IngredientId`);
+2025-07-02 03:06:55.592 -05:00 [INF] Executed DbCommand (212ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_RecipeIngredients_RecipeId_IngredientId` ON `RecipeIngredients` (`RecipeId`, `IngredientId`);
+2025-07-02 03:06:55.594 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:55.595 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-07-02 03:06:55.596 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (1ms).
+2025-07-02 03:06:55.597 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_RecipeRatings_RecipeId_UserId` ON `RecipeRatings` (`RecipeId`, `UserId`);
+2025-07-02 03:06:55.823 -05:00 [INF] Executed DbCommand (226ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_RecipeRatings_RecipeId_UserId` ON `RecipeRatings` (`RecipeId`, `UserId`);
+2025-07-02 03:06:55.825 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:55.827 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2025-07-02 03:06:55.828 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2025-07-02 03:06:55.830 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_RecipeRatings_UserId` ON `RecipeRatings` (`UserId`);
+2025-07-02 03:06:56.049 -05:00 [INF] Executed DbCommand (219ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_RecipeRatings_UserId` ON `RecipeRatings` (`UserId`);
+2025-07-02 03:06:56.056 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:56.059 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2025-07-02 03:06:56.063 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (7ms).
+2025-07-02 03:06:56.067 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_Recipes_IsPublic` ON `Recipes` (`IsPublic`);
+2025-07-02 03:06:56.296 -05:00 [INF] Executed DbCommand (229ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_Recipes_IsPublic` ON `Recipes` (`IsPublic`);
+2025-07-02 03:06:56.302 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:56.307 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (4ms).
+2025-07-02 03:06:56.311 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (8ms).
+2025-07-02 03:06:56.314 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_Recipes_Title` ON `Recipes` (`Title`);
+2025-07-02 03:06:56.568 -05:00 [INF] Executed DbCommand (253ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_Recipes_Title` ON `Recipes` (`Title`);
+2025-07-02 03:06:56.572 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:56.572 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-07-02 03:06:56.573 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (1ms).
+2025-07-02 03:06:56.574 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_Recipes_UserId` ON `Recipes` (`UserId`);
+2025-07-02 03:06:56.794 -05:00 [INF] Executed DbCommand (220ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_Recipes_UserId` ON `Recipes` (`UserId`);
+2025-07-02 03:06:56.802 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:56.805 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2025-07-02 03:06:56.809 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (6ms).
+2025-07-02 03:06:56.812 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_RecipeSteps_RecipeId_StepNumber` ON `RecipeSteps` (`RecipeId`, `StepNumber`);
+2025-07-02 03:06:57.438 -05:00 [INF] Executed DbCommand (627ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_RecipeSteps_RecipeId_StepNumber` ON `RecipeSteps` (`RecipeId`, `StepNumber`);
+2025-07-02 03:06:57.448 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:57.451 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (3ms).
+2025-07-02 03:06:57.456 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (8ms).
+2025-07-02 03:06:57.461 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_ShoppingListItems_IngredientId` ON `ShoppingListItems` (`IngredientId`);
+2025-07-02 03:06:57.728 -05:00 [INF] Executed DbCommand (267ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_ShoppingListItems_IngredientId` ON `ShoppingListItems` (`IngredientId`);
+2025-07-02 03:06:57.736 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:57.738 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2025-07-02 03:06:57.740 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (4ms).
+2025-07-02 03:06:57.745 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_ShoppingListItems_ShoppingListId_IngredientId` ON `ShoppingListItems` (`ShoppingListId`, `IngredientId`);
+2025-07-02 03:06:57.963 -05:00 [INF] Executed DbCommand (218ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_ShoppingListItems_ShoppingListId_IngredientId` ON `ShoppingListItems` (`ShoppingListId`, `IngredientId`);
+2025-07-02 03:06:57.973 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:57.979 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (5ms).
+2025-07-02 03:06:57.983 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (10ms).
+2025-07-02 03:06:57.988 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_ShoppingLists_MealPlanId` ON `ShoppingLists` (`MealPlanId`);
+2025-07-02 03:06:58.239 -05:00 [INF] Executed DbCommand (251ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_ShoppingLists_MealPlanId` ON `ShoppingLists` (`MealPlanId`);
+2025-07-02 03:06:58.243 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:58.244 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2025-07-02 03:06:58.245 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2025-07-02 03:06:58.247 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_ShoppingLists_UserId` ON `ShoppingLists` (`UserId`);
+2025-07-02 03:06:58.565 -05:00 [INF] Executed DbCommand (318ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_ShoppingLists_UserId` ON `ShoppingLists` (`UserId`);
+2025-07-02 03:06:58.572 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:58.576 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (3ms).
+2025-07-02 03:06:58.580 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (8ms).
+2025-07-02 03:06:58.585 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_SubscriptionPlans_Name` ON `SubscriptionPlans` (`Name`);
+2025-07-02 03:06:58.805 -05:00 [INF] Executed DbCommand (220ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_SubscriptionPlans_Name` ON `SubscriptionPlans` (`Name`);
+2025-07-02 03:06:58.811 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:58.813 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2025-07-02 03:06:58.817 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (5ms).
+2025-07-02 03:06:58.823 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_UserAchievements_AchievementId` ON `UserAchievements` (`AchievementId`);
+2025-07-02 03:06:59.074 -05:00 [INF] Executed DbCommand (251ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_UserAchievements_AchievementId` ON `UserAchievements` (`AchievementId`);
+2025-07-02 03:06:59.083 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:59.087 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (4ms).
+2025-07-02 03:06:59.091 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (8ms).
+2025-07-02 03:06:59.096 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_UserAchievements_UserId_AchievementId` ON `UserAchievements` (`UserId`, `AchievementId`);
+2025-07-02 03:06:59.368 -05:00 [INF] Executed DbCommand (271ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_UserAchievements_UserId_AchievementId` ON `UserAchievements` (`UserId`, `AchievementId`);
+2025-07-02 03:06:59.373 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:59.376 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2025-07-02 03:06:59.378 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (4ms).
+2025-07-02 03:06:59.380 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_UserIngredients_IngredientId` ON `UserIngredients` (`IngredientId`);
+2025-07-02 03:06:59.601 -05:00 [INF] Executed DbCommand (221ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_UserIngredients_IngredientId` ON `UserIngredients` (`IngredientId`);
+2025-07-02 03:06:59.610 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:59.612 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2025-07-02 03:06:59.615 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (5ms).
+2025-07-02 03:06:59.619 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_UserIngredients_UserId_IngredientId_ExpirationDate` ON `UserIngredients` (`UserId`, `IngredientId`, `ExpirationDate`);
+2025-07-02 03:06:59.848 -05:00 [INF] Executed DbCommand (229ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_UserIngredients_UserId_IngredientId_ExpirationDate` ON `UserIngredients` (`UserId`, `IngredientId`, `ExpirationDate`);
+2025-07-02 03:06:59.857 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:06:59.861 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (4ms).
+2025-07-02 03:06:59.866 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (9ms).
+2025-07-02 03:06:59.874 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_UserPreferences_UserId` ON `UserPreferences` (`UserId`);
+2025-07-02 03:07:00.086 -05:00 [INF] Executed DbCommand (212ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_UserPreferences_UserId` ON `UserPreferences` (`UserId`);
+2025-07-02 03:07:00.096 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:07:00.099 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (3ms).
+2025-07-02 03:07:00.103 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (7ms).
+2025-07-02 03:07:00.105 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_Users_Email` ON `Users` (`Email`);
+2025-07-02 03:07:00.358 -05:00 [INF] Executed DbCommand (253ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_Users_Email` ON `Users` (`Email`);
+2025-07-02 03:07:00.364 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:07:00.365 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2025-07-02 03:07:00.370 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (5ms).
+2025-07-02 03:07:00.373 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_UserSubscriptions_StripeSubscriptionId` ON `UserSubscriptions` (`StripeSubscriptionId`);
+2025-07-02 03:07:00.698 -05:00 [INF] Executed DbCommand (325ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_UserSubscriptions_StripeSubscriptionId` ON `UserSubscriptions` (`StripeSubscriptionId`);
+2025-07-02 03:07:00.702 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:07:00.703 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2025-07-02 03:07:00.705 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2025-07-02 03:07:00.706 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_UserSubscriptions_SubscriptionPlanId` ON `UserSubscriptions` (`SubscriptionPlanId`);
+2025-07-02 03:07:00.920 -05:00 [INF] Executed DbCommand (214ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_UserSubscriptions_SubscriptionPlanId` ON `UserSubscriptions` (`SubscriptionPlanId`);
+2025-07-02 03:07:00.922 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:07:00.924 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2025-07-02 03:07:00.926 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (3ms).
+2025-07-02 03:07:00.929 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_UserSubscriptions_UserId` ON `UserSubscriptions` (`UserId`);
+2025-07-02 03:07:01.312 -05:00 [INF] Executed DbCommand (383ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_UserSubscriptions_UserId` ON `UserSubscriptions` (`UserId`);
+2025-07-02 03:07:01.316 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-02 03:07:01.317 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2025-07-02 03:07:01.320 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (3ms).
+2025-07-02 03:07:01.322 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20250702080627_InitialCreate', '8.0.13');
+2025-07-02 03:07:01.591 -05:00 [INF] Executed DbCommand (269ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20250702080627_InitialCreate', '8.0.13');
+2025-07-02 03:07:01.595 -05:00 [DBG] Committing transaction.
+2025-07-02 03:07:01.778 -05:00 [DBG] Committed transaction.
+2025-07-02 03:07:01.785 -05:00 [DBG] Disposing transaction.
+2025-07-02 03:07:01.788 -05:00 [DBG] Closing connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:07:01.793 -05:00 [DBG] Closed connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (4ms).
+2025-07-02 03:07:01.799 -05:00 [DBG] 'PantryProDbContext' disposed.
+2025-07-02 03:07:01.805 -05:00 [DBG] Disposing connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-07-02 03:07:01.808 -05:00 [DBG] Disposed connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (3ms).
