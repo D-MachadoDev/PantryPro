@@ -1,0 +1,342 @@
+2025-06-27 13:42:41.528 -05:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-06-27 13:42:42.007 -05:00 [DBG] The index {'MealPlanId'} was not created on entity type 'MealPlanRecipe' as the properties are already covered by the index {'MealPlanId', 'RecipeId'}.
+2025-06-27 13:42:42.016 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeIngredient' as the properties are already covered by the index {'RecipeId', 'IngredientId'}.
+2025-06-27 13:42:42.352 -05:00 [DBG] Entity Framework Core 8.0.13 initialized 'PantryProDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.3' with options: ServerVersion=8.0.22-mysql 
+2025-06-27 13:42:42.400 -05:00 [DBG] The index {'MealPlanId'} was not created on entity type 'MealPlanRecipe' as the properties are already covered by the index {'MealPlanId', 'RecipeId'}.
+2025-06-27 13:42:42.402 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeIngredient' as the properties are already covered by the index {'RecipeId', 'IngredientId'}.
+2025-06-27 13:42:43.009 -05:00 [DBG] 'PantryProDbContext' disposed.
+2025-06-27 13:45:09.296 -05:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-06-27 13:45:09.773 -05:00 [DBG] The index {'MealPlanId'} was not created on entity type 'MealPlanRecipe' as the properties are already covered by the index {'MealPlanId', 'RecipeId'}.
+2025-06-27 13:45:09.780 -05:00 [DBG] The index {'RecipeId'} was not created on entity type 'RecipeIngredient' as the properties are already covered by the index {'RecipeId', 'IngredientId'}.
+2025-06-27 13:45:10.039 -05:00 [DBG] Entity Framework Core 8.0.13 initialized 'PantryProDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.3' with options: ServerVersion=8.0.22-mysql 
+2025-06-27 13:45:10.063 -05:00 [DBG] Creating DbConnection.
+2025-06-27 13:45:10.069 -05:00 [DBG] Created DbConnection. (3ms).
+2025-06-27 13:45:10.076 -05:00 [DBG] Migrating using database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-06-27 13:45:10.083 -05:00 [DBG] Creating DbConnection.
+2025-06-27 13:45:10.086 -05:00 [DBG] Created DbConnection. (2ms).
+2025-06-27 13:45:10.091 -05:00 [DBG] Opening connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-06-27 13:45:11.048 -05:00 [DBG] Opened connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-06-27 13:45:11.405 -05:00 [DBG] Disposing connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-06-27 13:45:11.413 -05:00 [DBG] Disposed connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (2ms).
+2025-06-27 13:45:11.425 -05:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-06-27 13:45:11.434 -05:00 [DBG] Created DbCommand for 'ExecuteScalar' (9ms).
+2025-06-27 13:45:11.437 -05:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (16ms).
+2025-06-27 13:45:11.444 -05:00 [DBG] Opening connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-06-27 13:45:12.390 -05:00 [DBG] Opened connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-06-27 13:45:12.398 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='b8ca9ilqc17bnz5732mu' AND TABLE_NAME='__EFMigrationsHistory';
+2025-06-27 13:45:12.594 -05:00 [INF] Executed DbCommand (183ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='b8ca9ilqc17bnz5732mu' AND TABLE_NAME='__EFMigrationsHistory';
+2025-06-27 13:45:12.606 -05:00 [DBG] Closing connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-06-27 13:45:12.613 -05:00 [DBG] Closed connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (7ms).
+2025-06-27 13:45:12.621 -05:00 [DBG] Creating DbConnection.
+2025-06-27 13:45:12.624 -05:00 [DBG] Created DbConnection. (2ms).
+2025-06-27 13:45:12.628 -05:00 [DBG] Opening connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-06-27 13:45:13.692 -05:00 [DBG] Opened connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-06-27 13:45:13.864 -05:00 [DBG] Disposing connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-06-27 13:45:13.870 -05:00 [DBG] Disposed connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (5ms).
+2025-06-27 13:45:13.973 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-06-27 13:45:13.974 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2025-06-27 13:45:13.976 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2025-06-27 13:45:13.977 -05:00 [DBG] Opening connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-06-27 13:45:14.164 -05:00 [DBG] Opened connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-06-27 13:45:14.167 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `__EFMigrationsHistory` (
+    `MigrationId` varchar(150) CHARACTER SET utf8mb4 NOT NULL,
+    `ProductVersion` varchar(32) CHARACTER SET utf8mb4 NOT NULL,
+    CONSTRAINT `PK___EFMigrationsHistory` PRIMARY KEY (`MigrationId`)
+) CHARACTER SET=utf8mb4;
+2025-06-27 13:45:14.469 -05:00 [INF] Executed DbCommand (302ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `__EFMigrationsHistory` (
+    `MigrationId` varchar(150) CHARACTER SET utf8mb4 NOT NULL,
+    `ProductVersion` varchar(32) CHARACTER SET utf8mb4 NOT NULL,
+    CONSTRAINT `PK___EFMigrationsHistory` PRIMARY KEY (`MigrationId`)
+) CHARACTER SET=utf8mb4;
+2025-06-27 13:45:14.473 -05:00 [DBG] Closing connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-06-27 13:45:14.475 -05:00 [DBG] Closed connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (2ms).
+2025-06-27 13:45:14.478 -05:00 [DBG] Creating DbConnection.
+2025-06-27 13:45:14.480 -05:00 [DBG] Created DbConnection. (1ms).
+2025-06-27 13:45:14.481 -05:00 [DBG] Opening connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-06-27 13:45:15.488 -05:00 [DBG] Opened connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-06-27 13:45:15.697 -05:00 [DBG] Disposing connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-06-27 13:45:15.700 -05:00 [DBG] Disposed connection to database '' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (2ms).
+2025-06-27 13:45:15.702 -05:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-06-27 13:45:15.703 -05:00 [DBG] Created DbCommand for 'ExecuteScalar' (1ms).
+2025-06-27 13:45:15.705 -05:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (2ms).
+2025-06-27 13:45:15.707 -05:00 [DBG] Opening connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-06-27 13:45:15.902 -05:00 [DBG] Opened connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-06-27 13:45:15.906 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='b8ca9ilqc17bnz5732mu' AND TABLE_NAME='__EFMigrationsHistory';
+2025-06-27 13:45:16.112 -05:00 [INF] Executed DbCommand (206ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='b8ca9ilqc17bnz5732mu' AND TABLE_NAME='__EFMigrationsHistory';
+2025-06-27 13:45:16.124 -05:00 [DBG] Closing connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-06-27 13:45:16.131 -05:00 [DBG] Closed connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (6ms).
+2025-06-27 13:45:16.141 -05:00 [DBG] Opening connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-06-27 13:45:16.353 -05:00 [DBG] Opened connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-06-27 13:45:16.360 -05:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-06-27 13:45:16.365 -05:00 [DBG] Created DbCommand for 'ExecuteReader' (5ms).
+2025-06-27 13:45:16.370 -05:00 [DBG] Initialized DbCommand for 'ExecuteReader' (9ms).
+2025-06-27 13:45:16.375 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2025-06-27 13:45:16.617 -05:00 [INF] Executed DbCommand (242ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2025-06-27 13:45:16.621 -05:00 [DBG] Closing data reader to 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-06-27 13:45:16.624 -05:00 [DBG] A data reader for 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' is being disposed after spending 3ms reading results.
+2025-06-27 13:45:16.626 -05:00 [DBG] Closing connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-06-27 13:45:16.628 -05:00 [DBG] Closed connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (2ms).
+2025-06-27 13:45:16.641 -05:00 [INF] Applying migration '20250627184242_InitialCreate'.
+2025-06-27 13:45:16.706 -05:00 [DBG] Opening connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-06-27 13:45:16.922 -05:00 [DBG] Opened connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-06-27 13:45:16.927 -05:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2025-06-27 13:45:17.294 -05:00 [DBG] Began transaction with isolation level 'Unspecified'.
+2025-06-27 13:45:17.298 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-06-27 13:45:17.300 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2025-06-27 13:45:17.303 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (5ms).
+2025-06-27 13:45:17.305 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER DATABASE CHARACTER SET utf8mb4;
+2025-06-27 13:45:17.480 -05:00 [INF] Executed DbCommand (174ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER DATABASE CHARACTER SET utf8mb4;
+2025-06-27 13:45:17.486 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-06-27 13:45:17.491 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (5ms).
+2025-06-27 13:45:17.496 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (10ms).
+2025-06-27 13:45:17.500 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Users` (
+    `Id` char(36) COLLATE ascii_general_ci NOT NULL,
+    `Username` longtext CHARACTER SET utf8mb4 NULL,
+    `Email` longtext CHARACTER SET utf8mb4 NULL,
+    CONSTRAINT `PK_Users` PRIMARY KEY (`Id`)
+) CHARACTER SET=utf8mb4;
+2025-06-27 13:45:17.741 -05:00 [INF] Executed DbCommand (241ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Users` (
+    `Id` char(36) COLLATE ascii_general_ci NOT NULL,
+    `Username` longtext CHARACTER SET utf8mb4 NULL,
+    `Email` longtext CHARACTER SET utf8mb4 NULL,
+    CONSTRAINT `PK_Users` PRIMARY KEY (`Id`)
+) CHARACTER SET=utf8mb4;
+2025-06-27 13:45:17.745 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-06-27 13:45:17.746 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2025-06-27 13:45:17.749 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (4ms).
+2025-06-27 13:45:17.750 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Ingredients` (
+    `Id` char(36) COLLATE ascii_general_ci NOT NULL,
+    `Name` longtext CHARACTER SET utf8mb4 NULL,
+    `Quantity` double NOT NULL,
+    `Unit` longtext CHARACTER SET utf8mb4 NULL,
+    `Category` int NOT NULL,
+    `UserId` char(36) COLLATE ascii_general_ci NOT NULL,
+    CONSTRAINT `PK_Ingredients` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_Ingredients_Users_UserId` FOREIGN KEY (`UserId`) REFERENCES `Users` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2025-06-27 13:45:18.048 -05:00 [INF] Executed DbCommand (298ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Ingredients` (
+    `Id` char(36) COLLATE ascii_general_ci NOT NULL,
+    `Name` longtext CHARACTER SET utf8mb4 NULL,
+    `Quantity` double NOT NULL,
+    `Unit` longtext CHARACTER SET utf8mb4 NULL,
+    `Category` int NOT NULL,
+    `UserId` char(36) COLLATE ascii_general_ci NOT NULL,
+    CONSTRAINT `PK_Ingredients` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_Ingredients_Users_UserId` FOREIGN KEY (`UserId`) REFERENCES `Users` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2025-06-27 13:45:18.058 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-06-27 13:45:18.064 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (5ms).
+2025-06-27 13:45:18.069 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (11ms).
+2025-06-27 13:45:18.071 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `MealPlans` (
+    `Id` char(36) COLLATE ascii_general_ci NOT NULL,
+    `UserId` char(36) COLLATE ascii_general_ci NOT NULL,
+    `StartDate` datetime(6) NOT NULL,
+    `EndDate` datetime(6) NOT NULL,
+    CONSTRAINT `PK_MealPlans` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_MealPlans_Users_UserId` FOREIGN KEY (`UserId`) REFERENCES `Users` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2025-06-27 13:45:18.356 -05:00 [INF] Executed DbCommand (284ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `MealPlans` (
+    `Id` char(36) COLLATE ascii_general_ci NOT NULL,
+    `UserId` char(36) COLLATE ascii_general_ci NOT NULL,
+    `StartDate` datetime(6) NOT NULL,
+    `EndDate` datetime(6) NOT NULL,
+    CONSTRAINT `PK_MealPlans` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_MealPlans_Users_UserId` FOREIGN KEY (`UserId`) REFERENCES `Users` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2025-06-27 13:45:18.365 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-06-27 13:45:18.369 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (4ms).
+2025-06-27 13:45:18.375 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (9ms).
+2025-06-27 13:45:18.381 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Recipes` (
+    `Id` char(36) COLLATE ascii_general_ci NOT NULL,
+    `Title` longtext CHARACTER SET utf8mb4 NULL,
+    `Instructions` longtext CHARACTER SET utf8mb4 NULL,
+    `Type` int NOT NULL,
+    `UserId` char(36) COLLATE ascii_general_ci NOT NULL,
+    CONSTRAINT `PK_Recipes` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_Recipes_Users_UserId` FOREIGN KEY (`UserId`) REFERENCES `Users` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2025-06-27 13:45:18.568 -05:00 [INF] Executed DbCommand (187ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Recipes` (
+    `Id` char(36) COLLATE ascii_general_ci NOT NULL,
+    `Title` longtext CHARACTER SET utf8mb4 NULL,
+    `Instructions` longtext CHARACTER SET utf8mb4 NULL,
+    `Type` int NOT NULL,
+    `UserId` char(36) COLLATE ascii_general_ci NOT NULL,
+    CONSTRAINT `PK_Recipes` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_Recipes_Users_UserId` FOREIGN KEY (`UserId`) REFERENCES `Users` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2025-06-27 13:45:18.579 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-06-27 13:45:18.582 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2025-06-27 13:45:18.584 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (4ms).
+2025-06-27 13:45:18.587 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `UserPreferences` (
+    `Id` char(36) COLLATE ascii_general_ci NOT NULL,
+    `UserId` char(36) COLLATE ascii_general_ci NOT NULL,
+    `PreferredDiet` longtext CHARACTER SET utf8mb4 NULL,
+    `Allergies` longtext CHARACTER SET utf8mb4 NULL,
+    `MaxCookingTime` int NOT NULL,
+    CONSTRAINT `PK_UserPreferences` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_UserPreferences_Users_UserId` FOREIGN KEY (`UserId`) REFERENCES `Users` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2025-06-27 13:45:18.780 -05:00 [INF] Executed DbCommand (192ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `UserPreferences` (
+    `Id` char(36) COLLATE ascii_general_ci NOT NULL,
+    `UserId` char(36) COLLATE ascii_general_ci NOT NULL,
+    `PreferredDiet` longtext CHARACTER SET utf8mb4 NULL,
+    `Allergies` longtext CHARACTER SET utf8mb4 NULL,
+    `MaxCookingTime` int NOT NULL,
+    CONSTRAINT `PK_UserPreferences` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_UserPreferences_Users_UserId` FOREIGN KEY (`UserId`) REFERENCES `Users` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2025-06-27 13:45:18.785 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-06-27 13:45:18.788 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2025-06-27 13:45:18.790 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (5ms).
+2025-06-27 13:45:18.792 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `AIRecommendations` (
+    `Id` char(36) COLLATE ascii_general_ci NOT NULL,
+    `Reasoning` longtext CHARACTER SET utf8mb4 NULL,
+    `Type` int NOT NULL,
+    `RecipeId` char(36) COLLATE ascii_general_ci NOT NULL,
+    `CreatedAt` datetime(6) NOT NULL,
+    CONSTRAINT `PK_AIRecommendations` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_AIRecommendations_Recipes_RecipeId` FOREIGN KEY (`RecipeId`) REFERENCES `Recipes` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2025-06-27 13:45:19.072 -05:00 [INF] Executed DbCommand (281ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `AIRecommendations` (
+    `Id` char(36) COLLATE ascii_general_ci NOT NULL,
+    `Reasoning` longtext CHARACTER SET utf8mb4 NULL,
+    `Type` int NOT NULL,
+    `RecipeId` char(36) COLLATE ascii_general_ci NOT NULL,
+    `CreatedAt` datetime(6) NOT NULL,
+    CONSTRAINT `PK_AIRecommendations` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_AIRecommendations_Recipes_RecipeId` FOREIGN KEY (`RecipeId`) REFERENCES `Recipes` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2025-06-27 13:45:19.081 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-06-27 13:45:19.084 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2025-06-27 13:45:19.087 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (5ms).
+2025-06-27 13:45:19.092 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `MealPlanRecipes` (
+    `MealPlanId` char(36) COLLATE ascii_general_ci NOT NULL,
+    `RecipeId` char(36) COLLATE ascii_general_ci NOT NULL,
+    `ScheduledDate` datetime(6) NOT NULL,
+    CONSTRAINT `PK_MealPlanRecipes` PRIMARY KEY (`MealPlanId`, `RecipeId`),
+    CONSTRAINT `FK_MealPlanRecipes_MealPlans_MealPlanId` FOREIGN KEY (`MealPlanId`) REFERENCES `MealPlans` (`Id`) ON DELETE CASCADE,
+    CONSTRAINT `FK_MealPlanRecipes_Recipes_RecipeId` FOREIGN KEY (`RecipeId`) REFERENCES `Recipes` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2025-06-27 13:45:19.288 -05:00 [INF] Executed DbCommand (196ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `MealPlanRecipes` (
+    `MealPlanId` char(36) COLLATE ascii_general_ci NOT NULL,
+    `RecipeId` char(36) COLLATE ascii_general_ci NOT NULL,
+    `ScheduledDate` datetime(6) NOT NULL,
+    CONSTRAINT `PK_MealPlanRecipes` PRIMARY KEY (`MealPlanId`, `RecipeId`),
+    CONSTRAINT `FK_MealPlanRecipes_MealPlans_MealPlanId` FOREIGN KEY (`MealPlanId`) REFERENCES `MealPlans` (`Id`) ON DELETE CASCADE,
+    CONSTRAINT `FK_MealPlanRecipes_Recipes_RecipeId` FOREIGN KEY (`RecipeId`) REFERENCES `Recipes` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2025-06-27 13:45:19.295 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-06-27 13:45:19.299 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (3ms).
+2025-06-27 13:45:19.303 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (8ms).
+2025-06-27 13:45:19.308 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `RecipeIngredients` (
+    `RecipeId` char(36) COLLATE ascii_general_ci NOT NULL,
+    `IngredientId` char(36) COLLATE ascii_general_ci NOT NULL,
+    `QuantityRequired` double NOT NULL,
+    CONSTRAINT `PK_RecipeIngredients` PRIMARY KEY (`RecipeId`, `IngredientId`),
+    CONSTRAINT `FK_RecipeIngredients_Ingredients_IngredientId` FOREIGN KEY (`IngredientId`) REFERENCES `Ingredients` (`Id`) ON DELETE CASCADE,
+    CONSTRAINT `FK_RecipeIngredients_Recipes_RecipeId` FOREIGN KEY (`RecipeId`) REFERENCES `Recipes` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2025-06-27 13:45:19.599 -05:00 [INF] Executed DbCommand (291ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `RecipeIngredients` (
+    `RecipeId` char(36) COLLATE ascii_general_ci NOT NULL,
+    `IngredientId` char(36) COLLATE ascii_general_ci NOT NULL,
+    `QuantityRequired` double NOT NULL,
+    CONSTRAINT `PK_RecipeIngredients` PRIMARY KEY (`RecipeId`, `IngredientId`),
+    CONSTRAINT `FK_RecipeIngredients_Ingredients_IngredientId` FOREIGN KEY (`IngredientId`) REFERENCES `Ingredients` (`Id`) ON DELETE CASCADE,
+    CONSTRAINT `FK_RecipeIngredients_Recipes_RecipeId` FOREIGN KEY (`RecipeId`) REFERENCES `Recipes` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2025-06-27 13:45:19.610 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-06-27 13:45:19.613 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2025-06-27 13:45:19.615 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (4ms).
+2025-06-27 13:45:19.618 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_AIRecommendations_RecipeId` ON `AIRecommendations` (`RecipeId`);
+2025-06-27 13:45:19.892 -05:00 [INF] Executed DbCommand (274ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_AIRecommendations_RecipeId` ON `AIRecommendations` (`RecipeId`);
+2025-06-27 13:45:19.902 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-06-27 13:45:19.909 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (6ms).
+2025-06-27 13:45:19.914 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (11ms).
+2025-06-27 13:45:19.919 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_Ingredients_UserId` ON `Ingredients` (`UserId`);
+2025-06-27 13:45:20.199 -05:00 [INF] Executed DbCommand (280ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_Ingredients_UserId` ON `Ingredients` (`UserId`);
+2025-06-27 13:45:20.228 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-06-27 13:45:20.230 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2025-06-27 13:45:20.231 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2025-06-27 13:45:20.234 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_MealPlanRecipes_RecipeId` ON `MealPlanRecipes` (`RecipeId`);
+2025-06-27 13:45:20.506 -05:00 [INF] Executed DbCommand (272ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_MealPlanRecipes_RecipeId` ON `MealPlanRecipes` (`RecipeId`);
+2025-06-27 13:45:20.518 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-06-27 13:45:20.524 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (5ms).
+2025-06-27 13:45:20.532 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (13ms).
+2025-06-27 13:45:20.540 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_MealPlans_UserId` ON `MealPlans` (`UserId`);
+2025-06-27 13:45:20.726 -05:00 [INF] Executed DbCommand (187ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_MealPlans_UserId` ON `MealPlans` (`UserId`);
+2025-06-27 13:45:20.729 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-06-27 13:45:20.730 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2025-06-27 13:45:20.735 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (5ms).
+2025-06-27 13:45:20.737 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_RecipeIngredients_IngredientId` ON `RecipeIngredients` (`IngredientId`);
+2025-06-27 13:45:21.018 -05:00 [INF] Executed DbCommand (280ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_RecipeIngredients_IngredientId` ON `RecipeIngredients` (`IngredientId`);
+2025-06-27 13:45:21.024 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-06-27 13:45:21.027 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2025-06-27 13:45:21.029 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (5ms).
+2025-06-27 13:45:21.032 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_Recipes_UserId` ON `Recipes` (`UserId`);
+2025-06-27 13:45:21.331 -05:00 [INF] Executed DbCommand (299ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_Recipes_UserId` ON `Recipes` (`UserId`);
+2025-06-27 13:45:21.337 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-06-27 13:45:21.341 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (4ms).
+2025-06-27 13:45:21.347 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (10ms).
+2025-06-27 13:45:21.353 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_UserPreferences_UserId` ON `UserPreferences` (`UserId`);
+2025-06-27 13:45:21.534 -05:00 [INF] Executed DbCommand (182ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_UserPreferences_UserId` ON `UserPreferences` (`UserId`);
+2025-06-27 13:45:21.544 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-06-27 13:45:21.547 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (3ms).
+2025-06-27 13:45:21.554 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (9ms).
+2025-06-27 13:45:21.560 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20250627184242_InitialCreate', '8.0.13');
+2025-06-27 13:45:21.837 -05:00 [INF] Executed DbCommand (277ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20250627184242_InitialCreate', '8.0.13');
+2025-06-27 13:45:21.850 -05:00 [DBG] Committing transaction.
+2025-06-27 13:45:22.046 -05:00 [DBG] Committed transaction.
+2025-06-27 13:45:22.050 -05:00 [DBG] Disposing transaction.
+2025-06-27 13:45:22.056 -05:00 [DBG] Closing connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-06-27 13:45:22.059 -05:00 [DBG] Closed connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (2ms).
+2025-06-27 13:45:22.067 -05:00 [DBG] 'PantryProDbContext' disposed.
+2025-06-27 13:45:22.075 -05:00 [DBG] Disposing connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com'.
+2025-06-27 13:45:22.082 -05:00 [DBG] Disposed connection to database 'b8ca9ilqc17bnz5732mu' on server 'b8ca9ilqc17bnz5732mu-mysql.services.clever-cloud.com' (7ms).

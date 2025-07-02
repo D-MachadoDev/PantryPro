@@ -5,8 +5,8 @@ C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Core\obj\Debug\net9.0\Pant
 C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Core\obj\Debug\net9.0\PantryPro.Core.AssemblyInfoInputs.cache
 C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Core\obj\Debug\net9.0\PantryPro.Core.AssemblyInfo.cs
 C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Core\obj\Debug\net9.0\PantryPro.Core.csproj.CoreCompileInputs.cache
+C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Core\obj\Debug\net9.0\PantryPro.Core.sourcelink.json
 C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Core\obj\Debug\net9.0\PantryPro.Core.dll
 C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Core\obj\Debug\net9.0\refint\PantryPro.Core.dll
 C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Core\obj\Debug\net9.0\PantryPro.Core.pdb
 C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Core\obj\Debug\net9.0\ref\PantryPro.Core.dll
-C:\Users\da-V7\Desktop\U\Practice\PantryPro\PantryPro.Core\obj\Debug\net9.0\PantryPro.Core.sourcelink.json
