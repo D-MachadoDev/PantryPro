@@ -27,7 +27,7 @@ namespace PantryPro.Core.Models.MealPlans
         [Required]
         public DateTime EndDate { get; set; }
         
-        public bool IsActive { get; set; } = true;
+        public new bool IsActive { get; set; } = true;
         
         // Estadísticas
         [Column(TypeName = "decimal(10,2)")]

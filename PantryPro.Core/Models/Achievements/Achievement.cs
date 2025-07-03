@@ -32,7 +32,7 @@ public class Achievement : BaseEntity
         [StringLength(500)]
         public string? Requirements { get; set; } // JSON con los requisitos
         
-        public bool IsActive { get; set; } = true;
+        public new bool IsActive { get; set; } = true;
         
         // Relaciones
         public virtual ICollection<UserAchievement> UserAchievements { get; set; } = new List<UserAchievement>();

@@ -2,8 +2,8 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using PantryPro.Core.Interfaces;
+using PantryPro.Core.Mapping;
 using PantryPro.Infrastructure.Data;
-using PantryPro.Web.Mapping;
 using PantryPro.Infrastructure.Services;
 using Serilog;
 
@@ -30,7 +30,7 @@ builder.Services.AddDbContext<PantryProDbContext>(options =>
 
 
 // AutoMapper
-builder.Services.AddAutoMapper(typeof(MappingProfile));
+builder.Services.AddAutoMapper(typeof(PantryProMappingProfile).Assembly);
 
 // Autenticación con cookies
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
